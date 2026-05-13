@@ -1,0 +1,59 @@
+# 3.1 Value, Order, and Factors
+
+## 1. Numbers and the Number Line
+
+**A.** All ***real numbers*** match points on ***the number line***, and all points on the number line represent real numbers.
+
+The figure below shows the number line with labeled points standing for the real numbers $-\dfrac{3}{2}$, $0.2$, and $\sqrt{2}$.
+
+**The Number Line**
+
+$$
+\longleftarrow \quad -6 \enspace -5 \enspace -4 \enspace -3 \enspace -2 \enspace -1 \enspace 0 \enspace 1 \enspace 2 \enspace 3 \enspace 4 \enspace 5 \enspace 6 \quad \longrightarrow
+$$
+
+> Points $-\dfrac{3}{2}$, $0.2$, and $\sqrt{2}$ are marked between $-2$ and $-1$, between $0$ and $1$, and between $1$ and $2$, respectively.
+
+---
+
+**B.** On the number line, points to the left of zero stand for ***negative*** numbers, and points to the right of zero stand for ***positive*** numbers. Every real number except zero is either positive or negative.
+
+---
+
+**C.** On the number line, each number is less than any number to its right. So, as the figure above shows:
+
+$$-4 < -3 < -\frac{3}{2} < -1 \qquad \text{and} \qquad 1 < \sqrt{2} < 2$$
+
+---
+
+**D.** If a number $n$ is between 1 and 4 on the number line, then $n > 1$ and $n < 4$; that is, $1 < n < 4$.
+If $n$ is "between 1 and 4, inclusive," then $1 \leq n \leq 4$.
+
+---
+
+**E.** The ***absolute value*** of a real number $x$, written as $|x|$, is $x$ if $x \geq 0$ and $-x$ if $x < 0$.
+A number's absolute value is the distance between that number and zero on the number line.
+Thus, $-3$ and $3$ have the same absolute value since each is three units from zero on the number line.
+The absolute value of any nonzero number is positive.
+
+> **Examples:**
+>
+> $$|-5| = |5| = 5, \qquad |0| = 0, \qquad \left|-\frac{7}{2}\right| = \frac{7}{2}$$
+
+For any real numbers $x$ and $y$:
+
+$$|x + y| \leq |x| + |y| \qquad \text{and} \qquad |xy| = |x||y|$$
+
+> **Examples:**
+>
+> If $x = 10$ and $y = 2$, then:
+>
+> $$|x + y| = |12| = 12 = |x| + |y|$$
+>
+> $$|xy| = |20| = 20 = |x||y|$$
+>
+> If $x = 10$ and $y = -2$, then:
+>
+> $$|x + y| = |8| = 8 < 12 = |x| + |y|$$
+>
+> $$|xy| = |-20| = 20 = |x||y|$$
