@@ -57,3 +57,71 @@ $$|x + y| \leq |x| + |y| \qquad \text{and} \qquad |xy| = |x||y|$$
 > $$|x + y| = |8| = 8 < 12 = |x| + |y|$$
 >
 > $$|xy| = |-20| = 20 = |x||y|$$
+
+---
+
+## 2. Factors, Multiples, and Remainders
+
+**A.** An ***integer*** is any number in the set $\{\ldots -3, -2, -1, 0, 1, 2, 3, \ldots\}$. For any integer $n$, the numbers in the set $\{n, n+1, n+2, n+3, \ldots\}$ are ***consecutive integers***.
+
+---
+
+**B.** For integers $x$ and $y$, if $x \neq 0$, $x$ is a ***divisor*** or ***factor*** of $y$ if $y = xn$ for some integer $n$. Then $y$ is ***divisible*** by $x$ and is a ***multiple*** of $x$.
+
+> *Example:*
+>
+> Since $28 = (7)(4)$, both 4 and 7 are divisors or factors of 28.
+>
+> But 8 isn't a divisor or factor of 28 since $n$ isn't an integer if $28 = 8n$.
+
+---
+
+**C.** Dividing a positive integer $y$ by a positive integer $x$ and then rounding down to the nearest nonnegative integer gives the ***quotient*** of the division.
+
+To find the ***remainder*** of the division, multiply $x$ by the quotient, then subtract the result from $y$. The quotient and the remainder are the unique positive integers $q$ and $r$, respectively, such that $y = xq + r$ and $0 \leq r < x$.
+
+> *Example:*
+>
+> When 28 is divided by 8, the quotient is 3 and the remainder is 4 because $28 = (8)(3) + 4$.
+
+The remainder $r$ is 0 if and only if $y$ is ***divisible*** by $x$. Then $x$ is a divisor or factor of $y$, and $y$ is a multiple of $x$.
+
+> *Example:*
+>
+> Since 32 divided by 8 has a remainder of 0, 32 is divisible by 8. So, 8 is a divisor of 32, and 32 is a multiple of 8.
+
+When a smaller integer is divided by a larger integer, the quotient is 0 and the remainder is the smaller integer.
+
+> *Example:*
+>
+> When 5 is divided by 7, the quotient is 0 and the remainder is 5 since $5 = (7)(0) + 5$.
+
+---
+
+**D.** For any positive integers $x$, $y$, and $z$, suppose that $r$ is the remainder when $x$ is divided by $z$, and that $s$ is the remainder when $y$ is divided by $z$. Then the remainder when $x + y$ is divided by $z$ equals the remainder when $r + s$ is divided by $z$. Similarly, the remainder when $xy$ is divided by $z$ equals the remainder when $rs$ is divided by $z$.
+
+> *Examples:*
+>
+> When 142 is divided by 13, the remainder is 12 because $132 = (13 \times 10) + 12$. And when 29 is divided by 13, the remainder is 3 because $29 = (13 \times 2) + 3$.
+>
+> So, the remainder when $142 + 29$ is divided by 13 equals the remainder when $12 + 3 = 15$ is divided by 13; that is, it's 2.
+>
+> And the remainder when $142 \times 29$ is divided by 13 equals the remainder when $12 \times 3 = 36$ is divided by 13; that is, it's 10.
+
+---
+
+**E.** Any integer divisible by 2 is ***even***. The set of even integers is $\{\ldots -4, -2, 0, 2, 4, 6, 8, \ldots\}$. Integers not divisible by 2 are ***odd***, so $\{\ldots -3, -1, 1, 3, 5, \ldots\}$ is the set of odd integers. For any integer $n$, the numbers in the set $\{2n, 2n+2, 2n+4, \ldots\}$ are ***consecutive even integers***, and the numbers in $\{2n+1, 2n+3, 2n+5, \ldots\}$ are ***consecutive odd integers***.
+
+If a product of integers has at least one even factor, the product is even; otherwise, it's odd. If two integers are both even or both odd, their sum and their difference are even. Otherwise, their sum and their difference are odd.
+
+---
+
+**F.** A ***prime*** number is a positive integer with exactly two positive divisors: 1 and itself. That is, a prime number is divisible by no integer but itself and 1.
+
+> *Examples:*
+>
+> The first six prime numbers are 2, 3, 5, 7, 11, and 13.
+>
+> But 15 is not a prime number because it has four positive divisors: 1, 3, 5, and 15.
+>
+> Nor is 1 a prime number because it has only one positive divisor: itself.
