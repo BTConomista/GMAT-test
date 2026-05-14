@@ -125,3 +125,71 @@ If a product of integers has at least one even factor, the product is even; othe
 > But 15 is not a prime number because it has four positive divisors: 1, 3, 5, and 15.
 >
 > Nor is 1 a prime number because it has only one positive divisor: itself.
+
+---
+
+## 3. Exponents
+
+**A.** An expression of the form $k^n$ means the $n^{\text{th}}$ ***power*** of $k$, or $k$ raised to the $n^{\text{th}}$ power, where $n$ is the ***exponent*** and $k$ is the ***base***.
+
+---
+
+**B.** A positive integer exponent shows how many instances of the base are multiplied together. That is, when $n$ is a positive integer, $k^n$ is the product of $n$ instances of $k$.
+
+> *Examples:*
+>
+> $x^5$ is $(x)(x)(x)(x)(x)$; that is, the product in which $x$ is a factor 5 times with no other factors. We can also say $x^5$ is the $5^{\text{th}}$ power of $x$, or $x$ raised to the $5^{\text{th}}$ power.
+>
+> The second power of 2, also called 2 ***squared***, is $2^2 = 2 \times 2 = 4$. The third power of 2, also called 2 ***cubed***, is $2^3 = 2 \times 2 \times 2 = 8$.
+
+Squaring a number greater than 1, or raising it to any power greater than 1, gives a larger number.
+
+Squaring a number between 0 and 1 gives a smaller number.
+
+> *Examples:*
+>
+> $3^2 = 9$, and $9 > 3$.
+>
+> $(0.1)^2 = 0.01$, and $0.01 < 0.1$.
+
+---
+
+**C.** A ***composite number*** is an integer greater than 1 that's not prime. Any composite number is a product of a unique set of prime factors, each raised to some positive integer power. The ***prime factorization*** of a composite number shows it as such a product.
+
+> *Examples:*
+>
+> Some prime factorizations of composite numbers are $14 = (2)(7)$, $81 = 3^4$, and $484 = (2^2)(11^2)$.
+
+---
+
+**D.** For any two positive integers $x$ and $y$, $y$ is divisible by $x$ if and only if the prime factorization of $y$ includes each prime number in the prime factorization of $x$, raised to at least as great a power as it is in the prime factorization of $x$.
+
+> *Examples:*
+>
+> $1080 = (2^3)(3^3)(5)$ is divisible by $24 = (2^3)(3)$, because the prime factorization of 1080 includes both 2 and 3, which are the only prime factors in the prime factorization of 24, and each is raised to at least as great a power as it is in the prime factorization of 24.
+>
+> But 1080 is not divisible by $16 = 2^4$, because the prime factor 2 in the prime factorization of 16 is raised to a higher power than it is in the prime factorization of 1080.
+>
+> Nor is 1080 divisible by $21 = (3)(7)$, because its prime factor 7 isn't in the prime factorization of 1080.
+
+---
+
+**E.** A ***square root*** of a number $n$ is a number $x$ such that $x^2 = n$. Every positive number has two real square roots, one positive and the other negative. The positive square root of $n$ is written as $\sqrt{n}$ or $n^{\frac{1}{2}}$.
+
+> *Example:*
+>
+> The two square roots of 9 are $\sqrt{9} = 3$ and $-\sqrt{9} = -3$.
+
+For any $x$, the nonnegative square root of $x^2$ equals the absolute value of $x$; that is, $\sqrt{x^2} = |x|$.
+
+The square root of a negative number is not a real number. Only real numbers appear on the GMAT.
+
+---
+
+**F.** Every real number $r$ has exactly one real ***cube root***, the number $s$ such that $s^3 = r$. The real cube root of $r$ is written as $\sqrt[3]{r}$ or $r^{\frac{1}{3}}$.
+
+> *Examples:*
+>
+> Since $2^3 = 8$, $\sqrt[3]{8} = 2$.
+>
+> Likewise, $\sqrt[3]{-8} = -2$ because $(-2)^3 = -8$.
