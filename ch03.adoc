@@ -193,3 +193,102 @@ The square root of a negative number is not a real number. Only real numbers app
 > Since $2^3 = 8$, $\sqrt[3]{8} = 2$.
 >
 > Likewise, $\sqrt[3]{-8} = -2$ because $(-2)^3 = -8$.
+
+---
+
+## 4. Decimals and Place Value
+
+**A.** A ***decimal*** is a real number written as a series of digits, often with a period called a ***decimal point***. The decimal point's position sets the ***place values*** of the digits.
+
+> *Example:*
+>
+> The digits in the decimal 7,654.321 have these place values:
+>
+> | Thousands | | Hundreds | Tens | Ones or units | | Tenths | Hundredths | Thousandths |
+> |:---------:|-|:--------:|:----:|:-------------:|-|:------:|:----------:|:-----------:|
+> | 7 | , | 6 | 5 | 4 | . | 3 | 2 | 1 |
+
+---
+
+**B.** Some decimal numbers extend rightward by infinitely many digits. In a ***repeating decimal***, a finite sequence of digits that are not all 0s repeats forever. A repeating decimal may be written showing the finite sequence of digits to the right of the decimal point only once, with a bar over them. There are never digits to the right of the repeating sequence.
+
+> *Example:*
+>
+> The repeating decimal $12.34\overline{56}$ has the digits $12.3456565656\ldots$, with the digit sequence 56 repeating forever.
+
+---
+
+**C.** In ***scientific notation***, a decimal is written with only one nonzero digit to the decimal point's left, multiplied by an integer power of 10. To convert a number from scientific notation to regular decimal notation, move the decimal point by the number of places equal to the absolute value of the exponent on the 10. Move the decimal point to the right if the exponent is positive or to the left if the exponent is negative.
+
+> *Examples:*
+>
+> In scientific notation, 231 is written as $2.31 \times 10^2$, and 0.0231 is written as $2.31 \times 10^{-2}$.
+>
+> To convert $2.013 \times 10^4$ to regular decimal notation, move the decimal point 4 places to the right, giving 20,130.
+>
+> Likewise, to convert $1.91 \times 10^{-4}$ to regular decimal notation, move the decimal point 4 places to the left, giving 0.000191.
+
+---
+
+**D.** To add or subtract decimals with many finite digits, line up their decimal points. If one decimal has fewer digits to the right of its decimal point than another, insert zeros to the right of its last digit.
+
+> *Examples:*
+>
+> To add 17.6512 and 653.27, insert zeros to the right of the last digit in 653.27 to line up the decimal points when the numbers are in a column:
+>
+> ```
+>   17.6512
+> +653.2700
+> ---------
+>  670.9212
+> ```
+>
+> Likewise for 653.27 minus 17.6512:
+>
+> ```
+>  653.2700
+> - 17.6512
+> ---------
+>  635.6188
+> ```
+
+---
+
+**E.** Multiply decimals with many finite digits as if they were integers. Then insert the decimal point in the product so that the number of digits to the right of the decimal point is the sum of the numbers of digits to the right of the decimal points in the numbers being multiplied.
+
+> *Example:*
+>
+> To multiply 2.09 by 1.3, first multiply the integers 209 and 13 to get 2,717. Since $2 + 1 = 3$ digits are to the right of the decimal points in 2.09 and 1.3, put 3 digits in 2,717 to the right of the decimal point to find the product:
+>
+> ```
+>   2.09   (2 digits to the right)
+> × 1.3    (1 digit to the right)
+> ------
+>    627
+>   2090
+> ------
+>  2.717   (2 + 1 = 3 digits to the right)
+> ```
+
+---
+
+**F.** To divide a number (the ***dividend***) by a decimal (the ***divisor***), when both have many finite digits, move the decimal points of the dividend and divisor the same number of digits to the right until the divisor is an integer. Then divide as you would integers. The decimal point in the quotient goes directly above the decimal point in the new dividend.
+
+> *Example:*
+>
+> To divide 698.12 by 12.4, first move the decimal points in both the divisor 12.4 and the dividend 698.12 one place to the right to make the divisor an integer. That is, replace $698.12 / 12.4$ with $6981.2 / 124$. Then do the long division normally:
+>
+> ```
+>      56.3
+>     ------
+> 124)6981.2
+>      620
+>      ---
+>      781
+>      744
+>      ---
+>       372
+>       372
+>       ---
+>         0
+> ```
