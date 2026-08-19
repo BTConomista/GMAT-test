@@ -207,6 +207,8 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 | Sezione | Confrontata con | Esito |
 |:---|:---|:---|
 | 3.1 (tutte e cinque le sottosezioni) | scansioni delle pagine 3.1 | ✅ nessuno scostamento di contenuto |
+| 3.2 (tutte e sette le sottosezioni) | scansioni delle pagine 3.2 | 🔧 2 scostamenti trovati e corretti |
+| 3.3 §1–§5 complete, §6 dal punto C | scansioni delle pagine 3.3 | 🔧 1 scostamento trovato e corretto |
 
 Sul metodo: il confronto è stato fatto paragrafo per paragrafo (A, B, C, …) più un diff
 parola per parola su testo normalizzato — sciogliendo il LaTeX in notazione piana, così le
@@ -219,6 +221,18 @@ questo:
 - `3.1` §2 D — `132 = (13 × 10) + 12`, dove il senso vorrebbe `142` (vedi §5).
 - `3.1` §5 B — il libro scrive `final 2 digits` parlando di 180 e `final two digits`
   parlando di 121, nello stesso elenco. L'incoerenza è sua, non nostra.
+- `3.2` §3 G — nella catena di passaggi il libro scrive `3x − 5 = 0 or x + 5 = 0`, dove il
+  senso vorrebbe `3x + 5 = 0`. Refuso suo: il repo lo riproduce.
+
+Gli scostamenti trovati erano invece nostri, e sono stati corretti: in `3.2` §4 B la
+trascrizione aveva **aggiunto** le parole `, reversing the inequality` a un'annotazione che
+nel libro dice solo `(multiply both sides by -2)`; in `3.2` §6 G aveva `the equation` invece
+di `this equation`; in `3.3` §2 H l'esempio aveva perso l'incipit `The mixed number`.
+
+**Copertura ancora mancante.** In `3.3` §6 le scansioni riprendono da *"The basic formula for
+work problems is…"*: il titolo di sezione, il paragrafo A (`distance = rate × time`), il
+paragrafo B (velocità media) e la prima frase di C **non sono mai stati verificati** contro il
+libro. Non è un errore noto, è una zona non controllata: serve quella pagina.
 
 ---
 
