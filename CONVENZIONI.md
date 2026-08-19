@@ -199,7 +199,30 @@ leggilo prima di dare per scontato che una foto sia stata archiviata.
 
 ---
 
-## 8. Punti aperti
+## 8. Verifiche già fatte
+
+Traccia di cosa è già stato controllato contro le scansioni, per non rifare due volte lo
+stesso lavoro. Chi verifica una sezione la aggiunge qui.
+
+| Sezione | Confrontata con | Esito |
+|:---|:---|:---|
+| 3.1 (tutte e cinque le sottosezioni) | scansioni delle pagine 3.1 | ✅ nessuno scostamento di contenuto |
+
+Sul metodo: il confronto è stato fatto paragrafo per paragrafo (A, B, C, …) più un diff
+parola per parola su testo normalizzato — sciogliendo il LaTeX in notazione piana, così le
+differenze di sola resa non producono falsi positivi. Verificati uno a uno anche i valori
+numerici, i termini marcati come definiti e l'ordine degli esempi.
+
+Due cose emerse, entrambe **corrette così come stanno**, perché il libro dice esattamente
+questo:
+
+- `3.1` §2 D — `132 = (13 × 10) + 12`, dove il senso vorrebbe `142` (vedi §5).
+- `3.1` §5 B — il libro scrive `final 2 digits` parlando di 180 e `final two digits`
+  parlando di 121, nello stesso elenco. L'incoerenza è sua, non nostra.
+
+---
+
+## 9. Punti aperti
 
 Cose sospese, da decidere o da verificare. Chi le risolve le cancella da qui.
 
