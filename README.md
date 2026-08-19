@@ -11,7 +11,7 @@ come è fatto il testo, cosa si trascrive e cosa no, e come si prosegue.
 | | Capitolo | Stato |
 |:---:|:---|:---|
 | 1 | What Is the GMAT™ Exam? | ✅ completo |
-| 2 | How to Prepare | ⬜ da fare |
+| 2 | How to Prepare | ✅ completo |
 | 3 | Math Review | 🟨 3.0–3.4 fatte, manca **3.5 Reference Sheets** |
 | 4 | Quantitative Reasoning | ⬜ da fare |
 | 5 | Data Insights Review | ⬜ da fare |
@@ -45,14 +45,14 @@ quelle in grigio non esistono ancora.
 - [1.8 Verbal Reasoning Section](book/ch01.md#18-verbal-reasoning-section)
 - [1.9 How Are Scores Calculated?](book/ch01.md#19-how-are-scores-calculated)
 
-### 2.0 How to Prepare
+### [2.0 How to Prepare](book/ch02.md)
 
-- 2.1 How Should I Prepare for the GMAT™ Exam?
-- 2.2 Getting Ready for Exam Day
-- 2.3 How to Use the *GMAT™ Official Guide 2025–2026*
-- 2.4 How to Use Other GMAT™ Official Prep Products
-- 2.5 Tips for Taking the Exam
-- 2.6 Section Strategies
+- [2.1 How Should I Prepare for the GMAT™ Exam?](book/ch02.md#21-how-should-i-prepare-for-the-gmat-exam)
+- [2.2 Getting Ready for Exam Day](book/ch02.md#22-getting-ready-for-exam-day)
+- [2.3 How to Use the *GMAT™ Official Guide 2025–2026*](book/ch02.md#23-how-to-use-the-gmat-official-guide-20252026)
+- [2.4 How to Use Other GMAT™ Official Prep Products](book/ch02.md#24-how-to-use-other-gmat-official-prep-products)
+- [2.5 Tips for Taking the Exam](book/ch02.md#25-tips-for-taking-the-exam)
+- [2.6 Section Strategies](book/ch02.md#26-section-strategies)
 
 ### [3.0 Math Review](book/ch03.md)
 

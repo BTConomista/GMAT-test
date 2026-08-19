@@ -41,7 +41,10 @@ Una pagina che copre due sezioni si nomina con la prima: `03-01_p110.png`.
 |:---|:---|:---:|:---|:---:|
 | Indice generale | TOC completa 1.0–9.0 + appendici | 2 | `README.md` (indice del libro) | ❌ non pervenuto |
 | 1 | 1.0 → 1.9 (capitolo completo) | 7 | `book/ch01.md` | ❌ non pervenuto |
+| 2 | 2.0 → 2.6 (capitolo completo) | 7 | `book/ch02.md` | ❌ non pervenuto |
 | 3 | 3.0 (introduzione) | 1 | `book/ch03.md` | ❌ non pervenuto |
 | 3 | 3.1 (completa, §1 → §5) | 7 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
+| 3 | 3.2 (completa, §1 → §7 fino a 7.C) | 14 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
+| 3 | 3.3 (§1 → §5 complete; §6 dal punto C) | 9 | `book/ch03.md` — verifica in corso | ❌ non pervenuto |
 
 Aggiorna questa tabella ogni volta che arrivano pagine nuove.
