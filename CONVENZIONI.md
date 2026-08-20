@@ -193,9 +193,17 @@ Add chapter 3.4 section 1 (Statistics) to ch03.md
 
 ## 7. Le scansioni
 
-Le pagine del libro vanno in `screens/chNN/`. Come nominarle, e perché le immagini
-incollate in chat non arrivano su disco, sta in [screens/README.md](screens/README.md) —
-leggilo prima di dare per scontato che una foto sia stata archiviata.
+Le pagine del libro stanno in `screens/`, organizzate per capitolo e sezione, con un
+numero progressivo continuo (001–074) che segue l'ordine di lettura. Lo schema dei nomi e
+lo stato della copertura sono in [screens/README.md](screens/README.md).
+
+Due cose da sapere prima di fidarsi:
+
+- **Le immagini incollate in chat non arrivano su disco.** Arrivano nel contesto del
+  modello come contenuto del messaggio, non come file. Per archiviarle davvero servono i
+  file veri, allegati o messi a mano nella cartella.
+- **Un nome che salta una sezione non significa che la sezione manchi.** Quando una
+  pagina ne copre tre, il nome cita solo la prima e l'ultima.
 
 ---
 

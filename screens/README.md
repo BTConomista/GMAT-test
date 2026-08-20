@@ -1,55 +1,64 @@
-# Screenshot del libro
+# Scansioni del libro
 
-Qui vanno le scansioni delle pagine del *GMAT™ Official Guide 2025–2026* usate come
-sorgente per la trascrizione in Markdown. Servono a due cose: verificare che il testo
-trascritto sia fedele, e permettere a chi riprende il lavoro di controllare senza avere
-il libro sottomano.
+Le pagine del *GMAT™ Official Guide 2025–2026* da cui è tratta la trascrizione in
+`book/`. Servono a due cose: verificare che il testo trascritto sia fedele, e permettere a
+chi riprende il lavoro di controllare senza avere il libro sottomano.
 
-## ⚠️ Limite tecnico da conoscere
-
-**Le immagini incollate in chat non arrivano al filesystem.** Quando mandi uno screenshot
-nella conversazione, io lo *vedo* e lo posso trascrivere, ma non ho modo di scriverne i
-byte su disco: non è un file, è contenuto del messaggio. Quindi non posso salvarlo qui da
-solo.
-
-Per archiviarle davvero servono i file veri. Due modi:
-
-1. **Allegarli come file** alla sessione (non incollati nel messaggio), e chiedermi di
-   spostarli qui.
-2. **Metterli tu** in questa cartella e fare commit — è la via più diretta.
-
-Finché non arrivano i file, il registro qui sotto tiene traccia di **cosa è stato
-ricevuto e trascritto**, così almeno l'informazione non si perde.
-
-## Come nominare i file
+## Come sono organizzate
 
 ```
-screens/chNN/NN-SS_pPPP.png
+screens/
+  ch01/            7 pagine    capitolo 1 completo
+  ch02/            8 pagine    capitolo 2 completo
+  ch03/
+    3.0-3.1/       9 pagine
+    3.2/          17 pagine
+    3.3/          10 pagine
+    3.4/          13 pagine
+    3.5/          10 pagine
 ```
 
-- `NN` = numero del capitolo, due cifre (`01`, `03`)
-- `SS` = numero della sezione (`00` per l'introduzione del capitolo)
-- `PPP` = numero di pagina del libro, se lo conosci; altrimenti un progressivo
+Il nome di ogni file segue questo schema:
 
-Esempi: `screens/ch03/03-00_p105.png`, `screens/ch01/01-03_p012.png`.
+```
+NNN_sezioni_descrizione.ext
+    │      │        └── di cosa parla la pagina
+    │      └─────────── sezione o sezioni che tocca
+    └────────────────── posizione nell'ordine di lettura del libro, 001-074
+```
 
-Una pagina che copre due sezioni si nomina con la prima: `03-01_p110.png`.
+Esempio: `049_3.3.5-3.3.6_Tabelle-percentuali_Problemi-di-lavoro.jpeg` è la 49ª pagina, e
+copre la fine di 3.3.5 e l'inizio di 3.3.6.
 
-## Registro delle pagine ricevute
+**Il numero progressivo è la cosa che conta di più:** è continuo su tutto il libro,
+attraverso i capitoli, quindi una pagina mancante si vede subito come un buco nella
+sequenza.
 
-| Capitolo | Sezioni | Pagine ricevute | Trascritto in | File su disco |
-|:---|:---|:---:|:---|:---:|
-| Indice generale | TOC completa 1.0–9.0 + appendici | 2 | `README.md` (indice del libro) | ❌ non pervenuto |
-| 1 | 1.0 → 1.9 (capitolo completo) | 7 | `book/ch01.md` | ❌ non pervenuto |
-| 2 | 2.0 → 2.6 (capitolo completo) | 7 | `book/ch02.md` | ❌ non pervenuto |
-| 3 | 3.0 (introduzione) | 1 | `book/ch03.md` | ❌ non pervenuto |
-| 3 | 3.1 (completa, §1 → §5) | 7 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
-| 3 | 3.2 (completa, §1 → §7 fino a 7.C) | 14 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
-| 3 | 3.3 (completa, §1 → §6) | 15 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
-| 3 | 3.4 (completa, §1 → §6) | 11 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
-| 3 | 3.5 Reference Sheets (completa) | 11 | `book/ch03.md` — trascritta ex novo | ❌ non pervenuto |
-| 3 | 3.5 di nuovo, **pagine intere** | 11 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
+**Attenzione a un'insidia dei nomi:** quando una pagina copre tre sezioni, il nome cita
+solo la prima e l'ultima. `004_1.4-1.6` contiene anche **1.5**, e `009_2.1-2.3` contiene
+anche **2.2**. Leggendo solo i nomi sembrano buchi, ma non lo sono — verificato aprendo le
+due pagine. Non dare per scontato che le sezioni non citate manchino.
 
-| 4 | 4.0, 4.1, 4.2 + domande 1–49 | 11 | `book/ch04.md` | ❌ non pervenuto |
+## Stato della copertura
 
-Aggiorna questa tabella ogni volta che arrivano pagine nuove.
+| Capitolo | Pagine | Copertura | Trascritto in | Verificato |
+|:---|:---:|:---|:---|:---|
+| 1 | 001–007 | completa, 1.0 → 1.9 | `book/ch01.md` | ⬜ |
+| 2 | 008–015 | completa, 2.0 → 2.6 | `book/ch02.md` | ⬜ |
+| 3 — 3.0/3.1 | 016–024 | completa | `book/ch03.md` | ✅ |
+| 3 — 3.2 | 025–041 | completa | `book/ch03.md` | ✅ |
+| 3 — 3.3 | 042–051 | completa | `book/ch03.md` | ✅ |
+| 3 — 3.4 | 052–064 | completa | `book/ch03.md` | ⬜ |
+| 3 — 3.5 | 065–074 | completa | `book/ch03.md` | ✅ |
+| 4 | — | **assente** | `book/ch04.md` | ⬜ |
+
+Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §8.
+
+**Il capitolo 4 non ha scansioni qui.** Gli archivi ricevuti coprono i capitoli 1, 2 e 3.
+La trascrizione di `book/ch04.md` è stata fatta da immagini incollate in chat, che non
+arrivano al filesystem, quindi al momento non è verificabile contro una fonte su disco.
+
+## Aggiungere pagine nuove
+
+Mantieni lo schema di nomi: se le pagine nuove proseguono il libro, continua la
+numerazione da 075 in avanti. Poi aggiorna la tabella qui sopra.
