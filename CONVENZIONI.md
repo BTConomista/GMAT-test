@@ -210,6 +210,7 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 | 3.2 (tutte e sette le sottosezioni) | scansioni delle pagine 3.2 | 🔧 2 scostamenti trovati e corretti |
 | 3.3 (per intero, §1–§6) | scansioni delle pagine 3.3 | 🔧 5 scostamenti trovati e corretti |
 | 3.4 (per intero, §1–§6) | scansioni delle pagine 3.4 | 🔧 5 scostamenti trovati e corretti |
+| 3.5 (per intero, 7 fogli) | scansioni a pagina intera delle pagine 3.5 | ✅ nessuno scostamento |
 
 Sul metodo: il confronto è stato fatto paragrafo per paragrafo (A, B, C, …) più un diff
 parola per parola su testo normalizzato — sciogliendo il LaTeX in notazione piana, così le
@@ -241,6 +242,30 @@ In `3.3` §6 B la trascrizione abbreviava in `km` le quattro frazioni dell'esemp
 di 600 km, dove il libro scrive `kilometers` per esteso. Vale la pena ricordarlo come regola:
 **le unità di misura si riportano come le scrive il libro.** Abbreviare è riscrivere, anche
 quando il significato non cambia.
+
+### Il libro non è coerente con sé stesso, e va bene così
+
+La `3.5` è la scheda riassuntiva di quello che `3.1`–`3.4` spiegano per esteso, e in più punti
+**dice una cosa diversa**. Non è un errore di trascrizione: è il libro. Le due versioni vanno
+riprodotte entrambe come stanno, senza armonizzarle.
+
+| Punto | In `3.5` | In `3.1`–`3.2` |
+|:---|:---|:---|
+| Disuguaglianza triangolare | `\|x+y\| < \|x\|+\|y\|` (stretta) | `≤` (larga) |
+| Resto della divisione | `0 < r < x` | `0 ≤ r < x` |
+| Ruoli di $x$ e $y$ nel quoziente | «dividing $x$ by $y$», poi `y = xq + r` | «dividing $y$ by $x$» |
+| Sottrazione | `x − y = −(y−x) = −y + x` | `… = x + (−y)` |
+| Radici della quadratica | «distinte se `b²−4ac ≥ 0`» | «unless `b²−4ac ≤ 0`» |
+| Passo 2 della deviazione standard | «differences between each of the $n$ values and the mean» | «between the mean and each of the $n$ values» |
+
+Quella sulle radici si contraddice **dentro lo stesso riquadro**: due righe dopo aver detto
+`≥ 0`, il libro spiega che con `= 0` la radice è una sola. Va lasciata così.
+
+Nota di metodo: la `3.5` è stata trascritta da scansioni in cui alcune pagine erano tagliate a
+metà, e poi riverificata su una seconda serie a pagina intera. Il controllo è partito dai
+**conteggi** — quante righe ha ogni tabella nella fonte, quante nel repo — prima di leggere
+alcunché: è il modo più affidabile per accorgersi che una riga è caduta sul salto di pagina.
+Tutti i totali coincidevano.
 
 ### Un errore da non ripetere
 
@@ -276,6 +301,11 @@ Cose sospese, da decidere o da verificare. Chi le risolve le cancella da qui.
   `5.0 Data Insights Review` arrivi fino a `5.3 Data Patterns`, ma quella voce cade
   esattamente sul taglio fra due schermate: se esistessero `5.4` o `5.5` non si
   vedrebbero. Da verificare sull'indice vero prima di trascrivere il capitolo 5.
+- **Dove sta «LINES IN THE COORDINATE PLANE».** Nel libro quel riquadro non ha sopra di sé un
+  titolo di foglio centrato: compare dopo `SOLVING INEQUALITIES` e prima del foglio *Rates,
+  Ratios, and Percents*. Dalle scansioni non si stabilisce se appartenga al foglio *Factoring,
+  Quadratic Equations, and Inequalities* o se sia un foglio a sé. Nel repo sta sotto il primo.
+  Da confermare su una copia cartacea, dove l'impaginazione è più leggibile.
 - **I rimandi fra capitoli sono link solo dove il capitolo esiste.** In `ch01.md` il
   rimando a "Chapter 3" è un link a `ch03.md`; quelli a Chapter 4, 5, 6, 7 e 8 sono testo
   semplice, perché puntare a file inesistenti darebbe 404. Quando aggiungi un capitolo,
