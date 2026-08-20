@@ -68,12 +68,76 @@ blocchi e stampa un'intestazione all'inizio di ciascuno. Servono quando si trasc
 In `book/ch04.md` l'intestazione trascritta dice *«Questions 1 to 96 — Difficulty:
 Easy»*, e combacia.
 
-**4. La discussione di ogni singola domanda.** Ogni domanda ufficiale ha un thread su GMAT
-Club con la spiegazione ufficiale, quelle degli utenti, e le statistiche reali: quanti
-rispondono giusto e in quanto tempo. Il thread della nostra domanda 1, per esempio, dice
-*«15% (low) — 83% (02:22) correct — based on 2634 sessions»*. Utile per capire una
-spiegazione del libro che non torna, e per accorgersi che una domanda che il libro mette
-fra le facili in realtà non lo è.
+**4. La discussione di ogni singola domanda.** Ogni domanda ufficiale ha un thread con il
+testo completo, la spiegazione ufficiale, quelle degli utenti, e le statistiche reali:
+quanti rispondono giusto e in quanto tempo. Le tre che abbiamo aperto:
+
+| Domanda | Statistiche del thread |
+|:---|:---|
+| 1 | 15% (low) — 83% corretto in 02:22 — su 2634 tentativi |
+| 3 | 5% (low) — 97% corretto in 01:00 — su 3677 tentativi |
+| 20 | 15% (low) — 83% corretto in 01:44 — su 4158 tentativi |
+
+Serve a capire una spiegazione del libro che non torna, e ad accorgersi che una domanda
+che il libro mette fra le facili in realtà non lo è.
+
+## Come si arriva alla discussione di una domanda
+
+`gmatclub_id` **non è un indirizzo**: è l'identificativo del loro archivio interno, non il
+numero del thread. `gmatclub.com/forum/viewtopic.php?t=102001` porta a tutt'altro. Ci sono
+due strade che funzionano davvero.
+
+**Cercare una frase del testo su un motore di ricerca**, con `site:gmatclub.com`. È il
+metodo che non chiede niente a nessuno, e su tre domande su tre ha trovato il thread al
+primo colpo:
+
+| Domanda | Thread |
+|:---|:---|
+| 1 | [in-the-graduating-class-…-129382](https://gmatclub.com/forum/in-the-graduating-class-of-a-certain-college-48-percent-of-129382.html) |
+| 3 | [during-a-trip-that-they-took-together-…-268647](https://gmatclub.com/forum/during-a-trip-that-they-took-together-carmen-juan-maria-a-268647.html) |
+| 20 | [from-2000-to-2003-the-number-of-employees-…-268694](https://gmatclub.com/forum/from-2000-to-2003-the-number-of-employees-at-a-certain-company-increa-268694.html) |
+
+**Filtrare per fonte**, se si ha un account. GMAT Club tagga le domande con l'edizione da
+cui vengono, e ha un tag `OG 2025-2026` diverso per ogni tipo di domanda. L'indirizzo è
+sempre `https://gmatclub.com/forum/search.php?search_id=tag&tag_id=<id>`:
+
+| Tipo | `tag_id` |
+|:---:|:---:|
+| PS | 2067 |
+| DS | 2063 |
+| TPA | 2065 |
+| RC | 2062 |
+| CR | 2061 |
+| G&T | 2064 |
+| MSR | 2066 |
+
+Gli stessi indirizzi accettano un secondo tag per argomento o per fascia di punteggio —
+`Algebra` è 50, `Probability` 54, `Work and Rate Problems` 66, la fascia `705-805` è 1533.
+L'elenco completo sta in [viewforumtags.php](https://gmatclub.com/forum/viewforumtags.php),
+e le [directory per tipo di domanda](https://gmatclub.com/forum/gmat-ps-question-directory-by-topic-difficulty-127957.html)
+sono la stessa cosa già impaginata.
+
+## Verificare il capitolo 4 senza le scansioni
+
+`screens/README.md` dice che `book/ch04.md` non è verificabile, perché le scansioni del
+capitolo 4 non sono su disco. GMAT Club può **coprire una parte** di quel buco, ma non
+tutta, ed è importante sapere quale.
+
+Confronto fatto su tre domande, parola per parola:
+
+| Cosa | Esito |
+|:---|:---|
+| Domanda 3, testo e cinque risposte | identico al repo |
+| Domanda 20, testo e cinque risposte | identico al repo |
+| Domanda 1, testo | **diverso** |
+
+La domanda 1 nel repo dice *«48 percent of the students identify exclusively as male»*; il
+thread di GMAT Club dice *«48 percent of the students are male»*. Non è un errore nostro:
+il thread è di un'edizione precedente, e la 2025-2026 ha riscritto quella domanda. I numeri
+e le risposte coincidono, le parole no.
+
+Da cui la regola: **GMAT Club verifica i numeri, le cinque alternative e la risposta esatta;
+non verifica la prosa.** Per la prosa serve la pagina, e non c'è scorciatoia.
 
 ## Quanto ci si può fidare
 
@@ -87,7 +151,7 @@ controllati così:
 - **Conteggi**: 802 domande stampate, 272 PS + 137 DS + 57 TPA + 146 RC + 190 CR. I totali
   per sezione e i tre blocchi di difficoltà combaciano con quanto stampa il libro.
 
-Restano tre limiti, da tenere presenti:
+Restano due limiti, da tenere presenti:
 
 - **La fonte ha qualche buco, lasciato vuoto invece che indovinato.** Dieci righe su 802
   non hanno il numero di pagina (2 in TPA, 8 in CR) e due non hanno la risposta esatta (le
@@ -97,12 +161,6 @@ Restano tre limiti, da tenere presenti:
   dei casi: 273 domande sono più facili di come il libro le classifica, 146 più difficili.
   Il libro ordina per difficoltà stimata, GMAT Club misura sugli utenti. Sono due cose
   diverse, e le teniamo tutte e due.
-- **`gmatclub_id` non è un indirizzo.** È l'identificativo del loro archivio interno, non
-  il numero del thread: `gmatclub.com/forum/viewtopic.php?t=102001` porta a tutt'altro. Per
-  arrivare alla discussione di una domanda si cerca su un motore di ricerca una frase
-  presa dal testo, con `site:gmatclub.com`. La domanda 1 sta
-  [qui](https://gmatclub.com/forum/in-the-graduating-class-of-a-certain-college-48-percent-of-129382.html).
-
 I CSV riportano la fonte **alla lettera**, comprese le virgolette curve che compaiono in
 qualche risposta lunga di MSR. Sono dati, non prosa del libro: normalizzarli vorrebbe dire
 allontanarli dalla fonte, e vale la stessa regola del §5 di [CONVENZIONI.md](../CONVENZIONI.md).
@@ -129,24 +187,60 @@ Review* e *Data Insights Review*, che sono libri diversi con una numerazione pro
 si leggono una alla volta con uno strumento che renda il JavaScript. I fogli Google invece
 sono pubblici e si scaricano senza problemi — ed è per questo che lo script passa da lì.
 
-## Il resto del sito, in breve
+## Il resto del sito
 
-Cose viste esplorando, che potrebbero servire più avanti:
+**I forum per tipo di domanda.** Uno per tipo, ognuno con la sua directory per argomento e
+fascia di punteggio. Le fasce sono sette: `Sub 505`, `505-555`, `555-605`, `605-655`,
+`655-705`, `705-805`, `805+`.
 
-- **I forum per tipo di domanda** ([PS](https://gmatclub.com/forum/problem-solving-ps-140/),
-  [DS](https://gmatclub.com/forum/data-sufficiency-ds-141/),
-  [CR](https://gmatclub.com/forum/critical-reasoning-cr-139/),
-  [RC](https://gmatclub.com/forum/reading-comprehension-rc-137/)), filtrabili per argomento
-  e per fascia di punteggio (`Sub 505`, `505-555`, … `805+`).
-- **Il [GMAT Math Book](https://gmatclub.com/forum/gmat-math-book-in-downloadable-pdf-format-130609.html)**,
-  un manuale di matematica scritto dalla comunità e scaricabile in PDF. Copre lo stesso
-  terreno del nostro capitolo 3, con più esempi.
-- **La [recensione dell'edizione 2025-2026](https://gmatclub.com/forum/gmat-official-guide-2025-2026-review-446441.html)**:
-  quanto è cambiato rispetto alla 2024-2025 (circa il 15% di domande nuove). Il foglio ha
-  anche una scheda `OG 2024-2025 Index`, che permette di confrontare le due edizioni
-  domanda per domanda.
-- Test di pratica, *question of the day*, error log interattivo e calcolatore di punteggio,
-  tutti dal menu **RESOURCES**.
+| Forum | Directory per argomento e difficoltà |
+|:---|:---|
+| [Problem Solving](https://gmatclub.com/forum/problem-solving-ps-140/) | [directory](https://gmatclub.com/forum/gmat-ps-question-directory-by-topic-difficulty-127957.html) |
+| [Data Sufficiency](https://gmatclub.com/forum/data-sufficiency-ds-141/) | [directory](https://gmatclub.com/forum/ds-question-directory-by-topic-and-difficulty-128728.html) |
+| [Two-Part Analysis](https://gmatclub.com/forum/two-part-analysis-tpa-455/) | [directory](https://gmatclub.com/forum/tpa-question-directory-by-topic-and-difficulty-447185.html) |
+| [Graphs and Tables](https://gmatclub.com/forum/graphs-and-tables-g-t-457/) | — |
+| [Multi-Source Reasoning](https://gmatclub.com/forum/multi-source-reasoning-msr-456/) | [directory](https://gmatclub.com/forum/msr-question-directory-by-topic-and-difficulty-447183.html) |
+| [Reading Comprehension](https://gmatclub.com/forum/reading-comprehension-rc-137/) | [directory](https://gmatclub.com/forum/reading-comprehension-question-directory-topic-difficulty-129341.html) |
+| [Critical Reasoning](https://gmatclub.com/forum/critical-reasoning-cr-139/) | [directory](https://gmatclub.com/forum/critical-reasoning-question-directory-topic-and-difficulty-128861.html) |
+
+La profondità è molto diversa da forum a forum: Data Sufficiency ha 18.540 discussioni,
+Two-Part Analysis 833, Graphs and Tables 938, Multi-Source Reasoning appena 184. Sui tipi
+nuovi del GMAT Focus la comunità ha ancora poco materiale.
+
+Per RC ogni discussione contiene **il brano per intero** più tutte le domande che ci stanno
+sopra, e i filtri sono quelli della colonna `gmatclub_category` dei nostri CSV: `Humanities`
+`Science` `Social Science` `Business`, e `Short Passage` / `Long Passage`. Quando arriveremo
+al capitolo 8, i 36 brani della OG si ritrovano lì.
+
+**[GMAT Math Book](https://gmatclub.com/forum/gmat-math-book-in-downloadable-pdf-format-130609.html)** —
+manuale di matematica scritto dalla comunità, gratuito, aggiornato al GMAT Focus a gennaio
+2025 (`GMAT Club Math Book 2024 v8.pdf`, 2,9 MB, scaricato 48.513 volte). Copre lo stesso
+terreno del nostro capitolo 3 — teoria dei numeri, valore assoluto, algebra, geometria
+analitica, deviazione standard, probabilità, combinatoria, successioni, resti, insiemi,
+problemi di lavoro e di velocità — con molti più esempi. Il download chiede l'account.
+
+**[Recensione dell'edizione 2025-2026](https://gmatclub.com/forum/gmat-official-guide-2025-2026-review-446441.html)** —
+circa il 15% di domande nuove rispetto alla 2024-2025. Il foglio principale ha anche una
+scheda `OG 2024-2025 Index`: se servisse, permette di confrontare le due edizioni domanda
+per domanda.
+
+**[GMAT Club Tests](https://gmatclub.com/gmat-focus-tests/)** — 12 test adattivi completi e
+40 sezionali, con un archivio di oltre 50.000 domande. Un test adattivo è gratuito; il
+resto è a pagamento (da 99,95 $ per tre mesi). Non c'entra con la trascrizione, ma è la
+parte del sito che sta dietro alle statistiche di difficoltà che usiamo.
+
+## Cosa chiede l'account e cosa no
+
+L'account è gratuito. Serve sapere dove serve, perché cambia cosa si può automatizzare:
+
+| Cosa | Account |
+|:---|:---|
+| Leggere una discussione, testo e spiegazioni comprese | no |
+| Directory per argomento e difficoltà | no |
+| I fogli dell'error log, cioè i nostri CSV | no |
+| Ricerca del forum e filtri per tag, `search.php` compreso | **sì** |
+| Scaricare il Math Book in PDF | **sì** |
+| Test e archivio domande | **sì**, e in gran parte a pagamento |
 
 ---
 
