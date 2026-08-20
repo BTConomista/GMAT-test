@@ -12,7 +12,7 @@ come è fatto il testo, cosa si trascrive e cosa no, e come si prosegue.
 |:---:|:---|:---|
 | 1 | What Is the GMAT™ Exam? | ✅ completo |
 | 2 | How to Prepare | ✅ completo |
-| 3 | Math Review | 🟨 3.0–3.4 fatte, manca **3.5 Reference Sheets** |
+| 3 | Math Review | 🟨 3.0–3.4 fatte (3.1–3.3 verificate sulle scansioni), manca **3.5 Reference Sheets** |
 | 4 | Quantitative Reasoning | ⬜ da fare |
 | 5 | Data Insights Review | ⬜ da fare |
 | 6 | Data Insights | ⬜ da fare |

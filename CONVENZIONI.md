@@ -208,7 +208,7 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 |:---|:---|:---|
 | 3.1 (tutte e cinque le sottosezioni) | scansioni delle pagine 3.1 | ✅ nessuno scostamento di contenuto |
 | 3.2 (tutte e sette le sottosezioni) | scansioni delle pagine 3.2 | 🔧 2 scostamenti trovati e corretti |
-| 3.3 §1–§5 complete, §6 dal punto C | scansioni delle pagine 3.3 | 🔧 1 scostamento trovato e corretto |
+| 3.3 (per intero, §1–§6) | scansioni delle pagine 3.3 | 🔧 5 scostamenti trovati e corretti |
 
 Sul metodo: il confronto è stato fatto paragrafo per paragrafo (A, B, C, …) più un diff
 parola per parola su testo normalizzato — sciogliendo il LaTeX in notazione piana, così le
@@ -229,10 +229,10 @@ trascrizione aveva **aggiunto** le parole `, reversing the inequality` a un'anno
 nel libro dice solo `(multiply both sides by -2)`; in `3.2` §6 G aveva `the equation` invece
 di `this equation`; in `3.3` §2 H l'esempio aveva perso l'incipit `The mixed number`.
 
-**Copertura ancora mancante.** In `3.3` §6 le scansioni riprendono da *"The basic formula for
-work problems is…"*: il titolo di sezione, il paragrafo A (`distance = rate × time`), il
-paragrafo B (velocità media) e la prima frase di C **non sono mai stati verificati** contro il
-libro. Non è un errore noto, è una zona non controllata: serve quella pagina.
+In `3.3` §6 B la trascrizione abbreviava in `km` le quattro frazioni dell'esempio del viaggio
+di 600 km, dove il libro scrive `kilometers` per esteso. Vale la pena ricordarlo come regola:
+**le unità di misura si riportano come le scrive il libro.** Abbreviare è riscrivere, anche
+quando il significato non cambia.
 
 ---
 

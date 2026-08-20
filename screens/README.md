@@ -45,6 +45,6 @@ Una pagina che copre due sezioni si nomina con la prima: `03-01_p110.png`.
 | 3 | 3.0 (introduzione) | 1 | `book/ch03.md` | ❌ non pervenuto |
 | 3 | 3.1 (completa, §1 → §5) | 7 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
 | 3 | 3.2 (completa, §1 → §7 fino a 7.C) | 14 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
-| 3 | 3.3 (§1 → §5 complete; §6 dal punto C) | 9 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
+| 3 | 3.3 (completa, §1 → §6) | 15 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
 
 Aggiorna questa tabella ogni volta che arrivano pagine nuove.
