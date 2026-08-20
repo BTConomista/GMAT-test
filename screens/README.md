@@ -50,4 +50,6 @@ Una pagina che copre due sezioni si nomina con la prima: `03-01_p110.png`.
 | 3 | 3.5 Reference Sheets (completa) | 11 | `book/ch03.md` — trascritta ex novo | ❌ non pervenuto |
 | 3 | 3.5 di nuovo, **pagine intere** | 11 | `book/ch03.md` — ✅ verificata contro le foto | ❌ non pervenuto |
 
+| 4 | 4.0, 4.1, 4.2 + domande 1–49 | 11 | `book/ch04.md` | ❌ non pervenuto |
+
 Aggiorna questa tabella ogni volta che arrivano pagine nuove.
