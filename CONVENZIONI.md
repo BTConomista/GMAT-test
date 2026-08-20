@@ -209,6 +209,7 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 | 3.1 (tutte e cinque le sottosezioni) | scansioni delle pagine 3.1 | ✅ nessuno scostamento di contenuto |
 | 3.2 (tutte e sette le sottosezioni) | scansioni delle pagine 3.2 | 🔧 2 scostamenti trovati e corretti |
 | 3.3 (per intero, §1–§6) | scansioni delle pagine 3.3 | 🔧 5 scostamenti trovati e corretti |
+| 3.4 (per intero, §1–§6) | scansioni delle pagine 3.4 | 🔧 5 scostamenti trovati e corretti |
 
 Sul metodo: il confronto è stato fatto paragrafo per paragrafo (A, B, C, …) più un diff
 parola per parola su testo normalizzato — sciogliendo il LaTeX in notazione piana, così le
@@ -223,6 +224,13 @@ questo:
   parlando di 121, nello stesso elenco. L'incoerenza è sua, non nostra.
 - `3.2` §3 G — nella catena di passaggi il libro scrive `3x − 5 = 0 or x + 5 = 0`, dove il
   senso vorrebbe `3x + 5 = 0`. Refuso suo: il repo lo riproduce.
+- `3.4` §4 E — nella frazione `{6}/|{2, 4, 6}|` il libro omette le barre di cardinalità al
+  numeratore, pur mettendole nella frazione gemella subito sopra. Asimmetria sua.
+- `3.4` §4 G — «Since $A \cap B$ is a subset of $A$», dove il ragionamento richiede
+  $A \cap C$. Refuso suo.
+- `3.4` §6 A — definendo la sequenza **geometrica**, il libro scrive «The first term of an
+  *arithmetic* sequence is $a_1 = bc$». Refuso suo, e istruttivo: la trascrizione l'aveva
+  corretto in «geometric», ed è stato necessario **rimetterlo sbagliato**.
 
 Gli scostamenti trovati erano invece nostri, e sono stati corretti: in `3.2` §4 B la
 trascrizione aveva **aggiunto** le parole `, reversing the inequality` a un'annotazione che
@@ -233,6 +241,19 @@ In `3.3` §6 B la trascrizione abbreviava in `km` le quattro frazioni dell'esemp
 di 600 km, dove il libro scrive `kilometers` per esteso. Vale la pena ricordarlo come regola:
 **le unità di misura si riportano come le scrive il libro.** Abbreviare è riscrivere, anche
 quando il significato non cambia.
+
+### Un errore da non ripetere
+
+In `3.4` §2 G il libro compone «*empty set*» in corsivo semplice, mentre tutti i termini
+definiti dei paragrafi vicini sono in grassetto corsivo. Una revisione di formattazione,
+guardando solo la coerenza interna del file, ha concluso che fosse una svista e l'ha
+«uniformato» a `***empty set***`. Il confronto con le scansioni ha poi mostrato che il corsivo
+semplice era quello giusto: l'incoerenza era del libro, e andava conservata.
+
+La lezione vale in generale: **la coerenza interna del file non è una prova.** Quando una
+convenzione risulta violata in un punto solo, le spiegazioni sono due — è una svista nostra,
+oppure è così nel libro — e il file da solo non permette di distinguerle. Senza la pagina
+sottomano, si segnala e si aspetta; non si uniforma.
 
 ---
 

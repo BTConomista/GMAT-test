@@ -12,7 +12,7 @@ come è fatto il testo, cosa si trascrive e cosa no, e come si prosegue.
 |:---:|:---|:---|
 | 1 | What Is the GMAT™ Exam? | ✅ completo |
 | 2 | How to Prepare | ✅ completo |
-| 3 | Math Review | 🟨 3.0–3.4 fatte (3.1–3.3 verificate sulle scansioni), manca **3.5 Reference Sheets** |
+| 3 | Math Review | ✅ completo, 3.0–3.5 |
 | 4 | Quantitative Reasoning | ⬜ da fare |
 | 5 | Data Insights Review | ⬜ da fare |
 | 6 | Data Insights | ⬜ da fare |
@@ -84,7 +84,14 @@ quelle in grigio non esistono ancora.
   4. [Probability](book/ch03.md#4-probability)
   5. [Estimation](book/ch03.md#5-estimation)
   6. [Sequences and Series](book/ch03.md#6-sequences-and-series)
-- 3.5 Reference Sheets — **da trascrivere**
+- [3.5 Reference Sheets](book/ch03.md#35-reference-sheets)
+  - [Arithmetic and Decimals](book/ch03.md#arithmetic-and-decimals)
+  - [Exponents](book/ch03.md#exponents)
+  - [Algebraic Expressions and Linear Equations](book/ch03.md#algebraic-expressions-and-linear-equations)
+  - [Factoring, Quadratic Equations, and Inequalities](book/ch03.md#factoring-quadratic-equations-and-inequalities)
+  - [Rates, Ratios, and Percents](book/ch03.md#rates-ratios-and-percents)
+  - [Statistics, Sets, and Counting Methods](book/ch03.md#statistics-sets-and-counting-methods)
+  - [Probability and Sequences](book/ch03.md#probability-and-sequences)
 
 ### 4.0 Quantitative Reasoning
 
