@@ -1,0 +1,803 @@
+question,section,passage,book_difficulty,book_concept,page,explanation_page,oa,gmatclub_id,gmatclub_difficulty,gmatclub_percentile,gmatclub_category
+1,PS,,Easy,Statistics,82,127,B,102001,Easy,0.15,Probability
+2,PS,,Easy,Statistics,82,127,E,102002,Easy,0.05,Probability
+3,PS,,Easy,Statistics,82,128,D,100100,Easy,0.05,Statistics and Sets Problems
+4,PS,,Easy,Applied Problems,82,128,C,100933,Easy,0.05,Word Problems
+5,PS,,Easy,Statistics,82,128,D,102003,Medium,0.25,Number Properties
+6,PS,,Easy,Statistics,83,128,D,100739,Medium,0.35,Statistics and Sets Problems
+7,PS,,Easy,Statistics,83,129,E,102004,Medium,0.35,Statistics and Sets Problems
+8,PS,,Easy,Operations with Rational Numbers,83,129,C,100863,Easy,0.05,Arithmetic
+9,PS,,Easy,Number Line,83,129,A,102005,Easy,0.05,Number Properties
+10,PS,,Easy,First-Degree Equations,83,130,B,100276,Easy,0.05,Word Problems
+11,PS,,Easy,Operations with Rational Numbers,83,130,D,100718,Easy,0.05,Fractions and Ratios
+12,PS,,Easy,Ratio and Proportion,84,130,E,100978,Easy,0.05,Fractions and Ratios
+13,PS,,Easy,Algebra Interpretation of Tables; Applied Problems,84,130,D,100838,Easy,0.05,Algebra
+14,PS,,Easy,Applied Problems; Properties of Numbers,84,131,B,100679,Easy,0.05,Number Properties; Word Problems
+15,PS,,Easy,Ratio and Proportion,84,131,C,102006,Medium,0.35,Fractions and Ratios
+16,PS,,Easy,Percents,84,132,E,100212,Easy,0.05,Arithmetic; Percent and Interest Problems
+17,PS,,Easy,Applied Problems,84,132,E,102007,Easy,0.15,Word Problems
+18,PS,,Easy,Operations with Rational Numbers,85,132,D,100717,Easy,0.05,Distance and Speed Problems; Word Problems
+19,PS,,Easy,Applied Problems,85,132,E,102008,Easy,0.15,Work and Rate Problems
+20,PS,,Easy,First-Degree Equations,85,133,B,100232,Easy,0.15,Word Problems
+21,PS,,Easy,Applied Problems,85,133,C,102009,Medium,0.25,Work and Rate Problems
+22,PS,,Easy,First-Degree Equations,85,133,B,100218,Easy,0.15,Algebra
+23,PS,,Easy,Applied Problems,85,134,C,101006,Easy,0.05,Word Problems
+24,PS,,Easy,Probability,86,134,C,100713,Easy,0.05,Probability
+25,PS,,Easy,Applied Problems,86,134,C,100235,Easy,0.05,Word Problems
+26,PS,,Easy,Inequalities,86,134,E,100804,Easy,0.05,Inequalities
+27,PS,,Easy,Operations with Integers,86,135,C,100410,Easy,0.15,Number Properties; Statistics and Sets Problems
+28,PS,,Easy,Estimation,86,135,B,100856,Easy,0.05,Arithmetic
+29,PS,,Easy,Simultaneous First-Degree Equations,86,136,B,100219,Easy,0.15,Algebra
+30,PS,,Easy,Applied Problems,86,136,B,102010,Easy,0.05,Percent and Interest Problems
+31,PS,,Easy,Arithmetic; Simplifying Algebraic Expressions; Percents,87,136,A,100254,Easy,0.05,Percent and Interest Problems
+32,PS,,Easy,Applied Problems,87,136,E,100275,Easy,0.05,Word Problems; Work and Rate Problems
+33,PS,,Easy,Estimation,87,137,A,102011,Easy,0.05,Fractions and Ratios
+34,PS,,Easy,Percents,87,137,B,102012,Easy,0.05,Percent and Interest Problems
+35,PS,,Easy,Profit and Loss,87,137,E,100709,Easy,0.15,Word Problems
+36,PS,,Easy,Simplifying Algebraic Expressions,87,137,E,100162,Easy,0.05,Absolute Values
+37,PS,,Easy,Ratio and Proportion,87,138,D,100189,Easy,0.05,Algebra
+38,PS,,Easy,Exponents,87,138,B,100836,Easy,0.05,Algebra; Exponents
+39,PS,,Easy,Percents,88,138,D,102013,Easy,0.05,Word Problems
+40,PS,,Easy,Operations with Rational Numbers,88,139,C,100213,Easy,0.05,Remainders
+41,PS,,Easy,Applied Problems,88,139,D,100172,Medium,0.35,Word Problems
+42,PS,,Easy,Percents,88,140,B,102014,Medium,0.25,Percent and Interest Problems; Word Problems
+43,PS,,Easy,Simultaneous Equations,88,140,B,100720,Easy,0.05,Algebra
+44,PS,,Easy,Ratio and Proportion,88,140,E,100202,Easy,0.05,Fractions and Ratios
+45,PS,,Easy,Percents,89,140,B,102015,Easy,0.05,Percent and Interest Problems
+46,PS,,Easy,Estimation,89,141,E,100902,Easy,0.15,Arithmetic
+47,PS,,Easy,Applied Problems,89,141,D,100858,Easy,0.05,Percent and Interest Problems; Word Problems
+48,PS,,Easy,Estimation,89,141,A,100108,Easy,0.05,Arithmetic; Roots
+49,PS,,Easy,Equations,89,142,B,102016,Easy,0.05,Arithmetic; Roots
+50,PS,,Easy,Applied Problems,89,142,D,100968,Easy,0.05,Word Problems
+51,PS,,Easy,Estimation,89,142,A,100987,Easy,0.05,Arithmetic
+52,PS,,Easy,Properties of Numbers,90,142,D,100966,Easy,0.05,Multiples and Factors
+53,PS,,Easy,Sequences,90,143,C,100295,Easy,0.05,Sequences
+54,PS,,Easy,Algebraic Expressions,90,143,E,100973,Medium,0.25,Algebra; Word Problems
+55,PS,,Easy,Inequalities,90,143,B,100768,Easy,0.05,Arithmetic; Inequalities
+56,PS,,Easy,Statistics,90,143,B,100114,Easy,0.15,Statistics and Sets Problems
+57,PS,,Easy,Applied Problems,90,144,A,100222,Easy,0.15,Percent and Interest Problems; Word Problems
+58,PS,,Easy,Rate,91,145,D,100928,Easy,0.05,Word Problems
+59,PS,,Easy,Percents,91,145,D,100152,Easy,0.15,Percent and Interest Problems
+60,PS,,Easy,Applied Problems,91,145,D,100606,Easy,0.05,Fractions and Ratios
+61,PS,,Easy,Applied Problems,91,146,E,100716,Medium,0.25,Percent and Interest Problems
+62,PS,,Easy,Algebraic Expressions,91,146,A,100685,Easy,0.05,Fractions and Ratios
+63,PS,,Easy,First-Degree Equations,91,146,D,100658,Hard,0.55,Inference
+64,PS,,Easy,Applied Problems,91,146,D,102018,Easy,0.15,Word Problems
+65,PS,,Easy,Ratio and Proportion,92,147,A,102019,Easy,0.05,Fractions and Ratios
+66,PS,,Easy,Applied Problems,92,147,B,100199,Medium,0.35,Distance and Speed Problems
+67,PS,,Easy,Formulas,92,147,B,102020,Easy,0.05,Algebra
+68,PS,,Easy,Applied Problems; Sequences,92,148,D,100523,Easy,0.05,Sequences
+69,PS,,Easy,Formulas,92,148,C,102021,Easy,0.05,Arithmetic
+70,PS,,Easy,Properties of Numbers,92,148,E,100761,Medium,0.25,Algebra; Multiples and Factors
+71,PS,,Easy,Operations with Radical Expressions,93,149,E,100161,Easy,0.05,Algebra; Roots
+72,PS,,Easy,Statistics,93,149,C,102022,Easy,0.05,Algebra; Statistics and Sets Problems
+73,PS,,Easy,Inequalities,93,149,C,100123,Easy,0.05,Inequalities
+74,PS,,Easy,Operations with Integers,93,150,B,100206,Medium,0.25,Algebra; Remainders
+75,PS,,Easy,Percents,94,151,D,100941,Hard,0.55,Percent and Interest Problems
+76,PS,,Easy,Properties of Numbers,94,151,A,100923,Easy,0.05,Algebra; Remainders
+77,PS,,Easy,Fractions,94,151,D,100214,Medium,0.45,Arithmetic; Fractions and Ratios
+78,PS,,Easy,Simplifying Algebraic Expressions,94,152,D,100163,Easy,0.05,Algebra; Fractions and Ratios
+79,PS,,Easy,Absolute Value,94,152,C,102023,Easy,0.05,Absolute Values
+80,PS,,Easy,First-Degree Equations,94,152,E,100834,Easy,0.05,Algebra
+81,PS,,Easy,Algebraic Expressions,94,153,D,100224,Medium,0.25,Word Problems
+82,PS,,Easy,Measurement Conversion,94,153,C,100741,Medium,0.45,Resolve Paradox
+83,PS,,Easy,Simultaneous Equations,95,153,B,102024,Easy,0.05,Algebra
+84,PS,,Easy,Inequalities,95,153,E,100835,Easy,0.15,Graphs and Illustrations
+85,PS,,Easy,Applied Problems; First-Degree Equations,95,154,E,100885,Easy,0.05,Word Problems
+86,PS,,Easy,Percents,95,154,D,100952,Easy,0.15,Word Problems
+87,PS,,Easy,Functions,95,154,D,101011,Easy,0.05,Exponents; Roots
+88,PS,,Easy,Percents,95,154,D,102025,Easy,0.05,Percent and Interest Problems
+89,PS,,Easy,Applied Problems,95,155,D,101035,Easy,0.05,Probability
+90,PS,,Easy,Percents,96,155,C,101036,Easy,0.05,Word Problems
+91,PS,,Easy,Negative Exponents,96,155,D,101040,Easy,0.05,Exponents
+92,PS,,Easy,Applied Problems; First-Degree Equations,96,155,C,101041,Medium,0.35,Word Problems
+93,PS,,Easy,Order,96,156,A,101042,Easy,0.05,Min-Max Problems
+94,PS,,Easy,Applied Problems; Percents,96,156,C,101043,Easy,0.15,Percent and Interest Problems; Word Problems
+95,PS,,Easy,Ratio,96,157,B,101044,Easy,0.15,Fractions and Ratios
+96,PS,,Easy,Formulas,96,157,E,101045,Easy,0.05,Arithmetic; Word Problems
+97,PS,,Medium,Statistics,97,157,A,102026,Medium,0.45,Probability
+98,PS,,Medium,Statistics,97,157,B,102027,Easy,0.15,Probability
+99,PS,,Medium,Sets,97,158,E,100678,Easy,0.05,Overlapping Sets
+100,PS,,Medium,Formulas,97,158,E,100772,Easy,0.05,Functions and Custom Characters
+101,PS,,Medium,Algebraic Expressions,97,158,A,100788,Easy,0.05,Word Problems
+102,PS,,Medium,Measurement Conversion,97,159,D,100816,Easy,0.15,Word Problems
+103,PS,,Medium,Simplifying Algebraic Expressions,97,159,C,100165,Easy,0.05,Algebra
+104,PS,,Medium,Formulas,98,159,E,100183,Easy,0.05,Arithmetic; Functions and Custom Characters
+105,PS,,Medium,Statistics,98,159,B,102028,Medium,0.25,Statistics and Sets Problems
+106,PS,,Medium,Ratio and Proportion,98,160,C,100823,Easy,0.15,Algebra; Must or Could be True Questions
+107,PS,,Medium,Formulas,98,160,B,102029,Medium,0.35,Functions and Custom Characters
+108,PS,,Medium,Second-Degree Equations,98,161,B,100935,Easy,0.15,Algebra
+109,PS,,Medium,Percents,99,161,E,100869,Easy,0.15,Percent and Interest Problems
+110,PS,,Medium,Applied Problems,99,161,B,100964,Easy,0.15,Word Problems
+111,PS,,Medium,Statistics,99,162,E,100221,Medium,0.25,Arithmetic; Statistics and Sets Problems
+112,PS,,Medium,Remainders,99,162,B,100136,Medium,0.35,Remainders
+113,PS,,Medium,First-Degree Equations,99,162,E,100591,Medium,0.45,Word Problems
+114,PS,,Medium,Series and Sequences,99,163,D,100153,Easy,0.15,Word Problems
+115,PS,,Medium,Measurement Conversion,100,163,B,100734,Medium,0.45,Word Problems
+116,PS,,Medium,Applied Problems,100,163,B,101008,Easy,0.15,Work and Rate Problems
+117,PS,,Medium,Operations with Integers,100,163,C,100697,Easy,0.15,Algebra; Functions and Custom Characters
+118,PS,,Medium,Percents; First-Degree Equations,100,164,A,100822,Easy,0.05,Algebra; Percent and Interest Problems
+119,PS,,Medium,Applied Problems,100,164,A,102030,Very Hard,0.95,Arithmetic; Min-Max Problems
+120,PS,,Medium,Percents; Ratio and Proportion,100,165,D,100105,Medium,0.25,Fractions and Ratios; Percent and Interest Problems
+121,PS,,Medium,Simultaneous Equations,101,165,E,100997,Easy,0.15,Word Problems
+122,PS,,Medium,Simplifying Algebraic Expressions; Operations on Rational Numbers,101,165,A,101007,Easy,0.15,Percent and Interest Problems
+123,PS,,Medium,Second-Degree Equations,101,166,E,100125,Easy,0.15,Algebra
+124,PS,,Medium,Statistics,101,166,E,102031,Easy,0.05,Statistics and Sets Problems
+125,PS,,Medium,Sets,101,166,D,100900,Easy,0.15,Overlapping Sets
+126,PS,,Medium,Exponents,101,167,B,100135,Easy,0.15,Exponents; Number Properties
+127,PS,,Medium,Applied Problems,101,167,E,100990,Easy,0.05,Work and Rate Problems
+128,PS,,Medium,Sets; Interpretation of Tables,102,167,E,100889,Medium,0.35,Overlapping Sets
+129,PS,,Medium,Operations with Integers,102,168,D,100719,Easy,0.15,Arithmetic
+130,PS,,Medium,Absolute Value; Number Line,102,168,E,100974,Easy,0.15,Statistics and Sets Problems
+131,PS,,Medium,Inequalities,102,168,A,100892,Easy,0.15,Word Problems
+132,PS,,Medium,Place Value,102,169,A,100116,Medium,0.25,Arithmetic
+133,PS,,Medium,Sets,102,169,E,100809,Easy,0.05,Overlapping Sets
+134,PS,,Medium,Sets,102,170,D,100898,Easy,0.05,Overlapping Sets
+135,PS,,Medium,Applied Problems,103,170,A,102032,Medium,0.45,Multiples and Factors; Number Properties
+136,PS,,Medium,Percents,103,170,D,100216,Medium,0.35,Word Problems; Arithmetic; Percent and Interest Problems; Graphs and Illustrations
+137,PS,,Medium,Properties of Numbers,103,171,C,100735,Easy,0.05,Multiples and Factors
+138,PS,,Medium,Measurement Conversion,103,171,D,100138,Easy,0.05,Word Problems
+139,PS,,Medium,Second-Degree Equations,103,172,D,100732,Medium,0.45,Algebra
+140,PS,,Medium,Functions,103,172,B,100111,Easy,0.15,Min-Max Problems; Algebra
+141,PS,,Medium,Applied Problems,104,172,A,100828,Medium,0.35,Distance and Speed Problems
+142,PS,,Medium,Applied Problems,104,172,D,100158,Medium,0.35,Percent and Interest Problems
+143,PS,,Medium,Estimation,104,173,A,100893,Medium,0.25,Arithmetic
+144,PS,,Medium,Applied Problems,104,173,E,100578,Medium,0.25,Work and Rate Problems
+145,PS,,Medium,Probability,104,174,E,100676,Easy,0.15,Probability
+146,PS,,Medium,Estimation; Exponents,104,174,E,100154,Medium,0.25,Word Problems
+147,PS,,Medium,Equations,105,174,C,102034,Hard,0.55,Multiples and Factors
+148,PS,,Medium,Percents,105,175,B,100797,Medium,0.45,Word Problems
+149,PS,,Medium,Statistics,105,175,A,100132,Easy,0.15,Statistics and Sets Problems
+150,PS,,Medium,Simplifying Algebraic Expressions,105,175,E,100274,Easy,0.15,Algebra
+151,PS,,Medium,Operations with Integers,105,176,E,100737,Easy,0.05,Statistics and Sets Problems
+152,PS,,Medium,Simultaneous Equations; Inequalities,106,176,E,100740,Medium,0.35,Algebra; Inequalities; Number Properties
+153,PS,,Medium,Operations with Decimals; Place Value,106,176,D,100710,Medium,0.45,Fractions and Ratios
+154,PS,,Medium,Elementary Combinatorics,106,176,C,100103,Easy,0.15,Combinations
+155,PS,,Medium,Equations,106,177,E,102035,Medium,0.25,Roots; Number Properties
+156,PS,,Medium,Properties of Integers; Series and Sequences,106,177,D,101047,Easy,0.05,Remainders; Exponents
+157,PS,,Medium,Sets (Venn Diagrams),106,178,E,101048,Easy,0.15,Probability; Overlapping Sets
+158,PS,,Medium,Applied Problems,106,178,B,101049,Easy,0.05,Percent and Interest Problems
+159,PS,,Medium,Series and Sequences,106,178,D,101050,Medium,0.35,Sequences
+160,PS,,Medium,Equations,107,178,E,101051,Medium,0.25,Must or Could be True Questions
+161,PS,,Medium,Work Problem,107,179,E,101052,Medium,0.25,Work and Rate Problems
+162,PS,,Medium,Order,107,179,A,101053,Medium,0.25,Statistics and Sets Problems
+163,PS,,Medium,Ratio and Proportion,107,180,C,102036,Medium,0.45,Word Problems; Fractions and Ratios
+164,PS,,Medium,Ratio and Proportion,107,180,E,102037,Medium,0.25,Statistics and Sets Problems
+165,PS,,Medium,Series and Sequences,107,180,C,102038,Medium,0.25,Sequences
+166,PS,,Medium,Applied Problems,107,180,B,102039,Hard,0.65,Distance and Speed Problems
+167,PS,,Medium,Measurement Conversion,108,181,C,101058,Medium,0.25,Distance and Speed Problems
+168,PS,,Medium,Functions,108,181,D,101059,Easy,0.15,Functions and Custom Characters
+169,PS,,Medium,Equations; Factoring,108,181,C,101060,Easy,0.15,Exponents
+170,PS,,Medium,Percents,108,182,E,102040,Medium,0.35,Percent and Interest Problems
+171,PS,,Medium,Simultaneous Equations; Computation with Radical Expressions,108,182,D,101062,Medium,0.25,Absolute Values; Algebra
+172,PS,,Medium,Equations,108,182,A,101063,Medium,0.35,Arithmetic
+173,PS,,Medium,Percents,108,183,A,102041,Very Hard,0.75,Word Problems; Percent and Interest Problems
+174,PS,,Medium,Applied Problems,109,183,B,102042,Medium,0.25,Distance and Speed Problems
+175,PS,,Medium,Number Line,109,183,E,102043,Medium,0.25,Inequalities
+176,PS,,Medium,Applied Problems,109,184,B,102044,Medium,0.35,Graphs and Illustrations; Coordinate Geometry
+177,PS,,Hard,Applied Problems,109,184,E,100252,Easy,0.05,Word Problems
+178,PS,,Hard,Elementary Combinatorics,109,184,D,100186,Medium,0.25,Combinations
+179,PS,,Hard,Properties of Numbers,109,184,B,100120,Easy,0.15,Number Properties; Multiples and Factors
+180,PS,,Hard,Probability,110,185,C,100712,Medium,0.25,Probability
+181,PS,,Hard,Applied Problems,110,185,C,100253,Easy,0.05,Word Problems
+182,PS,,Hard,Statistics,110,185,A,100937,Medium,0.25,Statistics and Sets Problems
+183,PS,,Hard,Properties of Numbers; Decimals,110,186,A,100614,Hard,0.65,Fractions and Ratios
+184,PS,,Hard,Elementary Combinatorics,110,186,B,100971,Medium,0.25,Combinations
+185,PS,,Hard,Simultaneous Equations,110,187,E,100748,Easy,0.15,Algebra; Mixture Problems
+186,PS,,Hard,Systems of Equations,111,187,E,100251,Easy,0.05,Word Problems
+187,PS,,Hard,Statistics,111,187,B,100791,Medium,0.25,Statistics and Sets Problems
+188,PS,,Hard,Applied Problems,111,188,B,100708,Easy,0.15,Overlapping Sets
+189,PS,,Hard,Percents,111,188,C,100240,Easy,0.05,Percent and Interest Problems
+190,PS,,Hard,Properties of Numbers,111,188,B,100122,Medium,0.25,Remainders
+191,PS,,Hard,Second-Degree Equations; Simultaneous Equations,111,189,B,100256,Easy,0.05,Algebra
+192,PS,,Hard,Simultaneous Equations; Inequalities,111,189,A,100832,Very Hard,0.75,Min-Max Problems; Word Problems
+193,PS,,Hard,Statistics,111,189,B,100250,Easy,0.05,Statistics and Sets Problems
+194,PS,,Hard,Applied Problems,112,190,E,100257,Easy,0.15,Fractions and Ratios; Mixture Problems
+195,PS,,Hard,Operations on Rational Numbers,112,191,B,100258,Easy,0.05,Exponents; Inequalities
+196,PS,,Hard,Probability,112,191,C,100245,Easy,0.05,Probability
+197,PS,,Hard,Operations on Rational Numbers,112,191,D,100912,Medium,0.45,Word Problems
+198,PS,,Hard,Interpretation of Graphs and Tables; Statistics,112,192,C,100572,Medium,0.25,Graphs and Illustrations; Statistics and Sets Problems
+199,PS,,Hard,Properties of Numbers,112,192,B,101075,Easy,0.15,Multiples and Factors; Exponents; Functions and Custom Characters; Number Properties
+200,PS,,Hard,Statistics,112,193,D,100969,Medium,0.35,Statistics and Sets Problems
+201,PS,,Hard,Applied Problems,113,193,E,100913,Medium,0.45,Word Problems
+202,PS,,Hard,Second-Degree Equations,113,193,D,100940,Medium,0.35,Algebra
+203,PS,,Hard,Percents,113,193,B,100888,Medium,0.45,Percent and Interest Problems
+204,PS,,Hard,Probability,113,194,C,100955,Easy,0.15,Probability
+205,PS,,Hard,Statistics,113,195,E,100901,Very Hard,0.85,Statistics and Sets Problems
+206,PS,,Hard,Percents,113,196,C,100173,Medium,0.35,Percent and Interest Problems
+207,PS,,Hard,Operations with Integers,114,197,B,100831,Medium,0.45,Word Problems
+208,PS,,Hard,Properties of Numbers,114,197,C,100907,Easy,0.15,Exponents; Number Properties
+209,PS,,Hard,Properties of Numbers,114,198,C,100333,Medium,0.45,Multiples and Factors
+210,PS,,Hard,Properties of Numbers,114,198,E,100829,Medium,0.45,Remainders; Word Problems
+211,PS,,Hard,Applied Problems,114,198,B,100149,Medium,0.35,Work and Rate Problems
+212,PS,,Hard,Equations,114,199,D,100925,Easy,0.05,Algebra
+213,PS,,Hard,Properties of Numbers,114,199,B,100192,Medium,0.45,Number Properties
+214,PS,,Hard,Elementary Combinatorics,115,199,B,100156,Hard,0.55,Combinations
+215,PS,,Hard,Applied Problems,115,199,B,100944,Medium,0.35,Algebra; Min-Max Problems
+216,PS,,Hard,Inequalities,115,200,D,100911,Easy,0.05,Inequalities
+217,PS,,Hard,Applied Problems; Simultaneous Equations,115,200,C,100242,Easy,0.05,Word Problems
+218,PS,,Hard,Operations on Rational Numbers,115,200,C,100259,Easy,0.05,Combinations
+219,PS,,Hard,Second-Degree Equations,115,200,B,100260,Hard,0.65,Word Problems
+220,PS,,Hard,Properties of Numbers,115,201,E,100942,Easy,0.05,Inequalities; Must or Could be True Questions; Number Properties; Fractions and Ratios
+221,PS,,Hard,Applied Problems,116,202,A,100261,Medium,0.25,Word Problems
+222,PS,,Hard,Applied Problems,116,202,A,100262,Medium,0.25,Percent and Interest Problems
+223,PS,,Hard,Estimation,116,202,D,100263,Medium,0.35,Word Problems; Distance and Speed Problems; Min-Max Problems
+224,PS,,Hard,Inequalities,116,203,E,100264,Easy,0.05,Absolute Values; Inequalities
+225,PS,,Hard,Statistics; Applied Problems,116,203,D,100265,Easy,0.05,Statistics and Sets Problems; Word Problems
+226,PS,,Hard,Properties of Numbers,116,203,E,100266,Easy,0.15,Number Properties
+227,PS,,Hard,Profit and Loss,116,204,A,100887,Easy,0.15,Arithmetic; Functions and Custom Characters
+228,PS,,Hard,Operations on Rational Numbers,117,204,C,100244,Easy,0.15,Sequences; Statistics and Sets Problems
+229,PS,,Hard,Simplifying Algebraic Expressions,117,204,C,100910,Easy,0.05,Sequences
+230,PS,,Hard,Applied Problems,117,204,E,100241,Medium,0.45,Distance and Speed Problems
+231,PS,,Hard,Properties of Numbers,117,205,A,100983,Medium,0.25,Exponents; Number Properties
+232,PS,,Hard,Elementary Combinatorics,117,205,D,100616,Medium,0.25,Combinations
+233,PS,,Hard,Operations on Rational Numbers,117,206,B,100184,Hard,0.55,Fractions and Ratios; Exponents
+234,PS,,Hard,Simplifying Expressions; Computation with Integers,117,206,B,101001,Medium,0.45,Arithmetic; Number Properties
+235,PS,,Hard,Operations with Integers,118,207,A,100776,Medium,0.45,Word Problems
+236,PS,,Hard,Rate,118,207,D,100217,Medium,0.35,Number Properties
+237,PS,,Hard,Sequences,118,207,D,100908,Hard,0.55,Sequences
+238,PS,,Hard,Percents,118,207,D,100986,Hard,0.65,Percent and Interest Problems
+239,PS,,Hard,Applied Problems,118,208,D,100982,Very Hard,0.75,Overlapping Sets; Word Problems
+240,PS,,Hard,Negative Exponents,118,208,D,100830,Easy,0.05,Exponents
+241,PS,,Hard,Percents,119,209,D,100785,Very Hard,0.85,Percent and Interest Problems
+242,PS,,Hard,Statistics,119,209,D,100946,Medium,0.45,Min-Max Problems; Fractions and Ratios
+243,PS,,Hard,Simplifying Algebraic Expressions,119,210,E,100818,Easy,0.05,Sequences
+244,PS,,Hard,Properties of Numbers,119,210,E,100246,Hard,0.55,Arithmetic; Min-Max Problems
+245,PS,,Hard,Elementary Combinatorics,119,210,D,100721,Medium,0.45,Combinations
+246,PS,,Hard,Operations on Rational Numbers,119,211,D,100852,Very Hard,0.85,Algebra; Arithmetic
+247,PS,,Hard,Percents,120,211,D,100617,Very Hard,0.95,Word Problems
+248,PS,,Hard,Statistics; Applied Problems; Simultaneous Equations,120,212,E,100760,Easy,0.15,Statistics and Sets Problems
+249,PS,,Hard,Applied Problems,120,212,A,100267,Easy,0.05,Arithmetic
+250,PS,,Hard,Applied Problems,120,213,D,100268,Easy,0.15,Algebra
+251,PS,,Hard,Probability,120,213,E,100269,Easy,0.05,Probability
+252,PS,,Hard,Second-Degree Equations,120,213,C,100270,Easy,0.05,Algebra; Must or Could be True Questions
+253,PS,,Hard,Operations on Rational Numbers,121,214,B,100271,Easy,0.05,Arithmetic; Exponents
+254,PS,,Hard,Operations on Rational Numbers,121,214,B,100272,Very Hard,0.95,Min-Max Problems
+255,PS,,Hard,Second-Degree Equations,121,215,C,100699,Easy,0.05,Algebra
+256,PS,,Hard,Applied Problems,121,216,B,100243,Medium,0.25,Mixture Problems
+257,PS,,Hard,Inequalities,121,216,D,100273,Very Hard,0.75,Inequalities
+258,PS,,Hard,Sets,121,217,D,100197,Hard,0.55,Overlapping Sets
+259,PS,,Hard,Negative Exponents,122,217,B,100954,Easy,0.15,Assumption
+260,PS,,Hard,Fractions; Decimals,122,218,E,100992,Medium,0.35,Fractions and Ratios
+261,PS,,Hard,Exponents,122,218,D,101064,Easy,0.15,Exponents
+262,PS,,Hard,Probability; Elementary Combinatorics,122,219,D,101065,Medium,0.35,Probability
+263,PS,,Hard,Applied Problems; Estimation,122,219,C,101066,Very Hard,0.75,Word Problems
+264,PS,,Hard,Properties of Integers,122,220,D,101067,Medium,0.25,Multiples and Factors; Number Properties
+265,PS,,Hard,Statistics,123,220,D,101068,Hard,0.55,Statistics and Sets Problems; Remainders
+266,PS,,Hard,Applied Problems; First-Degree Equations,123,220,E,101069,Medium,0.45,Percent and Interest Problems
+267,PS,,Hard,Properties of Integers,123,221,C,101070,Medium,0.45,Number Properties
+268,PS,,Hard,Applied Problems,123,221,A,101071,Medium,0.25,Mixture Problems
+269,PS,,Hard,Elementary Combinatorics,123,221,D,101072,Medium,0.25,Combinations
+270,PS,,Hard,Estimation; Operations on Radical Expressions,123,222,E,101073,Medium,0.35,Roots
+271,PS,,Hard,Series and Sequences; First-Degree Equations,124,222,D,101074,Medium,0.45,Word Problems
+272,PS,,Hard,Series and Sequences,124,223,A,102045,Very Hard,0.95,Sequences
+273,DS,,Easy,Applied Problems,258,276,C,100109,Easy,0.05,Word Problems
+274,DS,,Easy,Ratio and Proportion,258,276,A,100794,Easy,0.05,Algebra
+275,DS,,Easy,Applied Problems,258,277,E,100886,Easy,0.05,Statistics and Sets Problems
+276,DS,,Easy,Statistics,258,277,D,100770,Easy,0.05,Arithmetic
+277,DS,,Easy,Ratio and Proportion,258,277,C,100150,Easy,0.05,Word Problems
+278,DS,,Easy,Simultaneous Equations,258,278,C,100960,Easy,0.05,Fractions and Ratios; Word Problems
+279,DS,,Easy,Ratio and Proportion,258,278,C,100231,Easy,0.15,Fractions and Ratios; Mixture Problems; Word Problems
+280,DS,,Easy,Ratio and Proportion,259,278,E,100198,Easy,0.05,Overlapping Sets
+281,DS,,Easy,Statistics,259,279,C,100861,Easy,0.05,Word Problems
+282,DS,,Easy,Ratio and Proportion,259,280,C,100759,Easy,0.05,Word Problems
+283,DS,,Easy,Statistics,259,280,E,100505,Easy,0.05,Statistics and Sets Problems
+284,DS,,Easy,Statistics,259,280,C,100117,Easy,0.05,Word Problems
+285,DS,,Easy,Ratio and Proportion,259,281,E,100728,Easy,0.05,Word Problems
+286,DS,,Easy,Applied Problems,259,282,C,100967,Easy,0.05,Probability
+287,DS,,Easy,Simultaneous Equations,259,282,C,100145,Easy,0.05,Word Problems
+288,DS,,Easy,Ratio and Proportion,259,282,A,100919,Easy,0.05,Word Problems
+289,DS,,Easy,Applied Problems,259,283,C,100655,Easy,0.05,Work and Rate Problems
+290,DS,,Easy,Equations,260,283,E,102046,Easy,0.15,Word Problems
+291,DS,,Easy,Simultaneous Equations,260,284,E,100985,Easy,0.05,Word Problems
+292,DS,,Easy,Sets,260,284,E,100962,Easy,0.05,Overlapping Sets
+293,DS,,Easy,Equations,260,284,D,102047,Easy,0.15,Overlapping Sets
+294,DS,,Easy,Statistics,260,285,C,102048,Easy,0.05,Statistics and Sets Problems
+295,DS,,Easy,Statistics,260,285,,102049,Medium,0.35,Overlapping Sets
+296,DS,,Easy,Statistics,260,285,B,102050,Easy,0.05,Statistics and Sets Problems
+297,DS,,Easy,Order,260,286,C,100137,Medium,0.25,Word Problems
+298,DS,,Easy,Sets,260,286,E,100169,Easy,0.05,Overlapping Sets
+299,DS,,Easy,Sets,260,287,C,100696,Medium,0.25,Overlapping Sets
+300,DS,,Easy,Applied Problems,260,287,A,100722,Easy,0.15,Percent and Interest Problems
+301,DS,,Easy,Probability,261,287,E,100805,Easy,0.05,Probability
+302,DS,,Easy,Estimation,261,288,C,102051,Easy,0.05,Word Problems
+303,DS,,Easy,Applied Problems,261,288,B,100782,Medium,0.25,Word Problems
+304,DS,,Easy,Inequalities,261,288,B,100731,Easy,0.15,Inequalities
+305,DS,,Easy,Simultaneous Equations,261,289,B,100282,Easy,0.05,Word Problems
+306,DS,,Easy,Simultaneous Equations,261,289,D,100283,Easy,0.05,Algebra; Word Problems
+307,DS,,Easy,Simultaneous Equations,261,289,E,100285,Medium,0.25,Word Problems
+308,DS,,Easy,Percents,261,290,A,100247,Easy,0.05,Percent and Interest Problems
+309,DS,,Easy,Rate Problem,261,290,C,100238,Easy,0.05,Distance and Speed Problems
+310,DS,,Easy,Inference,261,291,E,101076,Medium,0.25,Non-Math Related
+311,DS,,Easy,Evaluation,262,291,C,101077,Very Hard,0.75,Non-Math Related
+312,DS,,Easy,Inference,262,292,E,101078,Easy,0.05,Non-Math Related
+313,DS,,Easy,Inference,262,292,C,101079,Easy,0.05,Word Problems
+314,DS,,Easy,Applied Problems,262,292,A,101080,Easy,0.05,Word Problems
+315,DS,,Easy,Applied Problems,262,293,E,101081,Very Hard,0.95,Distance and Speed Problems
+316,DS,,Easy,Applied Problems,262,293,A,101082,Medium,0.45,Percent and Interest Problems
+317,DS,,Easy,Applied Problems,262,294,C,101083,Easy,0.15,Fractions and Ratios; Mixture Problems
+318,DS,,Easy,Applied Problems,262,294,C,101084,Medium,0.45,Distance and Speed Problems
+319,DS,,Easy,Applied Problems,263,295,A,101085,Medium,0.25,Work and Rate Problems
+320,DS,,Medium,Simultaneous Equations,263,295,C,100792,Easy,0.05,Word Problems
+321,DS,,Medium,Simultaneous Equations,263,295,C,100279,Easy,0.05,Word Problems
+322,DS,,Medium,Simultaneous Equations,263,296,D,100280,Easy,0.05,Word Problems
+323,DS,,Medium,Ratios; Simultaneous Equations,263,296,A,100281,Easy,0.15,Fractions and Ratios
+324,DS,,Medium,Ratios,263,297,B,100284,Hard,0.65,Fractions and Ratios; Word Problems
+325,DS,,Medium,Simultaneous Equations,263,297,D,100286,Easy,0.05,Word Problems
+326,DS,,Medium,Applied Problems; Proportions,263,297,E,100975,Medium,0.25,Word Problems
+327,DS,,Medium,Place Value,263,298,D,102052,Medium,0.25,Arithmetic
+328,DS,,Medium,Ratio and Proportion,264,298,A,102053,Medium,0.25,Word Problems; Fractions and Ratios
+329,DS,,Medium,Applied Problems,264,299,C,100210,Easy,0.15,Word Problems
+330,DS,,Medium,Percents,264,299,B,102054,Hard,0.55,Statistics and Sets Problems; Word Problems
+331,DS,,Medium,Statistics,264,300,B,102055,Medium,0.35,Word Problems
+332,DS,,Medium,First-Degree Equations,264,300,D,100228,Hard,0.55,Mixture Problems
+333,DS,,Medium,Simultaneous Equations,264,300,B,100278,Easy,0.15,Word Problems
+334,DS,,Medium,Operations with Integers; Order,264,301,C,100190,Medium,0.35,Word Problems
+335,DS,,Medium,Statistics,264,301,B,102056,Easy,0.15,Percent and Interest Problems
+336,DS,,Medium,Statistics,264,301,B,102057,Easy,0.15,Overlapping Sets
+337,DS,,Medium,Applied Problems,264,302,E,100724,Easy,0.15,Word Problems
+338,DS,,Medium,Applied Problems,265,302,A,100680,Medium,0.25,Distance and Speed Problems; Non-Math Related
+339,DS,,Medium,Sets,265,303,E,100897,Easy,0.15,Overlapping Sets
+340,DS,,Medium,First-Degree Equations,265,303,C,100230,Easy,0.05,Word Problems
+341,DS,,Medium,Computation with Integers,265,304,E,100813,Medium,0.45,Word Problems
+342,DS,,Medium,Applied Problems,265,304,D,100873,Medium,0.25,Fractions and Ratios
+343,DS,,Medium,Simultaneous Equations,265,304,D,102058,Easy,0.05,Word Problems
+344,DS,,Medium,Inequalities,265,305,C,100171,Medium,0.25,Word Problems
+345,DS,,Medium,Applied Problems; Percents,265,305,C,100825,Easy,0.15,Word Problems; Percent and Interest Problems
+346,DS,,Medium,Applied Problems; Percents,266,306,E,100972,Medium,0.45,Percent and Interest Problems; Word Problems
+347,DS,,Medium,Computation with Integers,266,306,D,100670,Medium,0.35,Number Properties
+348,DS,,Medium,Applied Problems,266,307,B,100155,Medium,0.35,Word Problems
+349,DS,,Medium,Statistics,266,307,B,100857,Medium,0.25,Word Problems
+350,DS,,Medium,Applied Problems,266,308,D,100207,Hard,0.55,Word Problems
+351,DS,,Medium,Statistics,266,308,A,100895,Hard,0.55,Statistics and Sets Problems
+352,DS,,Medium,Properties of Integers,266,308,C,100215,Medium,0.45,Word Problems
+353,DS,,Medium,Applied Problems,266,309,A,101086,Easy,0.15,Word Problems
+354,DS,,Medium,Inference,266,309,B,101087,Hard,0.65,Word Problems
+355,DS,,Medium,Applied Problems,267,310,E,101088,Easy,0.15,Statistics and Sets Problems
+356,DS,,Medium,Applied Problems,267,310,A,101089,Very Hard,0.75,Mixture Problems
+357,DS,,Medium,Evaluation,267,311,C,101090,Easy,0.05,Probability
+358,DS,,Medium,Applied Problems,267,311,D,101091,Hard,0.55,Work and Rate Problems
+359,DS,,Medium,Inference,267,311,E,101092,Medium,0.35,Non-Math Related
+360,DS,,Medium,Applied Problems,267,312,C,101093,Very Hard,0.95,Mixture Problems
+361,DS,,Medium,Applied Problems,267,312,C,101094,Medium,0.45,Percent and Interest Problems; Word Problems
+362,DS,,Medium,Applied Problems,268,313,D,101095,Medium,0.25,Word Problems
+363,DS,,Hard,Percents,268,314,C,100673,Medium,0.25,Word Problems
+364,DS,,Hard,Sets,268,314,D,100755,Easy,0.15,Overlapping Sets
+365,DS,,Hard,Percents,268,315,C,100239,Easy,0.15,Word Problems
+366,DS,,Hard,Probability,268,315,B,100806,Easy,0.15,Probability
+367,DS,,Hard,Applied Problems,268,315,B,100874,Easy,0.15,Word Problems
+368,DS,,Hard,Computation with Integers,268,315,C,100758,Medium,0.25,Word Problems
+369,DS,,Hard,Applied Problems,268,316,A,100877,Easy,0.15,Word Problems
+370,DS,,Hard,Applied Problems,268,316,B,100963,Hard,0.55,Word Problems
+371,DS,,Hard,Percents,269,316,B,100204,Medium,0.25,Percent and Interest Problems
+372,DS,,Hard,Rate Problems,269,317,A,100905,Medium,0.25,Distance and Speed Problems
+373,DS,,Hard,Simultaneous Equations,269,317,C,100277,Medium,0.45,Word Problems
+374,DS,,Hard,Statistics,269,318,E,101004,Medium,0.25,Statistics and Sets Problems
+375,DS,,Hard,Equations,269,318,D,102059,Medium,0.35,Word Problems
+376,DS,,Hard,Simultaneous Equations,269,318,A,100692,Easy,0.15,Word Problems
+377,DS,,Hard,Applied Problems,269,319,B,100644,Medium,0.35,Percent and Interest Problems; Word Problems
+378,DS,,Hard,Sets,269,319,C,100140,Medium,0.25,Overlapping Sets
+379,DS,,Hard,Ratio and Proportion,269,320,D,100662,Medium,0.35,Word Problems
+380,DS,,Hard,Inequalities,269,320,B,100536,Hard,0.65,Mixture Problems
+381,DS,,Hard,Applied Problems,270,320,E,100248,Easy,0.15,Distance and Speed Problems
+382,DS,,Hard,Statistics,270,321,B,100143,Medium,0.35,Statistics and Sets Problems
+383,DS,,Hard,Statistics,270,321,C,100695,Easy,0.15,Statistics and Sets Problems
+384,DS,,Hard,Applied Problems; Estimating,270,321,E,100996,Medium,0.45,Distance and Speed Problems
+385,DS,,Hard,Operations on Rational Numbers,270,322,B,100694,Very Hard,0.85,Fractions and Ratios; Word Problems
+386,DS,,Hard,Sets,270,322,A,100853,Hard,0.65,Overlapping Sets
+387,DS,,Hard,Properties of Numbers,270,323,B,100540,Very Hard,0.95,Multiples and Factors; Word Problems
+388,DS,,Hard,Applied Problems,271,323,B,100715,Very Hard,0.75,Word Problems
+389,DS,,Hard,Statistics,271,324,C,100131,Medium,0.35,Statistics and Sets Problems
+390,DS,,Hard,Applied Problems,271,324,B,100821,Very Hard,0.95,Word Problems
+391,DS,,Hard,Statistics,271,325,C,100698,Very Hard,0.95,Word Problems; Statistics and Sets Problems
+392,DS,,Hard,Applied Problems,271,326,E,100249,Easy,0.05,Word Problems
+393,DS,,Hard,Proportions,271,326,B,100255,Medium,0.35,Word Problems
+394,DS,,Hard,Inference,271,327,A,101021,Very Hard,0.95,Graphs and Illustrations; Statistics and Sets Problems
+395,DS,,Hard,Inference,272,327,C,101022,Very Hard,0.75,Statistics and Sets Problems; Word Problems; Non-Math Related
+396,DS,,Hard,Inference,272,328,E,101023,Hard,0.55,Word Problems; Non-Math Related
+397,DS,,Hard,Inference,272,328,A,101024,Medium,0.35,Word Problems; Non-Math Related
+398,DS,,Hard,Inference,272,329,E,101025,Hard,0.55,Inequalities; Non-Math Related; Word Problems
+399,DS,,Hard,Inference,272,329,B,101026,Hard,0.55,Word Problems; Non-Math Related
+400,DS,,Hard,Inference,272,330,E,101027,Very Hard,0.95,Non-Math Related
+401,DS,,Hard,Inference,273,331,B,101028,Very Hard,0.75,Word Problems
+402,DS,,Hard,Inference,273,331,C,101029,Very Hard,0.95,Non-Math Related; Word Problems
+403,DS,,Hard,Inference,273,332,E,101030,Hard,0.65,Word Problems; Non-Math Related
+404,DS,,Hard,Inference,273,332,B,101031,Medium,0.25,Word Problems; Non-Math Related
+405,DS,,Hard,Inference,273,333,D,101032,Hard,0.55,Word Problems; Non-Math Related
+406,DS,,Hard,Exponents,273,333,,102060,Medium,0.25,Exponents; Word Problems
+407,DS,,Hard,Statistics,274,334,D,102061,Very Hard,0.75,Word Problems; Statistics and Sets Problems
+408,DS,,Hard,Percents,274,334,B,102062,Very Hard,0.85,Percent and Interest Problems
+409,DS,,Hard,Statistics,274,335,A,102063,Medium,0.25,Statistics and Sets Problems
+410,TPA,,Easy,Infer,337,359,Front of Train M: 60; Front of Train N: 65,100354,Easy,0.05,Math Related
+411,TPA,,Easy,Apply,337,359,Must participate: RN; Will not participate: UN,100357,Easy,0.15,Non-Math Related
+412,TPA,,Easy,Strategize,337,360,Length of Segment A (kilometers): 14; Length of Segment C (kilometers): 42,100359,Medium,0.25,Non-Math Related
+413,TPA,,Easy,Apply,338,360,"X: 910; Z: 1,350",100364,Easy,0.05,Math Related
+414,TPA,,Easy,Infer,338,361,Sacrifice : Time; Gain : Security,100367,Medium,0.35,Non-Math Related
+415,TPA,,Easy,Evaluate,338,362,Passage : To encourage historians not to approach a particular historical event from too narrow a perspective.; Portion in Boldface : To criticize a certain type of argument about a particular historical event.,100373,Very Hard,0.95,Non-Math Related
+416,TPA,,Easy,Infer,339,362,Shirts: €47.60; Trousers: €68.20,100377,Easy,0.15,Math Related
+417,TPA,,Easy,Apply,339,363,Teams remaining: 16; Rounds completed: 4,100389,Very Hard,0.75,Math Related
+418,TPA,,Easy,Apply,339,363,Laszlo among reviewers: 4; Adiliah among reviewers: 4,100390,Very Hard,0.85,Non-Math Related
+419,TPA,,Easy,Infer,340,364,Cause: An increase in phytoplankton; Effect: An increase in crown-of-thorns sea stars,100398,Medium,0.45,Non-Math Related
+420,TPA,,Easy,Infer,340,365,"Assumption required: The next cup to be recovered from the site will likely be made of porcelain.; Possible fact: Other cups have been recovered from the archaeological site, all of which were made of porcelain.",100399,Very Hard,0.95,Non-Math Related
+421,TPA,,Easy,Infer,340,366,Recommends: Change the farm-subsidy system.; Intended result: Improve the overall quality of people's diets.,100429,Medium,0.25,Non-Math Related
+422,TPA,,Easy,Infer,341,367,Assertion involving Artifact A: Artifact B is older than Artifact A.; Assertion involving Artifact C: Artifact C is older than Artifact B.,100504,Easy,0.05,Non-Math Related
+423,TPA,,Easy,Apply,341,367,Both swan and heron: 0.07; Neither swan nor heron: 0.52,101096,Medium,0.25,Math Related
+424,TPA,,Easy,Infer,341,368,X: retention of information from lessons given in rooms occupied for only a short time; Y: retention of information from multiple lessons given in the same room over a period of time,101097,Easy,0.15,Non-Math Related
+425,TPA,,Easy,Apply,342,368,3 Blue: 0.090; 3 Red: 0.120,102064,Easy,0.15,Math Related
+426,TPA,,Easy,Strategize,342,369,Dr. B and Dr. E: Immunity; Dr. C and Dr. E: Genetics,102065,Easy,0.15,Non-Math Related
+427,TPA,,Easy,Recognize,342,370,1: Wednesday; 2: Thursday,102066,Medium,0.35,Non-Math Related
+428,TPA,,Medium,Strategize,343,371,Circuit boards: 400; Worker hours: 80,100301,Hard,0.55,Non-Math Related
+429,TPA,,Medium,Evaluate,343,371,1: Researchers: tested the children's sense of balance; 2: Prior to: taught dance to the children through the dance program,100307,Medium,0.35,Non-Math Related
+430,TPA,,Medium,Recognize,344,372,Klaus: Students’ academic performance; Rena: Extracurricular activities,100308,Medium,0.35,Non-Math Related
+431,TPA,,Medium,Infer,344,372,Agree with each other about: Brazil has been very successful at replacing petroleum with ethanol.; Disagree with each other about: Producing corn ethanol is a viable strategy for a nation intent on reducing dependence on petroleum.,100315,Easy,0.15,Non-Math Related
+432,TPA,,Medium,Apply,344,373,"Principal remaining after 12 months under Offer 1: $175,000; Principal remaining after 12 months under Offer 2: $172,700",100322,Medium,0.25,Math Related
+433,TPA,,Medium,Infer,345,374,Professor A disagrees: The creation of systems that display intelligence regarding specific tasks is an especially important step toward the creation of systems with general intelligence.; Professor B disagrees: Research in the narrow Al field is not likely to lead to significant breakthroughs in the general Al field.,100332,Hard,0.55,Non-Math Related
+434,TPA,,Medium,Evaluate,345,375,"Strengthen: Baby birds of coastal-plain subspecies and baby birds of a freshwater swamp subspecies, all raised on an identical diet under controlled conditions, grew plumage similar in color to that of their respective parents.; Weaken: None of the genetic differences that have been identified in the genomes of coastal-plain swamp sparrows and freshwater swamp sparrows affect plumage color.",100355,Hard,0.55,Non-Math Related
+435,TPA,,Medium,Apply,346,376,Number of players: 9; Number of minutes: 45,100360,Medium,0.25,Math Related
+436,TPA,,Medium,Apply,346,376,"x: 96,000; y: 32,000",100365,Medium,0.35,Math Related
+437,TPA,,Medium,Apply,346,377,Shortest time: 1 hour 7 minutes; Longest time: 1 hour 22 minutes,100374,Medium,0.45,Math Related
+438,TPA,,Medium,Infer,347,378,Cannot be presented second: Trampoline; Cannot be presented third: Waltzy,100378,Very Hard,0.75,Non-Math Related
+439,TPA,,Medium,Apply,347,378,"Painting: Painting of girl’s face, in shades of blue and red, acrylic and oil on canvas, 2006.; Sculpture: Abstract sequence of interconnected curves, ceramic, 2008.",100392,Very Hard,0.85,Non-Math Related
+440,TPA,,Medium,Infer,347,379,(1): The aid industry should focus its spending less on primary education than it now does.; (2): Projects in education are more likely to be successful if they are paid for by local people.,100400,Hard,0.65,Non-Math Related
+441,TPA,,Medium,Infer,348,380,v_{0} : 5; v_{10} : 20,100401,Hard,0.65,Math Related
+442,TPA,,Medium,Infer,348,380,s_{1} : -3; s_{4} : -7,100402,Medium,0.45,Math Related
+443,TPA,,Medium,Infer,348,381,First two bars: 0.98; Third bar: 0.92,100426,Hard,0.55,Math Related
+444,TPA,,Medium,Infer,348,382,M: 3; N: 6,100444,Hard,0.55,Math Related
+445,TPA,,Medium,Evaluate,349,382,1: economic wellbeing after graduating from university; 2: tendency to earn higher grades in university classes,100451,Medium,0.45,Non-Math Related
+446,TPA,,Medium,Apply,349,383,Least: 52; Greatest: 53,100474,Medium,0.45,Non-Math Related
+447,TPA,,Medium,Infer,349,383,X: A; Y: C,100506,Medium,0.45,Non-Math Related
+448,TPA,,Medium,Apply,350,384,Both A and B: Must be less than or equal to 20%; B or C or Both: Must be greater than or equal to 80%,101098,Medium,0.35,Math Related
+449,TPA,,Medium,Evaluate,350,385,N/A,102067,Medium,0.35,Math Related
+450,TPA,,Medium,Infer,351,386,0.5 km: 3km; 1.5 km: 9km,102068,Medium,0.25,Math Related
+451,TPA,,Hard,Infer,351,387,"1: less than 100,000 AED; 2: less than 100,000 AED",102069,Very Hard,0.95,Math Related
+452,TPA,,Hard,Infer,351,387,1: impressed the hiring committee during the telephone interview; 2: had extensive experience,102070,Very Hard,0.95,Non-Math Related
+453,TPA,,Hard,Infer,352,388,Must vote: Abigail only; Must not vote: Charles only,102071,Very Hard,0.95,Non-Math Related
+454,TPA,,Hard,Recognize,352,389,1: less than; 2: at least,102072,Hard,0.55,Non-Math Related
+455,TPA,,Hard,Apply,,,"June 1990-June 1995: 1,530; June 2000-June 2005: 4,640",100314,Hard,0.65,Math Related
+456,TPA,,Hard,Apply,,,Fifth character: Digit; Seventh character: Digit,100324,Very Hard,0.75,Non-Math Related
+457,TPA,,Hard,Infer,353,390,"Adopted: There will be fewer, if any, entirely unmonitored beaches.; Not Adopted: Some beaches will remain entirely unmonitored.",100331,Very Hard,0.75,Non-Math Related
+458,TPA,,Hard,Evaluate,353,391,"Marco: Giant kangaroos became extinct during a period that was less arid than previous periods they endured.; Fatima: Many researchers believe humans first arrived in Australia around 40,000 years ago.",100371,Very Hard,0.95,Non-Math Related
+459,TPA,,Hard,Strategize,354,392,City X: Eliminate radio advertising; City Z: Eliminate radio advertising,100391,Very Hard,0.95,Non-Math Related
+460,TPA,,Hard,Strategize,354,392,​​​​​​​Decrease expenses: Return spending on productions to levels of several years ago; Increase audience size: Mount a local advertising campaign emphasizing the affordability and excitement of Metro Ballet's spectacular stage productions,100403,Hard,0.65,Non-Math Related
+461,TPA,,Hard,Apply,355,394,Verbal warning: Absent 4.5 hours on 19 March 2010; stayed 1 hour late on 20 March 2010; absent all day on 8 and 9 February 2011; arrived 40 minutes late on 17 April 2011; Written reprimand: Absent 3 hours on 7 July 2010; absent 2.5 hours on 13 September 2010; absent all day on 31 January 2011 and 4 July 2011; absent 5 hours on 12 March 2011,100404,Very Hard,0.95,Non-Math Related
+462,TPA,,Hard,Infer,355,395,(1) If: asks B for a campaign; (2) then: believes the focus group did not respond positively to A's campaign,100428,Hard,0.65,Non-Math Related
+463,TPA,,Hard,Infer,355,395,Francois: €750; Pierre: €250,100437,Medium,0.25,Math Related
+464,TPA,,Hard,Infer,356,396,"Assumes to be true: McGregor’s height, way of walking, and tendency to wear hats distinguish him from the other groundskeepers.; Assumes to be false: McGregor was the only groundskeeper scheduled to work at the building on Tuesday, July 6.",101099,Very Hard,0.75,Non-Math Related
+465,TPA,,Hard,Apply,356,397,All the same type: \frac{1}{55} ; 3 different types: \frac{27}{55},101100,Very Hard,0.95,Math Related
+466,TPA,,Hard,Apply,356,398,P: 8; Q: 5,101101,Hard,0.55,Math Related
+467,RC,1,Easy,Main Idea,434,501,D,100596,Easy,0.15,Short Passage; Science
+468,RC,1,Easy,Supporting Idea,434,501,D,100598,Easy,0.05,Short Passage; Science
+469,RC,1,Easy,Application,435,502,B,100597,Easy,0.15,Short Passage; Science
+470,RC,2,Easy,Main Idea,436,503,B,100603,Medium,0.45,Business; Short Passage
+471,RC,2,Easy,Inference,436,503,C,100604,Medium,0.25,Business; Short Passage
+472,RC,2,Easy,Supporting Idea,437,504,C,100605,Easy,0.05,Business; Short Passage
+473,RC,3,Easy,Evaluation,438,505,A,100585,Medium,0.45,Short Passage; Science
+474,RC,3,Easy,Supporting Idea,439,506,C,100586,Easy,0.05,Short Passage; Science
+475,RC,4,Easy,Inference,440,506,D,100541,Easy,0.05,Social Science; Short Passage
+476,RC,4,Easy,Application,440,507,C,100542,Easy,0.05,Social Science; Short Passage
+477,RC,4,Easy,Supporting Idea,441,508,A,100543,Easy,0.05,Social Science; Short Passage
+478,RC,4,Easy,Inference,441,508,C,100544,Medium,0.25,Social Science; Short Passage
+479,RC,5,Easy,Inference,442,509,D,102073,Easy,0.05,Science; Long Passage
+480,RC,5,Easy,Supporting Idea,442,509,A,102074,Easy,0.15,Science; Long Passage
+481,RC,5,Easy,Evaluation,443,510,D,102075,Very Hard,0.95,Science; Long Passage
+482,RC,5,Easy,Supporting Idea,443,511,B,102076,Easy,0.15,Science; Long Passage
+483,RC,6,Easy,Main Idea,444,511,C,100567,Easy,0.05,Business; Short Passage
+484,RC,6,Easy,Inference,444,512,B,100568,Easy,0.05,Business; Short Passage
+485,RC,6,Easy,Inference,445,512,B,100569,Medium,0.35,Business; Short Passage
+486,RC,6,Easy,Inference,445,513,A,100570,Easy,0.15,Business; Short Passage
+487,RC,6,Easy,Evaluation,445,514,D,100571,Hard,0.55,Business; Short Passage
+488,RC,7,Easy,Main Idea,446,514,C,100587,Easy,0.15,Business; Short Passage
+489,RC,7,Easy,Supporting Idea,446,515,E,100588,Easy,0.15,Business; Short Passage
+490,RC,7,Easy,Evaluation,447,515,B,100589,Easy,0.05,Business; Short Passage
+491,RC,7,Easy,Supporting Idea,447,516,D,100590,Easy,0.15,Business; Short Passage
+492,RC,8,Easy,Supporting Idea,448,517,C,100592,Easy,0.15,Business; Long Passage
+493,RC,8,Easy,Evaluation,448,517,B,100593,Easy,0.15,Business; Long Passage
+494,RC,8,Easy,Inference,449,518,D,100594,Medium,0.45,Business; Long Passage
+495,RC,8,Easy,Supporting Idea,449,518,A,100595,Medium,0.25,Business; Long Passage
+496,RC,9,Easy,Supporting Idea,450,519,C,100302,Easy,0.05,Humanities; Social Science; Short Passage
+497,RC,9,Easy,Inference,450,520,D,100303,Easy,0.15,Humanities; Social Science; Short Passage
+498,RC,9,Easy,Inference,451,520,B,100304,Very Hard,0.75,Humanities; Social Science; Short Passage
+499,RC,9,Easy,Supporting Idea,451,521,B,100305,Easy,0.15,Humanities; Social Science; Short Passage
+500,RC,10,Easy,Supporting Idea,452,521,C,102077,Easy,0.15,Long Passage; Science
+501,RC,10,Easy,Evaluation,452,522,D,102078,Medium,0.25,Long Passage; Science
+502,RC,10,Easy,Supporting Idea,452,523,A,102079,Easy,0.05,Long Passage; Science
+503,RC,10,Easy,Logical Structure,453,523,D,102080,Easy,0.05,Long Passage; Science
+504,RC,10,Easy,Main Idea,453,523,B,102081,Easy,0.05,Long Passage; Science
+505,RC,11,Easy,Supporting Idea,454,524,B,100479,Easy,0.05,Science; Long Passage
+506,RC,11,Easy,Supporting Idea,454,524,B,100480,Easy,0.05,Science; Long Passage
+507,RC,11,Easy,Inference,454,525,D,100481,Easy,0.05,Science; Long Passage
+508,RC,11,Easy,Main Idea,454,525,A,100482,Easy,0.05,Science; Long Passage
+509,RC,12,Medium,Supporting Idea,455,526,D,100338,Medium,0.35,Long Passage; Humanities
+510,RC,12,Medium,Inference,455,526,C,100339,Hard,0.65,Long Passage; Humanities
+511,RC,12,Medium,Evaluation,456,527,B,100340,Medium,0.35,Long Passage; Humanities
+512,RC,12,Medium,Evaluation,456,528,A,100341,Medium,0.25,Long Passage; Humanities
+513,RC,12,Medium,Inference,456,528,E,100342,Medium,0.35,Long Passage; Humanities
+514,RC,12,Medium,Evaluation,456,529,A,100343,Very Hard,0.85,Long Passage; Humanities
+515,RC,13,Medium,Main Idea,457,530,D,102082,Medium,0.25,Social Science; Long Passage
+516,RC,13,Medium,Evaluation,457,530,E,102083,Hard,0.55,Social Science; Long Passage
+517,RC,14,Medium,Inference,458,531,B,100560,Medium,0.45,Short Passage; Business
+518,RC,14,Medium,Evaluation,458,532,C,100561,Medium,0.45,Short Passage; Business
+519,RC,14,Medium,Inference,459,532,C,100562,Easy,0.05,Short Passage; Business
+520,RC,14,Medium,Evaluation,459,533,A,100563,Easy,0.05,Short Passage; Business
+521,RC,14,Medium,Supporting Idea,459,534,D,100564,Medium,0.25,Short Passage; Business
+522,RC,15,Medium,Supporting Idea,460,534,D,100573,Easy,0.15,Science; Short Passage
+523,RC,15,Medium,Inference,460,535,C,100574,Medium,0.35,Science; Short Passage
+524,RC,15,Medium,Application,460,536,E,100575,Medium,0.25,Science; Short Passage
+525,RC,15,Medium,Inference,460,536,A,100576,Easy,0.15,Science; Short Passage
+526,RC,15,Medium,Inference,461,536,C,100577,Easy,0.15,Science; Short Passage
+527,RC,16,Medium,Supporting Idea,462,537,D,100545,Easy,0.05,Short Passage; Humanities
+528,RC,16,Medium,Supporting Idea,462,538,E,100546,Medium,0.25,Short Passage; Humanities
+529,RC,16,Medium,Application,463,538,A,100547,Very Hard,0.85,Short Passage; Humanities
+530,RC,16,Medium,Evaluation,463,539,B,100548,Medium,0.35,Short Passage; Humanities
+531,RC,16,Medium,Supporting Idea,463,539,C,100549,Medium,0.25,Short Passage; Humanities
+532,RC,17,Medium,Inference,464,540,A,102084,Easy,0.15,Science; Long Passage
+533,RC,17,Medium,Supporting Idea,464,541,E,102085,Easy,0.15,Science; Long Passage
+534,RC,17,Medium,Supporting Idea,464,541,D,102086,Easy,0.15,Science; Long Passage
+535,RC,17,Medium,Evaluation,465,542,C,102087,Medium,0.35,Science; Long Passage
+536,RC,17,Medium,Evaluation,465,543,B,102088,Medium,0.35,Science; Long Passage (OA typo in OG)
+537,RC,18,Medium,Inference,466,543,C,100466,Medium,0.25,Business; Long Passage
+538,RC,18,Medium,Inference,466,544,E,100467,Easy,0.05,Business; Long Passage
+539,RC,18,Medium,Evaluation,466,545,A,100468,Easy,0.15,Business; Long Passage
+540,RC,18,Medium,Application,467,545,D,100469,Medium,0.35,Business; Long Passage
+541,RC,18,Medium,Main Idea,467,546,A,100470,Medium,0.25,Business; Long Passage
+542,RC,19,Medium,Supporting Idea,468,546,A,100493,Medium,0.25,Science
+543,RC,19,Medium,Application,468,547,E,100494,Easy,0.05,Science
+544,RC,19,Medium,Evaluation,469,547,A,100495,Medium,0.35,Science
+545,RC,19,Medium,Evaluation,469,548,D,100496,Hard,0.55,Science
+546,RC,20,Medium,Main Idea,470,548,D,100537,Easy,0.15,Business; Social Science; Short Passage
+547,RC,20,Medium,Inference,470,549,D,100538,Easy,0.05,Business; Social Science; Short Passage
+548,RC,20,Medium,Application,471,549,B,100539,Hard,0.55,Business; Social Science; Short Passage
+549,RC,21,Medium,Inference,472,550,B,100507,Medium,0.35,Business; Short Passage
+550,RC,21,Medium,Supporting Idea,472,551,C,100508,Medium,0.25,Business; Short Passage
+551,RC,21,Medium,Evaluation,473,551,C,100509,Easy,0.15,Business; Short Passage
+552,RC,21,Medium,Main Idea,473,552,E,100510,Medium,0.25,Business; Short Passage
+553,RC,22,Medium,Main Idea,474,552,C,100327,Medium,0.45,Business; Short Passage
+554,RC,22,Medium,Inference,474,553,D,100328,Hard,0.65,Business; Short Passage
+555,RC,22,Medium,Evaluation,475,553,B,100329,Medium,0.45,Business; Short Passage
+556,RC,22,Medium,Inference,475,554,C,100330,Medium,0.35,Business; Short Passage
+557,RC,23,Medium,Supporting Idea,476,555,C,101102,Medium,0.25,Social Science; Long Passage
+558,RC,23,Medium,Evaluation,476,555,C,101103,Medium,0.45,Social Science; Long Passage
+559,RC,23,Medium,Supporting Idea,476,556,B,101104,Medium,0.25,Social Science; Long Passage
+560,RC,23,Medium,Inference,477,556,B,101105,Medium,0.45,Social Science; Long Passage
+561,RC,24,Medium,Main Idea,478,557,E,101106,Easy,0.15,Short Passage; Social Science
+562,RC,24,Medium,Logical Structure,478,557,E,101107,Easy,0.05,Short Passage; Social Science
+563,RC,24,Medium,Inference,479,558,D,101108,Medium,0.45,Short Passage; Social Science
+564,RC,25,Hard,Main Idea,480,559,E,102089,Easy,0.15,Science; Long Passage
+565,RC,25,Hard,Inference,480,559,D,102090,Hard,0.65,Science; Long Passage
+566,RC,25,Hard,Evaluation,481,560,B,102091,Medium,0.35,Science; Long Passage
+567,RC,25,Hard,Logical Structure,481,560,C,102092,Very Hard,0.75,Science; Long Passage
+568,RC,25,Hard,Supporting Idea,481,561,E,102093,Hard,0.55,Science; Long Passage
+569,RC,26,Hard,Inference,482,562,E,100611,Medium,0.35,Humanities; Short Passage
+570,RC,26,Hard,Evaluation,483,563,A,100612,Easy,0.05,Humanities; Short Passage
+571,RC,26,Hard,Main Idea,483,564,B,100613,Hard,0.55,Humanities; Short Passage
+572,RC,27,Hard,Evaluation,484,564,D,100579,Very Hard,0.95,Long Passage; Social Science
+573,RC,27,Hard,Inference,485,565,E,100584,Hard,0.55,Long Passage; Social Science
+574,RC,27,Hard,Inference,485,565,E,100580,Easy,0.05,Long Passage; Social Science
+575,RC,27,Hard,Evaluation,485,566,D,100582,Easy,0.05,Long Passage; Social Science
+576,RC,27,Hard,Main Idea,485,566,B,100581,Medium,0.45,Long Passage; Social Science
+577,RC,27,Hard,Inference,485,567,C,100583,Hard,0.55,Long Passage; Social Science
+578,RC,28,Hard,Evaluation,486,568,D,102094,Medium,0.45,Social Science; Short Passage
+579,RC,28,Hard,Inference,486,568,C,102095,Very Hard,0.75,Social Science; Short Passage
+580,RC,28,Hard,Main Idea,486,569,A,102096,Easy,0.15,Social Science; Short Passage
+581,RC,29,Hard,Main Idea,487,569,A,100497,Medium,0.45,Science; Long Passage
+582,RC,29,Hard,Inference,487,570,D,100498,Medium,0.35,Science; Long Passage
+583,RC,29,Hard,Inference,487,570,E,100499,Hard,0.55,Science; Long Passage
+584,RC,29,Hard,Application,488,571,D,100500,Easy,0.15,Science; Long Passage
+585,RC,29,Hard,Evaluation,488,572,B,100501,Easy,0.15,Science; Long Passage
+586,RC,29,Hard,Evaluation,488,572,C,100502,Medium,0.35,Science; Long Passage
+587,RC,30,Hard,Supporting Idea,489,573,A,100607,Medium,0.35,Short Passage; Science
+588,RC,30,Hard,Application,489,573,C,100608,Easy,0.05,Short Passage; Science
+589,RC,30,Hard,Evaluation,490,574,B,100609,Easy,0.15,Short Passage; Science
+590,RC,30,Hard,Inference,490,575,D,100610,Easy,0.15,Short Passage; Science
+591,RC,31,Hard,Supporting Idea,491,576,D,100368,Very Hard,0.75,Science; Long Passage
+592,RC,31,Hard,Evaluation,491,576,E,100369,Medium,0.35,Science; Long Passage
+593,RC,31,Hard,Inference,492,577,B,100370,Hard,0.55,Science; Long Passage
+594,RC,32,Hard,Inference,493,578,A,100634,Medium,0.35,Business; Long Passage
+595,RC,32,Hard,Inference,493,578,E,100635,Hard,0.65,Business; Long Passage
+596,RC,32,Hard,Inference,493,579,B,100636,Hard,0.65,Business; Long Passage
+597,RC,32,Hard,Inference,494,579,D,100637,Hard,0.55,Business; Long Passage
+598,RC,32,Hard,Supporting Idea,494,580,C,100638,Hard,0.55,Business; Long Passage
+599,RC,33,Hard,Evaluation,495,581,D,100529,Very Hard,0.75,Social Science; Long Passage
+600,RC,33,Hard,Supporting Idea,495,581,E,100530,Medium,0.45,Social Science; Long Passage
+601,RC,33,Hard,Supporting Idea,495,582,C,100531,Medium,0.45,Social Science; Long Passage
+602,RC,33,Hard,Inference,496,582,B,100532,Medium,0.25,Social Science; Long Passage
+603,RC,34,Hard,Inference,496,583,A,100533,Medium,0.25,Social Science; Long Passage
+604,RC,34,Hard,Evaluation,496,583,C,100534,Hard,0.65,Social Science; Long Passage
+605,RC,34,Hard,Inference,496,584,D,100535,Medium,0.45,Social Science; Long Passage
+606,RC,35,Hard,Inference,497,585,C,100599,Medium,0.45,Science; Short Passage
+607,RC,35,Hard,Application,497,585,D,100600,Hard,0.55,Science; Short Passage
+608,RC,35,Hard,Supporting Idea,497,586,B,100601,Medium,0.25,Science; Short Passage
+609,RC,35,Hard,Evaluation,498,587,E,100602,Very Hard,0.85,Science; Short Passage
+610,RC,36,Hard,Evaluation,499,587,E,100522,Easy,0.05,Science; Short Passage
+611,RC,36,Hard,Inference,499,588,D,100521,Hard,0.55,Science; Short Passage
+612,RC,36,Hard,Inference,499,588,C,100520,Hard,0.55,Science; Short Passage
+613,CR,,Easy,Argument Evaluation,590,647,B,100193,Easy,0.05,Strengthen
+614,CR,,Easy,Argument Construction,590,648,B,100181,Hard,0.55,Assumption
+615,CR,,Easy,Argument Construction,590,649,B,100194,Easy,0.05,Resolve Paradox
+616,CR,,Easy,Argument Evaluation,590,650,D,100220,Easy,0.15,Strengthen
+617,CR,,Easy,Evaluation of a Plan,,,D,100225,Easy,0.05,Weaken
+618,CR,,Easy,Argument Construction,591,652,D,100237,Easy,0.05,Resolve Paradox
+619,CR,,Easy,Argument Construction,591,653,E,101005,Easy,0.05,Inference
+620,CR,,Easy,Argument Evaluation,592,654,C,100236,Easy,0.15,Strengthen
+621,CR,,Easy,Argument Evaluation,592,655,C,100226,Easy,0.15,Weaken
+622,CR,,Easy,Argument Construction,592,656,D,100200,Easy,0.15,Strengthen
+623,CR,,Easy,Argument Construction,593,657,A,100195,Easy,0.05,Complete the Passage
+624,CR,,Easy,Argument Construction,593,658,D,100211,Medium,0.35,Assumption
+625,CR,,Easy,Evaluation of a Plan,,,B,100175,Easy,0.15,Assumption
+626,CR,,Easy,Argument Evaluation,593,660,C,101014,Easy,0.05,Strengthen
+627,CR,,Easy,Evaluate Plan,,,E,100965,Easy,0.05,Weaken
+628,CR,,Easy,Argument Construction,594,662,B,100201,Medium,0.35,Strengthen
+629,CR,,Easy,Argument Construction,594,663,B,100223,Medium,0.25,Complete the Passage
+630,CR,,Easy,Argument Evaluation,594,664,A,100666,Easy,0.05,Strengthen
+631,CR,,Easy,Argument Construction,595,665,B,102097,Easy,0.05,Resolve Paradox
+632,CR,,Easy,Argument Evaluation,595,666,C,102098,Medium,0.25,Weaken
+633,CR,,Easy,Argument Construction,595,667,E,100146,Easy,0.05,Complete the Passage
+634,CR,,Easy,Argument Evaluation,596,668,C,100196,Medium,0.25,Strengthen
+635,CR,,Easy,Argument Construction,596,669,E,100684,Easy,0.05,Resolve Paradox
+636,CR,,Easy,Argument Construction,596,670,E,102099,Easy,0.05,Resolve Paradox
+637,CR,,Easy,Argument Construction,596,671,C,100848,Easy,0.15,Bold Face CR
+638,CR,,Easy,Argument Construction,597,672,A,100814,Easy,0.05,Complete the Passage
+639,CR,,Easy,Argument Construction,597,673,C,102100,Easy,0.05,Inference
+640,CR,,Easy,Evaluation of a Plan,,,A,101013,Easy,0.05,Evaluate Argument
+641,CR,,Easy,Argument Evaluation,598,675,D,100665,Easy,0.15,Strengthen
+642,CR,,Easy,Argument Evaluation,598,677,B,100800,Easy,0.05,Weaken
+643,CR,,Easy,Argument Construction,598,678,D,100645,Easy,0.05,Resolve Paradox
+644,CR,,Easy,Argument Evaluation,598,679,E,100771,Easy,0.15,Strengthen
+645,CR,,Easy,Evaluation of a Plan,,,D,100839,Easy,0.15,Strengthen
+646,CR,,Easy,Evaluation of a Plan,,,A,100769,Easy,0.05,Strengthen
+647,CR,,Easy,Argument Evaluation,599,682,C,102101,Easy,0.05,Logical Flaw
+648,CR,,Easy,Argument Construction,600,683,B,100979,Easy,0.05,Bold Face CR
+649,CR,,Easy,Evaluation of a Plan,600,684,E,102102,Easy,0.05,Resolve Paradox
+650,CR,,Easy,Evaluation of a Plan,600,685,A,102103,Medium,0.25,Evaluate Argument
+651,CR,,Easy,Evaluation of a Plan,600,686,C,100705,Easy,0.15,Complete the Passage
+652,CR,,Easy,Evaluation of a Plan,601,687,E,100157,Easy,0.15,Strengthen
+653,CR,,Easy,Evaluation of a Plan,601,688,C,102104,Easy,0.05,Evaluate Argument
+654,CR,,Easy,Evaluation of a Plan,601,689,B,102105,Easy,0.05,Bold Face CR
+655,CR,,Easy,Evaluation of a Plan,601,690,E,100820,Easy,0.05,Strengthen
+656,CR,,Easy,Argument Construction,602,691,B,100954,Easy,0.15,Assumption
+657,CR,,Easy,Evaluation of a Plan,602,692,E,100988,Easy,0.15,Strengthen
+658,CR,,Easy,Argument Evaluation,602,693,D,100787,Easy,0.15,Weaken
+659,CR,,Easy,Argument Construction,603,694,E,100811,Easy,0.15,Resolve Paradox
+660,CR,,Easy,Argument Evaluation,603,695,B,100847,Medium,0.25,Strengthen
+661,CR,,Easy,Evaluation of a Plan,603,696,E,100864,Easy,0.05,Weaken
+662,CR,,Easy,Argument Construction,603,697,D,100733,Easy,0.15,Bold Face CR
+663,CR,,Easy,Argument Evaluation,604,698,D,100641,Easy,0.15,Strengthen
+664,CR,,Easy,Argument Evaluation,604,699,D,100690,Hard,0.65,Weaken
+665,CR,,Easy,Evaluation of a Plan,604,701,B,100174,Medium,0.35,Weaken
+666,CR,,Easy,Argument Evaluation,605,702,C,100871,Easy,0.05,Weaken
+667,CR,,Easy,Argument Evaluation,605,703,D,100807,Very Hard,0.95,Weaken
+668,CR,,Easy,Argument Construction,605,705,D,100654,Easy,0.05,Evaluate Argument
+669,CR,,Easy,Evaluation of a Plan,605,706,D,100938,Medium,0.25,Conclusion
+670,CR,,Easy,Evaluation of a Plan,606,707,D,100943,Easy,0.05,Resolve Paradox
+671,CR,,Easy,Argument Evaluation,606,708,B,101109,Easy,0.05,Weaken
+672,CR,,Easy,Evaluation of a Plan,606,709,D,101111,Easy,0.05,Weaken
+673,CR,,Medium,Argument Evaluation,607,710,D,101003,Very Hard,0.85,Logical Flaw
+674,CR,,Medium,Argument Construction,607,711,A,100989,Medium,0.45,Assumption
+675,CR,,Medium,Argument Construction,607,712,A,100667,Easy,0.15,Inference
+676,CR,,Medium,Argument Evaluation,607,713,E,100229,Medium,0.35,Strengthen
+677,CR,,Medium,Argument Construction,608,714,B,100227,Medium,0.25,Complete the Passage
+678,CR,,Medium,Argument Construction,608,715,B,100714,Easy,0.15,Bold Face CR
+679,CR,,Medium,Argument Construction,608,716,B,100187,Hard,0.55,Assumption
+680,CR,,Medium,Argument Construction,609,717,D,100747,Easy,0.05,Bold Face CR
+681,CR,,Medium,Argument Construction,609,718,D,100958,Easy,0.15,Weaken
+682,CR,,Medium,Argument Construction,609,719,E,100142,Easy,0.15,Assumption
+683,CR,,Medium,Argument Evaluation,610,720,C,100188,Easy,0.15,Logical Flaw
+684,CR,,Medium,Argument Construction,610,721,D,100790,Easy,0.05,Resolve Paradox
+685,CR,,Medium,Evaluation of a Plan,,,B,100841,Medium,0.45,Logical Flaw
+686,CR,,Medium,Argument Construction,610,723,C,100642,Easy,0.15,Complete the Passage; Inference
+687,CR,,Medium,Argument Construction,611,724,B,102106,Medium,0.25,Evaluate Argument
+688,CR,,Medium,Argument Evaluation,611,725,C,100234,Hard,0.55,Weaken
+689,CR,,Medium,Evaluation of a Plan,,,B,100841,Medium,0.45,Logical Flaw
+690,CR,,Medium,Argument Construction,612,727,E,100999,Easy,0.15,Assumption
+691,CR,,Medium,Argument Evaluation,612,728,B,102107,Medium,0.25,Weaken
+692,CR,,Medium,Argument Evaluation,612,729,D,100842,Easy,0.15,Strengthen
+693,CR,,Medium,Argument Evaluation,612,730,C,100141,Very Hard,0.85,Logical Flaw; Method of Reasoning
+694,CR,,Medium,Argument Evaluation,613,731,A,100657,Easy,0.15,Strengthen
+695,CR,,Medium,Argument Construction,613,732,D,100209,Hard,0.55,Assumption
+696,CR,,Medium,Argument Construction,613,733,D,100168,Easy,0.15,Strengthen
+697,CR,,Medium,Argument Construction,614,734,A,100647,Easy,0.05,Bold Face CR
+698,CR,,Medium,Argument Evaluation,614,735,A,102108,Medium,0.25,Weaken
+699,CR,,Medium,Evaluation of a Plan,614,736,C,102109,Medium,0.45,Bold Face CR; Similar Reasoning
+700,CR,,Medium,Argument Evaluation,614,737,C,100707,Medium,0.35,Strengthen
+701,CR,,Medium,Argument Evaluation,615,738,B,100688,Easy,0.15,Strengthen
+702,CR,,Medium,Argument Construction,615,739,C,100134,Easy,0.15,Bold Face CR
+703,CR,,Medium,Argument Construction,615,740,C,102110,Easy,0.15,Resolve Paradox
+704,CR,,Medium,Evaluation of a Plan,616,741,C,100778,Easy,0.05,Weaken
+705,CR,,Medium,Argument Construction,616,742,B,100203,Medium,0.45,Evaluate Argument
+706,CR,,Medium,Argument Construction,616,743,C,100178,Medium,0.35,Assumption
+707,CR,,Medium,Evaluation of a Plan,616,744,D,101002,Easy,0.15,Strengthen
+708,CR,,Medium,Argument Construction,617,745,C,100764,Easy,0.15,Assumption
+709,CR,,Medium,Argument Construction,617,746,C,102111,Hard,0.55,Inference
+710,CR,,Medium,Argument Evaluation,617,747,E,100205,Easy,0.15,Strengthen
+711,CR,,Medium,Evaluation of a Plan,617,748,C,100182,Hard,0.65,Strengthen
+712,CR,,Medium,Evaluation of a Plan,618,749,E,100640,Easy,0.15,Strengthen
+713,CR,,Medium,Argument Evaluation,618,750,D,100742,Medium,0.45,Strengthen
+714,CR,,Medium,Argument Construction,618,751,D,100191,Easy,0.15,Strengthen
+715,CR,,Medium,Argument Construction,619,752,E,100745,Easy,0.15,Bold Face CR
+716,CR,,Medium,Argument Construction,619,753,A,100746,Easy,0.15,Bold Face CR
+717,CR,,Medium,Argument Evaluation,619,754,A,100653,Medium,0.35,Strengthen
+718,CR,,Medium,Argument Construction,620,755,E,100959,Medium,0.25,Complete the Passage
+719,CR,,Medium,Argument Construction,620,756,E,100208,Hard,0.55,Evaluate Argument
+720,CR,,Medium,Argument Construction,620,758,C,100741,Medium,0.45,Resolve Paradox
+721,CR,,Medium,Argument Evaluation,620,759,A,100781,Very Hard,0.75,Weaken
+722,CR,,Medium,Argument Construction,621,760,C,100883,Easy,0.15,Assumption
+723,CR,,Medium,Argument Evaluation,621,761,D,100867,Medium,0.25,Weaken
+724,CR,,Medium,Argument Evaluation,621,762,D,100837,Easy,0.15,Weaken
+725,CR,,Medium,Argument Construction,622,763,D,100789,Hard,0.65,Inference; Must be True
+726,CR,,Medium,Argument Evaluation,622,764,A,100144,Medium,0.45,Weaken
+727,CR,,Medium,Argument Evaluation,622,765,D,100659,Easy,0.15,Strengthen
+728,CR,,Medium,Argument Evaluation,622,766,B,101112,Medium,0.25,Evaluate Argument
+729,CR,,Medium,Argument Construction,623,767,C,101113,Medium,0.35,Strengthen
+730,CR,,Medium,Evaluation of a Plan,618,749,E,101114,Medium,0.45,Weaken
+731,CR,,Medium,Argument Construction,623,769,A,102112,Medium,0.35,Conclusion
+732,CR,,Medium,Argument Construction,624,770,C,102113,Medium,0.35,Conclusion
+733,CR,,Medium,Argument Construction,624,771,E,102114,Hard,0.55,Inference; Must be True
+734,CR,,Medium,Argument Construction,624,772,C,102115,Medium,0.25,Assumption
+735,CR,,Medium,Argument Evaluation,624,773,D,102116,Medium,0.35,Weaken
+736,CR,,Medium,Argument Evaluation,625,774,A,102117,Medium,0.35,Weaken
+737,CR,,Medium,Evaluation of a Plan,625,775,D,102118,Hard,0.55,Method of Reasoning
+738,CR,,Medium,Evaluation of a Plan,625,776,D,102119,Medium,0.25,Weaken
+739,CR,,Hard,Argument Construction,626,777,E,100917,Hard,0.55,Inference
+740,CR,,Hard,Argument Evaluation,626,778,C,100918,Hard,0.55,Resolve Paradox
+741,CR,,Hard,Argument Construction,626,779,E,100927,Easy,0.05,Complete the Passage
+742,CR,,Hard,Argument Construction,627,780,D,100757,Hard,0.55,Bold Face CR
+743,CR,,Hard,Evaluation of a Plan,627,781,A,100914,Medium,0.45,Weaken
+744,CR,,Hard,Argument Construction,627,782,B,102120,Hard,0.55,Weaken
+745,CR,,Hard,Argument Evaluation,628,783,A,100840,Medium,0.25,Weaken
+746,CR,,Hard,Argument Construction,628,784,E,100102,Medium,0.45,Bold Face CR
+747,CR,,Hard,Argument Construction,628,785,A,102121,Medium,0.45,Complete the Passage
+748,CR,,Hard,Argument Evaluation,628,786,A,100650,Medium,0.35,Weaken
+749,CR,,Hard,Argument Construction,629,787,D,100677,Medium,0.35,Complete the Passage; Resolve Paradox
+750,CR,,Hard,Argument Evaluation,629,788,E,100668,Easy,0.15,Weaken
+751,CR,,Hard,Evaluation of a Plan,629,789,D,100773,Medium,0.35,Weaken
+752,CR,,Hard,Argument Construction,630,790,E,100844,Medium,0.35,Assumption
+753,CR,,Hard,Argument Evaluation,630,791,E,100664,Medium,0.45,Weaken
+754,CR,,Hard,Argument Construction,630,792,B,100681,Medium,0.35,Resolve Paradox
+755,CR,,Hard,Argument Construction,631,793,E,100868,Medium,0.25,Inference
+756,CR,,Hard,Argument Evaluation,631,794,E,100649,Hard,0.55,Strengthen
+757,CR,,Hard,Argument Evaluation,631,795,E,102122,Hard,0.55,Weaken
+758,CR,,Hard,Argument Construction,632,796,B,100865,Medium,0.35,Inference
+759,CR,,Hard,Argument Evaluation,632,797,A,100855,Hard,0.65,Assumption
+760,CR,,Hard,Argument Evaluation,632,798,D,100872,Medium,0.25,Evaluate Argument
+761,CR,,Hard,Argument Construction,632,799,C,100780,Medium,0.35,Assumption
+762,CR,,Hard,Evaluation of a Plan,633,800,A,100725,Medium,0.45,Weaken
+763,CR,,Hard,Argument Evaluation,633,801,B,100704,Easy,0.15,Evaluate Argument
+764,CR,,Hard,Argument Evaluation,633,802,D,100660,Hard,0.65,Bold Face CR
+765,CR,,Hard,Argument Construction,634,804,D,100799,Hard,0.55,Resolve Paradox
+766,CR,,Hard,Argument Construction,634,805,A,100686,Medium,0.35,Resolve Paradox
+767,CR,,Hard,Argument Evaluation,634,806,C,100777,Medium,0.25,Weaken
+768,CR,,Hard,Evaluation of a Plan,635,807,C,100706,Medium,0.25,Evaluate Argument
+769,CR,,Hard,Argument Evaluation,635,808,B,100833,Hard,0.65,Evaluate Argument
+770,CR,,Hard,Argument Construction,635,809,E,100683,Medium,0.35,Assumption
+771,CR,,Hard,Evaluation of a Plan,635,810,D,100128,Medium,0.25,Weaken
+772,CR,,Hard,Argument Evaluation,636,811,A,100703,Very Hard,0.85,Bold Face CR
+773,CR,,Hard,Argument Evaluation,636,812,E,100899,Easy,0.05,Number Properties
+774,CR,,Hard,Evaluation of a Plan,636,813,A,100233,Easy,0.15,Weaken
+775,CR,,Hard,Argument Evaluation,637,814,B,100891,Medium,0.45,Strengthen
+776,CR,,Hard,Argument Construction,637,815,A,100133,Very Hard,0.75,Assumption
+777,CR,,Hard,Argument Construction,637,816,B,100981,Medium,0.45,Bold Face CR
+778,CR,,Hard,Argument Evaluation,638,817,B,100875,Hard,0.65,Bold Face CR
+779,CR,,Hard,Argument Evaluation,638,818,B,100803,Medium,0.35,Bold Face CR
+780,CR,,Hard,Argument Construction,638,819,D,100658,Hard,0.55,Inference
+781,CR,,Hard,Argument Evaluation,638,820,B,100930,Hard,0.55,Weaken
+782,CR,,Hard,Argument Construction,639,821,D,100878,Hard,0.55,Assumption
+783,CR,,Hard,Evaluation of a Plan,639,822,C,100702,Hard,0.65,Resolve Paradox
+784,CR,,Hard,Argument Construction,639,823,C,100648,Hard,0.65,Assumption
+785,CR,,Hard,Argument Evaluation,640,824,D,100879,Medium,0.45,Weaken
+786,CR,,Hard,Argument Evaluation,640,825,B,102123,Very Hard,0.85,Bold Face CR
+787,CR,,Hard,Evaluation of a Plan,640,826,E,100796,Easy,0.15,Resolve Paradox
+788,CR,,Hard,Argument Construction,641,827,D,100646,Medium,0.45,Complete the Passage; Strengthen
+789,CR,,Hard,Argument Construction,641,828,D,100682,Very Hard,0.75,Inference
+790,CR,,Hard,Argument Evaluation,641,829,B,100849,Medium,0.45,Evaluate Argument
+791,CR,,Hard,Argument Evaluation,641,830,E,101012,Hard,0.65,Weaken
+792,CR,,Hard,Evaluation of a Plan,642,841,A,102124,Medium,0.45,Bold Face CR
+793,CR,,Hard,Argument Evaluation,642,832,A,100672,Very Hard,0.85,Weaken
+794,CR,,Hard,Argument Evaluation,642,833,B,100850,Hard,0.65,Weaken
+795,CR,,Hard,Argument Evaluation,643,834,D,100652,Medium,0.45,Weaken
+796,CR,,Hard,Argument Evaluation,643,835,E,100671,Hard,0.55,Strengthen
+797,CR,,Hard,Argument Evaluation,643,836,C,100691,Medium,0.35,Complete the Passage
+798,CR,,Hard,Argument Evaluation,644,837,D,100693,Hard,0.55,Bold Face CR
+799,CR,,Hard,Argument Evaluation,644,838,D,100880,Medium,0.35,Strengthen
+800,CR,,Hard,Argument Construction,644,839,E,101110,Hard,0.65,Assumption
+801,CR,,Hard,Argument Construction,644,840,D,101115,Medium,0.45,Bold Face CR
+802,CR,,Hard,Evaluation of a Plan,645,841,E,102125,Medium,0.45,Weaken
