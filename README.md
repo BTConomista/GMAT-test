@@ -162,7 +162,13 @@ book/             un file per capitolo: ch01.md, ch03.md, …
 screens/          scansioni del libro, una sottocartella per capitolo
 gmatclub/         l'indice delle 802 domande, ricavato da GMAT Club
 gmatclub/materiali/  allegati del forum: esercizi, guide, flashcard, error log
+preparazione/     come si prepara l'esame: guide, strumenti, costi
 ```
+
+Il libro dice cosa c'è nell'esame. Su **come ci si prepara** — quali guide leggere, quali
+strumenti usare, quanto costa e cosa si può non pagare — c'è
+[preparazione/](preparazione/README.md), che è anche il punto da cui partire per usare i
+materiali scaricati da GMAT Club.
 
 Il contenuto è del *GMAT™ Official Guide 2025–2026*, © Graduate Management Admission
 Council. GMAT™, GMAC™ e GMAT™ Official Guide sono marchi di GMAC. Questa trascrizione è a

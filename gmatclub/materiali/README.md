@@ -35,6 +35,10 @@ cambiati, e la matematica nemmeno — ma il contorno no.
 | [`diagnostic-test-v6.2.pdf`](diagnostic-test-v6.2.pdf) | 500 KB | Test diagnostico di GMAT Club su carta, novembre 2013 | ✅ |
 | [`flashcards-2011-v7.2.pdf`](flashcards-2011-v7.2.pdf) | 3,1 MB | Il vecchio mazzo del forum, math e verbal, 2011 | 🟨 metà obsoleta |
 
+**Da dove si comincia**, e in che ordine usarli, sta in
+[`preparazione/README.md`](../../preparazione/README.md), che mette questi file accanto
+alle guide e dice cosa fare con cosa.
+
 Il Data Sufficiency sta sotto `quant/` perché di matematica si tratta, ma nel GMAT Focus
 non è più una sezione a sé: le domande di DS stanno dentro **Data Insights**, come dice
 il [README dell'indice](../README.md).
