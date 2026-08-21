@@ -13,7 +13,12 @@ cose che cambiano sono di resa - le formule diventano LaTeX, il corsivo diventa
 Markdown - e sono elencate una per una in README.md.
 
 Uso:  python3 gmatclub/materiali/estrai_derivati.py
-Serve pypdf e olefile.  Riscrive tutti i file .md e .csv di questa cartella.
+Serve pypdf, pypdfium2 e olefile.  Riscrive tutti i .md e .csv di questa cartella.
+
+Due lettori di PDF e non uno perche' nessuno dei due basta da solo: pypdf espone la
+matrice di testo, e senza quella il corsivo delle domande di CR si perderebbe;
+pypdfium2 impagina meglio, e sul PDF delle soluzioni e' l'unico che non spezzi le
+parole a meta' ("t he argument").
 """
 
 import csv
@@ -23,6 +28,7 @@ import struct
 import urllib.parse
 
 import olefile
+import pypdfium2
 from pypdf import PdfReader
 
 QUI = os.path.dirname(os.path.abspath(__file__))
@@ -166,6 +172,18 @@ def pagine_pdf_corsivo(percorso, shear=0.3):
         testo = re.sub(r"(\s+)" + chiude, chiude + r"\1", testo)
         pagine.append(testo.replace(apre, "*").replace(chiude, "*"))
     return pagine
+
+
+def pagine_pdfium(percorso):
+    """Il testo di un PDF letto da PDFium, una stringa per pagina.
+
+    Sul PDF delle soluzioni di CR pypdf inserisce spazi dentro le parole, perche' il
+    file del 2008 porta nel flusso di contenuto la spaziatura del testo giustificato.
+    PDFium ricostruisce le parole intere.
+    """
+    documento = pypdfium2.PdfDocument(percorso)
+    return [documento[i].get_textpage().get_text_range().replace("\r", "")
+            for i in range(len(documento))]
 
 
 def righe_pulite(testo):
@@ -329,8 +347,13 @@ def unisci(pezzi):
     return re.sub(r"\s+", " ", " ".join(pezzi)).strip()
 
 
-def cr_derivati():
-    """verbal/cr-700-800-domande.md e verbal/cr-700-800-indice.csv."""
+def cr_derivati(risposte=None):
+    """verbal/cr-700-800-domande.md e verbal/cr-700-800-indice.csv.
+
+    risposte, se passato, e' la mappa restituita da cr_soluzioni(): la lettera finisce
+    nel CSV ma non nel Markdown delle domande, che resta pulito per esercitarsi.
+    """
+    risposte = risposte or {}
     origine = os.path.join(QUI, "verbal", "cr-700-800-domande.pdf")
     gruppi = blocchi_cr(pagine_pdf_corsivo(origine))
     totale = sum(len(d) for _, d in gruppi)
@@ -344,10 +367,12 @@ def cr_derivati():
         f"{len(gruppi)} topic, dalla raccolta *The 700-800 Club* del 2008. Il topic 8",
         "numera due volte da capo, e qui le due serie restano separate come nella fonte.",
         "",
-        "**Le risposte non ci sono**, ne' qui ne' nel PDF: stanno in un file a parte,",
-        "`CR 700 to 800 club Solutions.pdf`, che non abbiamo. E le alternative non sono",
-        "marcate A-E nemmeno nell'originale - sono puntini elenco, e qui restano tali.",
-        "Per rispondere a una domanda con le soluzioni alla mano si contano le posizioni.",
+        "**Qui le risposte non ci sono, apposta.** Stanno nelle",
+        "[soluzioni](cr-700-800-soluzioni.md), che le commentano una per una, e nella",
+        "colonna `risposta` di [`cr-700-800-indice.csv`](cr-700-800-indice.csv). Le",
+        "alternative non sono marcate A-E nemmeno nell'originale - sono puntini elenco, e",
+        "qui restano tali: **la lettera delle soluzioni e' una posizione**, A il primo",
+        "puntino, E il quinto.",
         "",
         "Il corsivo della domanda vera e propria, in coda a ogni stimolo, e' quello del",
         "PDF. I dollari sono protetti con la barra rovesciata perche' sono valute, non",
@@ -371,17 +396,114 @@ def cr_derivati():
             fuori += [f"**{d['numero']}.** {testo}", ""]
             fuori += [f"- {o}" for o in opzioni] + [""]
             righe_csv.append([numero, nome.title(), d["blocco"], d["numero"],
-                              d["pagina"], len(opzioni), incipit(testo)])
+                              d["pagina"], len(opzioni),
+                              risposte.get((numero, d["blocco"], d["numero"]), ""),
+                              incipit(testo)])
         fuori += ["---", ""]
 
     fuori += ["[<- I materiali](../README.md)", ""]
     scrivi("verbal/cr-700-800-domande.md", "\n".join(fuori))
     scrivi_csv("verbal/cr-700-800-indice.csv",
                ["topic", "topic_nome", "blocco", "domanda", "pagina_pdf", "opzioni",
-                "incipit"],
+                "risposta", "incipit"],
                righe_csv)
     return righe_csv
 
+
+# ------------------------------------------------- soluzioni di Critical Reasoning
+
+# Le sezioni delle soluzioni hanno i nomi dei topic delle domande, con maiuscole
+# incoerenti fra loro. L'ordine e' lo stesso, e da li' si ricava il numero del topic.
+TOPIC_SOL = re.compile(r"(?m)^\s*(Conclusion|Assumptions|WEAKEN|STRENGTHEN|Evaluate|"
+                       r"Paradox|Boldface|Miscellaneous)\s*$")
+NUMERO_SOL = re.compile(r"(?m)^\s*(\d{1,3})\.\s*(?=$|[A-Z\u201c\"(])")
+
+# La risposta esatta e' scritta in prosa, e ogni contributore la scrive a modo suo.
+# Sono i sei modi che compaiono nel file. Il gruppo catturato e' sempre la lettera.
+RISPOSTA_SOL = [
+    re.compile(r"\(([A-E])\)\s*CORRECT"),
+    re.compile(r"(?m)^([A-E])\.\s*CORRECT"),
+    # Senza (?i) sulla lettera: "the correct answer is deceptive" darebbe "d".
+    re.compile(r"(?i:correct answer(?: choice)? is\s*)\(?([A-E])\)?(?![A-Za-z])"),
+    re.compile(r"(?s)[Aa]nswer choice \(([A-E])\)\s*:?[^.]{0,60}?is the correct answer"),
+    re.compile(r"(?s)[Aa]nswer choice \(([A-E])\)\s*:?[^.]{0,40}?\bCORRECT\b"),
+    re.compile(r"(?s)[Aa]nswer choice \(([A-E])\)\s*:?[^.]{0,40}?[Tt]his (?:is the )?correct answer"),
+    re.compile(r"(?i:\bhence,?\s*)\(?([A-E])\)?\s+is (?:better|correct)"),
+]
+
+
+def blocchi_soluzioni(testo):
+    """Le soluzioni, una per (topic, serie, numero), con la lettera della risposta.
+
+    Come nelle domande, il topic 8 numera due volte da capo. Qui pero' la numerazione
+    va letta con due cautele in piu': un numero puo' ripetersi a cavallo di un salto
+    di pagina, e dentro le spiegazioni ci sono elenchi numerati. Si accetta un numero
+    solo se prosegue la serie; se cala, e' una serie nuova solo quando riparte da 1.
+    """
+    tagli = [(m.group(1), m.start(), m.end()) for m in TOPIC_SOL.finditer(testo)]
+    fuori = {}
+    for k, (nome, _, fine) in enumerate(tagli):
+        finora = tagli[k + 1][1] if k + 1 < len(tagli) else len(testo)
+        sezione = testo[fine:finora]
+        marcatori, tenuti, ultimo, serie = list(NUMERO_SOL.finditer(sezione)), [], 0, 1
+        for j, m in enumerate(marcatori):
+            n = int(m.group(1))
+            if n > ultimo + 5 or n == ultimo:
+                continue
+            if n < ultimo:
+                if n != 1:
+                    continue
+                serie += 1
+            ultimo = n
+            fin = marcatori[j + 1].start() if j + 1 < len(marcatori) else len(sezione)
+            tenuti.append((serie, n, sezione[m.end():fin].strip()))
+        for serie, n, corpo in tenuti:
+            piatto = " ".join(corpo.split())
+            lettere = {g.group(1) for p in RISPOSTA_SOL for g in p.finditer(piatto)}
+            fuori[(k + 1, serie, n)] = dict(
+                lettera=list(lettere)[0] if len(lettere) == 1 else "",
+                corpo=corpo)
+    return fuori
+
+
+def cr_soluzioni():
+    """verbal/cr-700-800-soluzioni.md, e la mappa (topic, serie, numero) -> risposta."""
+    origine = os.path.join(QUI, "verbal", "cr-700-800-soluzioni.pdf")
+    soluzioni = blocchi_soluzioni("\n".join(pagine_pdfium(origine)))
+    con_lettera = sum(1 for v in soluzioni.values() if v["lettera"])
+
+    fuori = [
+        "# Critical Reasoning 700-800 - le soluzioni",
+        "",
+        "[<- I materiali](../README.md) - [Le domande](cr-700-800-domande.md)",
+        "",
+        f"Trascrizione di `verbal/cr-700-800-soluzioni.pdf`: **{len(soluzioni)} soluzioni**",
+        "commentate alternativa per alternativa, non solo la lettera giusta.",
+        "",
+        "Le domande sono in [`cr-700-800-domande.md`](cr-700-800-domande.md), e li' le",
+        "alternative non hanno lettera: sono puntini elenco. **La lettera qui indica la",
+        "posizione**: A e' il primo puntino, E il quinto.",
+        "",
+        f"La lettera della risposta e' stata riconosciuta in **{con_lettera}** soluzioni su",
+        f"{len(soluzioni)}. Nelle altre la fonte non la dichiara in una forma riconoscibile -",
+        "la spiegazione c'e' lo stesso e dice qual e', ma a parole.",
+        "",
+        "---",
+        "",
+    ]
+    for (topic, serie, numero) in sorted(soluzioni):
+        v = soluzioni[(topic, serie, numero)]
+        etichetta = f"Topic {topic}"
+        if topic == 8:
+            etichetta += f", serie {serie}"
+        titolo = f"## {etichetta} - {numero}"
+        if v["lettera"]:
+            titolo += f"  \u2192  **{v['lettera']}**"
+        fuori += [titolo, "", v["corpo"].replace("$", r"\$"), "", "---", ""]
+
+    fuori += ["[<- I materiali](../README.md)", ""]
+    scrivi("verbal/cr-700-800-soluzioni.md", "\n".join(fuori))
+    return {k: v["lettera"] for k, v in soluzioni.items()}
 
 # ---------------------------------------------------------------- Quant 700-800
 
@@ -569,53 +691,70 @@ def slingfox_markdown():
 
 # ---------------------------------------------------------------- flashcard verbal
 
-def flashcards_markdown():
-    """verbal/verbal-flashcards-2025.md - le carte, domanda e risposta appaiate.
+def carte_flashcard(pagine):
+    """Le carte di un mazzo: titolo, domanda, risposta.
 
-    Le carte stanno su due pagine: la domanda e, subito dopo, la risposta. Si
-    riconoscono dal piede, che sulla risposta finisce con "(Answer)".
+    Domanda e risposta stanno su due pagine consecutive. La pagina della risposta si
+    riconosce dal piede, che contiene la parola Answer - vale per tutti e due i mazzi
+    del 2025, benche' lo scrivano in modo diverso.
     """
-    pagine = pagine_pdf(os.path.join(QUI, "verbal", "verbal-flashcards-2025.pdf"))
-
     carte, aperta = [], None
-    for pagina in pagine[1:]:                      # la prima e' il frontespizio
+    for pagina in pagine:
         righe = righe_pulite(pagina)
-        if not righe:
+        if len(righe) < 2:
             continue
-        titolo, piede = righe[0], righe[-1]
         corpo = "\n".join(righe[1:-1])
-        if piede.endswith("(Answer)") and aperta:
+        if "Answer" in righe[-1] and aperta:
             aperta["risposta"] = corpo
             carte.append(aperta)
             aperta = None
         else:
-            aperta = dict(titolo=titolo, domanda=corpo, risposta="")
+            aperta = dict(titolo=righe[0], domanda=corpo, risposta="")
+    return carte
 
+
+def scrivi_flashcard(nome_file, titolo, sottotitolo, pagine):
+    """Scrive il Markdown di un mazzo e segnala le risposte tagliate nella fonte."""
+    carte = carte_flashcard(pagine)
+    # Una risposta che finisce con una lettera minuscola e nessuna punteggiatura e'
+    # stata tagliata dal riquadro della diapositiva: nel PDF quel testo non c'e'.
     tagliate = [c for c in carte if re.search(r"[a-z] ?$", c["risposta"])]
-    fuori = [
-        "# GMAT Club Verbal Flashcards 2025",
-        "",
-        "[<- I materiali](../README.md)",
-        "",
-        f"Trascrizione di `verbal/verbal-flashcards-2025.pdf`: **{len(carte)} carte**,",
-        "datate 17 settembre 2025 e generate da PowerPoint con python-pptx.",
-        "",
-        f"In **{len(tagliate)} carte** la risposta si interrompe a meta' parola. Non e'",
-        "l'estrazione: il testo sfora dal riquadro della diapositiva e nel PDF non c'e'.",
-        "Le carte interessate sono segnate qui sotto.",
-        "",
-        "---",
-        "",
-    ]
+
+    fuori = [f"# {titolo}", "", "[<- I materiali](../README.md)", "", sottotitolo, "",
+             f"Sono **{len(carte)} carte**, domanda e risposta appaiate.", ""]
+    if tagliate:
+        fuori += [f"In **{len(tagliate)}** la risposta si interrompe a meta' parola. Non e'",
+                  "l'estrazione: il testo sfora dal riquadro della diapositiva e nel PDF non",
+                  "c'e'. Le carte interessate sono segnate qui sotto.", ""]
+    fuori += ["---", ""]
+
     for c in carte:
-        fuori += [f"## {c['titolo']}", "", c["domanda"], ""]
+        fuori += [f"## {c['titolo']}", "", c["domanda"].replace("$", r"\$"), ""]
         if c in tagliate:
             fuori += ["> La risposta e' troncata nella fonte.", ""]
-        fuori += [c["risposta"], "", "---", ""]
+        fuori += [c["risposta"].replace("$", r"\$"), "", "---", ""]
 
     fuori += ["[<- I materiali](../README.md)", ""]
-    scrivi("verbal/verbal-flashcards-2025.md", "\n".join(fuori))
+    scrivi(nome_file, "\n".join(fuori))
     return carte, tagliate
+
+
+def flashcards_markdown():
+    """I due mazzi del 2025, verbal e quant."""
+    verbal = scrivi_flashcard(
+        "verbal/verbal-flashcards-2025.md",
+        "GMAT Club Verbal Flashcards 2025",
+        "Trascrizione di `verbal/verbal-flashcards-2025.pdf`, datato 17 settembre 2025 e\n"
+        "generato da PowerPoint con python-pptx. Critical Reasoning e Reading Comprehension.",
+        pagine_pdf(os.path.join(QUI, "verbal", "verbal-flashcards-2025.pdf"))[1:])
+    quant = scrivi_flashcard(
+        "quant/math-flashcards-2025.md",
+        "GMAT Club Math Flashcards 2025",
+        "Trascrizione di `quant/math-flashcards-2025.pdf`, stesso giorno e stesso\n"
+        "generatore del mazzo verbal. Aritmetica, statistica, probabilita', word problems.\n"
+        "Ogni carta ha cinque alternative e la risposta dichiarata.",
+        pagine_pdf(os.path.join(QUI, "quant", "math-flashcards-2025.pdf"))[1:])
+    return verbal, quant
 
 
 # ---------------------------------------------------------------- tutto insieme
@@ -624,7 +763,8 @@ def main():
     print("Data Sufficiency:")
     ds = ds_markdown()
     print("Critical Reasoning:")
-    cr = cr_derivati()
+    risposte = cr_soluzioni()
+    cr = cr_derivati(risposte)
     print("Quant:")
     quant = quant_csv()
     print("3000 RC:")
@@ -632,7 +772,7 @@ def main():
     print("Slingfox:")
     slingfox_markdown()
     print("Flashcard:")
-    carte, tagliate = flashcards_markdown()
+    (carte_verbal, _), (carte_quant, _) = flashcards_markdown()
 
     # Due controlli che valgono la pena: se saltano, l'estrazione e' andata storta e
     # meglio accorgersene qui che dopo, studiando su un file sbagliato.
@@ -644,7 +784,8 @@ def main():
         raise SystemExit(f"3000 RC: {len(scoppiate)} brani senza chiave corrispondente")
 
     print(f"\n{len(ds)} domande di DS, {len(cr)} di CR, {len(quant)} problemi di quant,")
-    print(f"{len(rc)} brani di RC con {sum(r[2] for r in rc)} domande, {len(carte)} carte.")
+    print(f"{len(rc)} brani di RC con {sum(r[2] for r in rc)} domande,")
+    print(f"{len(carte_verbal)} flashcard verbal e {len(carte_quant)} quant.")
 
 
 if __name__ == "__main__":

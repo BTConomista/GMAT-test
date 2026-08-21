@@ -2,12 +2,14 @@
 
 [<- I materiali](../README.md)
 
-Trascrizione di `verbal/verbal-flashcards-2025.pdf`: **18 carte**,
-datate 17 settembre 2025 e generate da PowerPoint con python-pptx.
+Trascrizione di `verbal/verbal-flashcards-2025.pdf`, datato 17 settembre 2025 e
+generato da PowerPoint con python-pptx. Critical Reasoning e Reading Comprehension.
 
-In **3 carte** la risposta si interrompe a meta' parola. Non e'
-l'estrazione: il testo sfora dal riquadro della diapositiva e nel PDF non c'e'.
-Le carte interessate sono segnate qui sotto.
+Sono **18 carte**, domanda e risposta appaiate.
+
+In **3** la risposta si interrompe a meta' parola. Non e'
+l'estrazione: il testo sfora dal riquadro della diapositiva e nel PDF non
+c'e'. Le carte interessate sono segnate qui sotto.
 
 ---
 
@@ -145,7 +147,7 @@ Martian bacteria, large protein differences would not be expected.
 ## CR • Resolve the Paradox
 
 Q. Government pays farmers the amount by which market price falls short of a
-target. In 1983, a severe drought caused farm-program payments to drop by $10B.
+target. In 1983, a severe drought caused farm-program payments to drop by \$10B.
 Which best explains the reduction?
 A) Target price was raised before 1983
 B) U.S. exported less food in 1983 than the prior year

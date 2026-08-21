@@ -6,10 +6,12 @@ Trascrizione di `verbal/cr-700-800-domande.pdf`: **302 domande** in
 8 topic, dalla raccolta *The 700-800 Club* del 2008. Il topic 8
 numera due volte da capo, e qui le due serie restano separate come nella fonte.
 
-**Le risposte non ci sono**, ne' qui ne' nel PDF: stanno in un file a parte,
-`CR 700 to 800 club Solutions.pdf`, che non abbiamo. E le alternative non sono
-marcate A-E nemmeno nell'originale - sono puntini elenco, e qui restano tali.
-Per rispondere a una domanda con le soluzioni alla mano si contano le posizioni.
+**Qui le risposte non ci sono, apposta.** Stanno nelle
+[soluzioni](cr-700-800-soluzioni.md), che le commentano una per una, e nella
+colonna `risposta` di [`cr-700-800-indice.csv`](cr-700-800-indice.csv). Le
+alternative non sono marcate A-E nemmeno nell'originale - sono puntini elenco, e
+qui restano tali: **la lettera delle soluzioni e' una posizione**, A il primo
+puntino, E il quinto.
 
 Il corsivo della domanda vera e propria, in coda a ogni stimolo, e' quello del
 PDF. I dollari sono protetti con la barra rovesciata perche' sono valute, non
