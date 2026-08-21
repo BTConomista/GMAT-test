@@ -2,16 +2,16 @@
 
 [← L'indice delle domande](../README.md) · [← Indice del libro](../../README.md)
 
-Undici allegati presi dall'archivio di GMAT Club, più una versione leggibile di quelli
+Quindici allegati presi dall'archivio di GMAT Club, più una versione leggibile di quelli
 che leggibili non erano. Non sono materiale ufficiale GMAC e non c'entrano con la
 trascrizione della *Official Guide*: stanno qui perché sono il complemento naturale del
 libro — esercizi in più, metodo, e un paio di cose che il libro non copre affatto.
 
-**La cosa più importante da sapere prima di aprirli.** Tranne le flashcard verbal, che
-sono del 2025, tutto il resto è del **2005–2013**. Nessuno di questi file sa cosa sia il
-GMAT Focus: parlano di Sentence Correction, di AWA, di un esame da quattro ore. Il
-ragionamento che insegnano è ancora valido — CR e RC non sono cambiati, e la matematica
-nemmeno — ma il contorno no.
+**Guarda la data prima di fidarti.** Solo tre file sono recenti: il *Math Book* è dell'8ª
+edizione, maggio 2024, e i due mazzi di flashcard sono di settembre 2025. Tutto il resto
+è del **2005–2013** e non sa cosa sia il GMAT Focus: parla di Sentence Correction, di AWA,
+di un esame da quattro ore. Il ragionamento che insegna è ancora valido — CR e RC non sono
+cambiati, e la matematica nemmeno — ma il contorno no.
 
 ---
 
@@ -19,10 +19,13 @@ nemmeno — ma il contorno no.
 
 | File | Peso | Cos'è | Come sta |
 |:---|---:|:---|:---|
+| [`quant/gmat-club-math-book-2024.pdf`](quant/gmat-club-math-book-2024.pdf) | 2,9 MB | **La teoria di quant in un volume**, 8ª ed., maggio 2024 | ✅ |
 | [`quant/quant-700-800-problems.pdf`](quant/quant-700-800-problems.pdf) | 720 KB | 892 problemi di quant divisi per argomento, Sandeep Gupta, 2009 | 🟨 incompleto |
 | [`quant/math-shortcuts-manoscritti.pdf`](quant/math-shortcuts-manoscritti.pdf) | 996 KB | 42 pagine di appunti **scritti a mano** su scorciatoie di calcolo, 2006 | 🟨 scansione |
 | [`quant/ds-700-plus-bunuel.doc`](quant/ds-700-plus-bunuel.doc) | 988 KB | 51 domande di Data Sufficiency risolte da Bunuel, 2010 | ✅ |
-| [`verbal/cr-700-800-domande.pdf`](verbal/cr-700-800-domande.pdf) | 696 KB | 302 domande di Critical Reasoning per tipo, 2008 | ⚠️ senza risposte |
+| [`quant/math-flashcards-2025.pdf`](quant/math-flashcards-2025.pdf) | 363 KB | 61 flashcard di quant, settembre 2025 | ✅ |
+| [`verbal/cr-700-800-domande.pdf`](verbal/cr-700-800-domande.pdf) | 696 KB | 302 domande di Critical Reasoning per tipo, 2008 | ✅ |
+| [`verbal/cr-700-800-soluzioni.pdf`](verbal/cr-700-800-soluzioni.pdf) | 1,3 MB | **Le soluzioni delle 302**, commentate alternativa per alternativa | ✅ |
 | [`verbal/comprehensive-cr-guide.pdf`](verbal/comprehensive-cr-guide.pdf) | 844 KB | *The Monster CR Strategy Guide*, 32 pagine di metodo, 2010 | ✅ |
 | [`verbal/slingfox-cr-notes.doc`](verbal/slingfox-cr-notes.doc) | 72 KB | Appunti di CR in cinque passi, più problemi ostici | ✅ |
 | [`verbal/3000-rcs-lsat-gmat-gre.doc`](verbal/3000-rcs-lsat-gmat-gre.doc) | 7,2 MB | 117 brani di RC del GMAT con chiave, più GRE e LSAT, 2005 | ✅ |
@@ -30,6 +33,7 @@ nemmeno — ma il contorno no.
 | [`metodo/the-one-thing-on-the-gmat.pdf`](metodo/the-one-thing-on-the-gmat.pdf) | 1000 KB | Venti membri raccontano cosa avrebbero voluto sapere, 2011 | ✅ |
 | [`metodo/trianglock-error-log.xlsx`](metodo/trianglock-error-log.xlsx) | 816 KB | Template di error log in Excel, senza macro | 🟨 da ripulire |
 | [`diagnostic-test-v6.2.pdf`](diagnostic-test-v6.2.pdf) | 500 KB | Test diagnostico di GMAT Club su carta, novembre 2013 | ✅ |
+| [`flashcards-2011-v7.2.pdf`](flashcards-2011-v7.2.pdf) | 3,1 MB | Il vecchio mazzo del forum, math e verbal, 2011 | 🟨 metà obsoleta |
 
 Il Data Sufficiency sta sotto `quant/` perché di matematica si tratta, ma nel GMAT Focus
 non è più una sezione a sé: le domande di DS stanno dentro **Data Insights**, come dice
@@ -39,17 +43,19 @@ il [README dell'indice](../README.md).
 
 ## Le versioni leggibili
 
-Cinque di questi file si leggono male: due sono `.doc` di Word 97 che LibreOffice si
+Diversi di questi file si leggono male: due sono `.doc` di Word 97 che LibreOffice si
 rifiuta di aprire, uno ha le formule solo come immagini remote, uno perde i trattini
-quando ne estrai il testo. Accanto a ciascuno c'è un derivato in Markdown o in CSV,
-prodotto da [`estrai_derivati.py`](estrai_derivati.py).
+quando ne estrai il testo, un altro spezza le parole a metà. Accanto a ciascuno c'è un
+derivato in Markdown o in CSV, prodotto da [`estrai_derivati.py`](estrai_derivati.py).
 
 | Derivato | Contenuto |
 |:---|:---|
 | [`quant/ds-700-plus-bunuel.md`](quant/ds-700-plus-bunuel.md) | Le 51 domande di DS con la spiegazione intera, le formule in LaTeX e il link alla discussione |
 | [`quant/quant-700-800-indice.csv`](quant/quant-700-800-indice.csv) | Le 892 domande di quant: sezione, numero, PS o DS, pagina del PDF, incipit |
+| [`quant/math-flashcards-2025.md`](quant/math-flashcards-2025.md) | Le 61 carte di quant, domanda e risposta appaiate |
 | [`verbal/cr-700-800-domande.md`](verbal/cr-700-800-domande.md) | Le 302 domande di CR, con il corsivo della domanda e le cinque alternative |
-| [`verbal/cr-700-800-indice.csv`](verbal/cr-700-800-indice.csv) | Le stesse 302, una riga per domanda, per cercarle e incrociarle |
+| [`verbal/cr-700-800-soluzioni.md`](verbal/cr-700-800-soluzioni.md) | Le 300 soluzioni, con la lettera esatta nel titolo di ognuna |
+| [`verbal/cr-700-800-indice.csv`](verbal/cr-700-800-indice.csv) | Le stesse 302, una riga per domanda, **con la risposta esatta** |
 | [`verbal/3000-rcs-indice.csv`](verbal/3000-rcs-indice.csv) | I 117 brani di RC: gruppo, quante domande, **la chiave di risposta**, quante parole |
 | [`verbal/slingfox-cr-notes.md`](verbal/slingfox-cr-notes.md) | Gli appunti, con i titoli marcati |
 | [`verbal/verbal-flashcards-2025.md`](verbal/verbal-flashcards-2025.md) | Le 18 carte, domanda e risposta appaiate |
@@ -64,14 +70,22 @@ punti:
 - i dollari della prosa sono protetti con `\$`, altrimenti GitHub li scambia per
   delimitatori di formula;
 - il tipo `PS`/`DS` nell'indice quant è **dedotto** dalla presenza delle due affermazioni
-  numerate, non letto dalla fonte. È l'unica colonna di quei CSV che non viene dal file.
+  numerate, non letto dalla fonte. È l'unica colonna di quei CSV che non viene dal file;
+- la colonna `risposta` dell'indice di CR è letta dalle soluzioni, dove sta scritta in
+  prosa in sei formulazioni diverse. Quando in una soluzione se ne riconosce più d'una e
+  non concordano, la cella resta **vuota**: meglio nessuna risposta che una sbagliata.
 
 Per rigenerarli:
 
 ```
-pip install pypdf olefile
+pip install pypdf pypdfium2 olefile
 python3 gmatclub/materiali/estrai_derivati.py
 ```
+
+Due lettori di PDF e non uno perché nessuno dei due basta da solo: `pypdf` espone la
+matrice di testo, e senza quella il corsivo delle domande di CR andrebbe perso;
+`pypdfium2` impagina meglio, ed è l'unico che sul PDF delle soluzioni non spezzi le
+parole a metà (`t he argument`).
 
 Lo script finisce con due controlli e si ferma se saltano: che tutte le domande di CR
 abbiano cinque alternative, e che per ogni brano di RC il numero di domande contate nel
@@ -81,6 +95,21 @@ testo coincida con il numero di risposte nella chiave. Al momento tornano tutti 
 ---
 
 ## Scheda per scheda
+
+### `quant/gmat-club-math-book-2024.pdf` — la teoria, e la più aggiornata
+
+Centouno pagine, **8ª edizione, maggio 2024**: è di gran lunga il materiale più recente
+del lotto insieme alle flashcard, ed è l'unico che copre la teoria in modo sistematico.
+Dodici capitoli: Number Theory, Remainders, Algebra, Sequences and Progressions,
+Functions / Coordinate Geometry, Word Problems, Work Problems, Distance Rate Time,
+Overlapping Sets, Probability, Combinations, Standard Deviation.
+
+Lo stesso terreno del capitolo 3 della *Official Guide*, ma con molti più esempi e con i
+casi limite che il libro non tratta. **Non è una guida per principianti** e lo dichiara in
+apertura: presuppone le basi e punta sulle cose difficili.
+
+Nessun derivato: 101 pagine di formule impaginate perdono troppo a diventare testo. Va
+letto come PDF.
 
 ### `quant/quant-700-800-problems.pdf` — 892 problemi
 
@@ -145,7 +174,18 @@ un CGI che rende LaTeX. Sono 960 immagini per 554 formule distinte, e aperto ogg
 quel server ormai fuori uso — il documento le mostra come altrettanti riquadri vuoti. Ma **il LaTeX è dentro l'indirizzo dell'immagine**, e da lì si recupera
 senza scaricare nulla: è quello che fa il derivato.
 
-### `verbal/cr-700-800-domande.pdf` — 302 domande, zero risposte
+### `quant/math-flashcards-2025.pdf` — 61 carte di quant
+
+Il gemello quant delle flashcard verbal: stesso giorno, 17 settembre 2025, stesso
+generatore. Centoventitré pagine che sono **61 carte** — domanda su una pagina, risposta
+sulla successiva. Argomenti: word problems (interesse composto, miscele, lavoro, insiemi),
+statistica, probabilità, aritmetica.
+
+Meglio fatte di quelle verbal: ogni carta ha una domanda vera con cinque alternative, e la
+risposta dichiara la lettera e mostra il conto. Una sola carta su 61 ha la risposta
+tagliata dal riquadro, contro tre su diciotto nel mazzo verbal.
+
+### `verbal/cr-700-800-domande.pdf` e `cr-700-800-soluzioni.pdf` — 302 domande
 
 Dalla raccolta *The 700-800 Club*, aprile 2008. Otto tipi di domanda:
 
@@ -163,15 +203,23 @@ Dalla raccolta *The 700-800 Club*, aprile 2008. Otto tipi di domanda:
 Il topic 8 numera **due volte da capo**, 1–10 e poi 1–100: non è un errore di lettura, è
 così nella fonte, e il derivato tiene le due serie separate.
 
-Tre difetti, in ordine di gravità:
+**Le soluzioni sono nel file gemello**, 212 pagine dello stesso autore, di nove giorni
+prima. Non danno solo la lettera: discutono tutte e cinque le alternative, una per una, e
+spiegano perché le quattro sbagliate lo sono. Sono **300 soluzioni** per 302 domande — nel
+file non ci sono quella di *Assumptions 11* e quella di *Evaluate 3*, e non è un problema
+di estrazione: al loro posto, nella fonte, non c'è nulla.
 
-1. **Le risposte non ci sono.** Stanno in `CR 700 to 800 club Solutions.pdf`, un file a
-   parte da 1,3 MB che non abbiamo. Senza quello, sono 302 domande su cui allenarsi senza
-   sapere se hai indovinato.
-2. **Le alternative non sono marcate A–E.** Nell'originale sono puntini elenco, senza
-   lettera — verificato guardando la pagina, non solo il testo estratto. Con le soluzioni
-   alla mano bisognerà contare le posizioni.
-3. **L'ultima pagina è un errore di stampa.** La pagina 75 contiene
+Tre cose da sapere:
+
+1. **Le alternative non sono marcate A–E.** Nell'originale sono puntini elenco, senza
+   lettera — verificato guardando la pagina, non solo il testo estratto. Le soluzioni però
+   la lettera la usano, quindi **A vuol dire "il primo puntino"** ed E "il quinto".
+2. **La lettera esatta è stata riconosciuta in 284 soluzioni su 300.** Le soluzioni la
+   scrivono in prosa e ogni contributore a modo suo: `(E) CORRECT`, «the correct answer
+   choice is (D)», «Hence, C is better». Dove nessuna delle sei formulazioni compare, o
+   dove due si contraddicono, la casella resta vuota: la spiegazione dice comunque qual è,
+   ma a parole.
+3. **L'ultima pagina delle domande è un errore di stampa.** La pagina 75 contiene
    `ERROR: undefined / OFFENDING COMMAND: DeleteMe`: il PDF è stato generato male nel 2008
    con Ghostscript. Il contenuto vero finisce a pagina 73.
 
@@ -268,27 +316,42 @@ Il livello di testo c'è ma **le formule sono illeggibili**: erano oggetti equaz
 Word e nell'estrazione i radicali spariscono (`289324 = ?` sta per una radice). Va letto
 come PDF impaginato, non come testo, e per questo non ha derivato.
 
+### `flashcards-2011-v7.2.pdf` — il vecchio mazzo, metà da buttare
+
+Centodiciannove pagine, GMAT Club 2011 (ritoccato nel 2014). È il mazzo storico del forum,
+due diapositive per pagina: domanda e risposta affiancate. Sta qui alla radice perché è
+l'unico file che copre tutte e due le sezioni.
+
+| Parte | Pagine | Cosa c'è |
+|:---|:---:|:---|
+| Math | 4–64 | 113 carte: aritmetica (47), geometria (21), probabilità e combinatoria (21), statistica (11), word problems (11), algebra (2) |
+| Verbal | 66–116 | Critical Reasoning e Reading Comprehension fino a p. 91 |
+| Verbal — idiom | 92–116 | **25 pagine di idiom e Sentence Correction** |
+
+Quelle 25 pagine sono un quarto del file e per il Focus non servono: SC non esiste più.
+Anche il resto è in buona parte superato — la teoria sta meglio nel *Math Book 2024*, e le
+carte di quant nel mazzo del 2025. Vale la pena tenerlo per la parte di CR e RC, che è
+l'unica del mazzo che il tempo non ha toccato.
+
+Nessun derivato: due diapositive per pagina rendono l'accoppiamento domanda-risposta
+inaffidabile, e i punti elenco sono caratteri Wingdings che escono come `\uf0a8`.
+
 ---
 
-## Cosa manca
+## L'elenco è completo
 
-L'elenco da cui vengono questi file ne aveva quattordici. Tre non li abbiamo:
+L'elenco da cui vengono questi file ne aveva quattordici, e ci sono tutti. Il
+quindicesimo, `flashcards-2011-v7.2.pdf`, non era in quell'elenco: è arrivato dopo.
 
-| Mancante | Peso | Perché conta |
-|:---|---:|:---|
-| **CR 700 to 800 club Solutions.pdf** | 1,3 MB | Le risposte delle 302 domande di CR qui sopra. È il buco più grave dei tre |
-| GMAT Club Math Book 2024 v8.pdf | 2,86 MB | L'unico materiale del forum davvero aggiornato al Focus, gennaio 2025. Copre lo stesso terreno del capitolo 3 con molti più esempi |
-| GMAT-Club-Math-Flashcards-2025.pdf | 363 KB | Il gemello quant delle flashcard verbal |
+Restava fuori una cosa sola, ed era la più importante: la chiave delle 302 domande di
+Critical Reasoning. Ora c'è, ed è meglio di una chiave — sono 300 soluzioni discusse
+alternativa per alternativa.
 
-Si scaricano dall'archivio allegati di GMAT Club, che chiede l'account (gratuito):
-
-- [`CR 700 to 800 club Solutions.pdf`](https://gmatclub.com/forum/download/file.php?id=18142)
-- [`GMAT Club Math Book 2024 v8.pdf`](https://gmatclub.com/forum/download/file.php?id=76387)
-- [`GMAT-Club-Math-Flashcards-2025.pdf`](https://gmatclub.com/forum/download/file.php?id=85859)
-
-Il server risponde `503` alle richieste automatiche: vanno scaricati da un browser
-già autenticato. Quando arrivano, il file delle soluzioni va in `verbal/` accanto alle
-domande, e conviene aggiungere allo script una funzione che le appaia una a una.
+Se un giorno si volesse tornare all'archivio del forum, il materiale che abbiamo
+deliberatamente lasciato lì è quello di **Sentence Correction**, di **AWA** e le guide alle
+*Official Guide* 12ª e 13ª edizione: domina le classifiche di download ma il Focus non ha
+più né SC né AWA. Fuori anche i file `.xlsm` con le macro e gli allegati della sezione
+Data Insights, che sono quasi tutti e-book commerciali caricati dagli utenti.
 
 ---
 
@@ -299,10 +362,13 @@ stato normalizzato; questo è il nome originale e il link da cui riscaricarlo:
 
 | Qui | Nome originale | Link |
 |:---|:---|:---|
+| `quant/gmat-club-math-book-2024.pdf` | GMAT Club Math Book 2024 v8.pdf | [76387](https://gmatclub.com/forum/download/file.php?id=76387) |
 | `quant/quant-700-800-problems.pdf` | Quant 700 - 800 level problems.pdf | [18066](https://gmatclub.com/forum/download/file.php?id=18066) |
 | `quant/math-shortcuts-manoscritti.pdf` | Quantitative-GMAT-Math-Shortcuts.pdf | [10830](https://gmatclub.com/forum/download/file.php?id=10830) |
 | `quant/ds-700-plus-bunuel.doc` | 700+ GMAT Data Sufficiency Questions With Explanations.doc | [12634](https://gmatclub.com/forum/download/file.php?id=12634) |
+| `quant/math-flashcards-2025.pdf` | GMAT-Club-Math-Flashcards-2025.pdf | [85859](https://gmatclub.com/forum/download/file.php?id=85859) |
 | `verbal/cr-700-800-domande.pdf` | cr 700 to 800 level practice questions.pdf | [18141](https://gmatclub.com/forum/download/file.php?id=18141) |
+| `verbal/cr-700-800-soluzioni.pdf` | CR 700 to 800 club Solutions.pdf | [18142](https://gmatclub.com/forum/download/file.php?id=18142) |
 | `verbal/comprehensive-cr-guide.pdf` | Comprehensive Critical Reasoning Guide.pdf | [13452](https://gmatclub.com/forum/download/file.php?id=13452) |
 | `verbal/slingfox-cr-notes.doc` | Slingfox CR Notes.doc | [11892](https://gmatclub.com/forum/download/file.php?id=11892) |
 | `verbal/3000-rcs-lsat-gmat-gre.doc` | 3000_RCs_LSAT_GMAT_GRE.doc | [5144](https://gmatclub.com/forum/download/file.php?id=5144) |
@@ -310,6 +376,7 @@ stato normalizzato; questo è il nome originale e il link da cui riscaricarlo:
 | `metodo/the-one-thing-on-the-gmat.pdf` | The one thing on the GMAT.pdf | [15741](https://gmatclub.com/forum/download/file.php?id=15741) |
 | `metodo/trianglock-error-log.xlsx` | Trianglock_GMAT Error Log-2.xlsx | [10068](https://gmatclub.com/forum/download/file.php?id=10068) |
 | `diagnostic-test-v6.2.pdf` | Diagnostic_Test_v6.2.pdf | [21665](https://gmatclub.com/forum/download/file.php?id=21665) |
+| `flashcards-2011-v7.2.pdf` | GMAT Flashcards v7.2.pdf | [gmatclub.com/flashcards](https://gmatclub.com/flashcards) |
 
 Sono materiale della community, caricato dagli utenti sul forum: né ufficiale GMAC, né
 verificato da nessuno. Stanno qui a uso personale di studio, come il resto del repo.

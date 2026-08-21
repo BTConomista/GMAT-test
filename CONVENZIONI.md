@@ -20,7 +20,7 @@ CONVENZIONI.md    questo file
 book/             un file per capitolo: ch01.md, ch03.md, …
 screens/          scansioni del libro, una sottocartella per capitolo
 gmatclub/         l'indice delle 802 domande, ricavato da GMAT Club
-gmatclub/materiali/  allegati scaricati dal forum, e le loro versioni leggibili
+gmatclub/materiali/  allegati del forum: esercizi, guide, flashcard, error log
 ```
 
 ---

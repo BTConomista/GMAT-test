@@ -15,7 +15,7 @@ cartella esiste.
 | `og-2025-2026.csv` | le 802 domande **stampate** nel libro, una per riga |
 | `og-2025-2026-online.csv` | le 137 domande del solo *Online Question Bank* (G&T e MSR) |
 | `estrai_indice.py` | rigenera i due CSV dalla fonte |
-| [`materiali/`](materiali/README.md) | undici allegati scaricati dal forum, e le loro versioni leggibili |
+| [`materiali/`](materiali/README.md) | quindici allegati scaricati dal forum, e le loro versioni leggibili |
 
 I due CSV e `materiali/` vengono dallo stesso sito ma non sono la stessa cosa. I CSV
 parlano delle domande **del nostro libro**: sono l'indice che al capitolo 9 non abbiamo
@@ -224,8 +224,9 @@ manuale di matematica scritto dalla comunità, gratuito, aggiornato al GMAT Focu
 2025 (`GMAT Club Math Book 2024 v8.pdf`, 2,9 MB, scaricato 48.513 volte). Copre lo stesso
 terreno del nostro capitolo 3 — teoria dei numeri, valore assoluto, algebra, geometria
 analitica, deviazione standard, probabilità, combinatoria, successioni, resti, insiemi,
-problemi di lavoro e di velocità — con molti più esempi. Il download chiede l'account, e
-questo è uno dei tre file che a [`materiali/`](materiali/README.md) ancora mancano.
+problemi di lavoro e di velocità — con molti più esempi. Il download chiede l'account; il
+file sta in [`materiali/quant/`](materiali/README.md), ed è il materiale più aggiornato
+che il forum pubblichi.
 
 **[Recensione dell'edizione 2025-2026](https://gmatclub.com/forum/gmat-official-guide-2025-2026-review-446441.html)** —
 circa il 15% di domande nuove rispetto alla 2024-2025. Il foglio principale ha anche una
