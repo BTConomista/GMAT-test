@@ -223,6 +223,7 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 | 3.5 (tutti e sette i fogli) | scansioni a pagina intera | ✅ nessuno scostamento di contenuto |
 | Capitolo 4, domande 50–102 | le 13 pagine in `screens/ch04/` | ✅ nessuno scostamento |
 | Capitolo 4, domande 103–164 | le 16 pagine in `screens/ch04/` | ✅ nessuno scostamento |
+| Capitolo 4, domande 170–234 | le 16 pagine in `screens/ch04/` | 🔧 1 scostamento trovato e corretto |
 | 3.4 (per intero, §1–§6) | scansioni delle pagine 3.4 | 🔧 5 scostamenti trovati e corretti |
 | 3.5 (per intero, 7 fogli) | scansioni a pagina intera delle pagine 3.5 | ✅ nessuno scostamento |
 
@@ -262,6 +263,14 @@ In `3.3` §6 B la trascrizione abbreviava in `km` le quattro frazioni dell'esemp
 di 600 km, dove il libro scrive `kilometers` per esteso. Vale la pena ricordarlo come regola:
 **le unità di misura si riportano come le scrive il libro.** Abbreviare è riscrivere, anche
 quando il significato non cambia.
+
+Nel capitolo 4, domanda 224, il disegno ASCII della retta numerata era corretto — il segmento
+ombreggiato andava da −5 a 3 — ma la **didascalia** sotto diceva «from −4 to 3». Da qui una
+regola per le figure: **la didascalia va riletta contro il disegno, non solo contro la
+pagina.** È testo che scriviamo noi, non che copiamo, quindi è l'unico punto di una figura
+dove possiamo introdurre un errore tutto nostro. In questo caso l'errore rendeva la domanda
+irrisolvibile: −5 ≤ x ≤ 3 corrisponde all'opzione `|x + 1| ≤ 4`, mentre −4 ≤ x ≤ 3 non
+corrisponde a nessuna delle cinque.
 
 ### Il libro non è coerente con sé stesso, e va bene così
 
