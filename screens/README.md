@@ -16,6 +16,7 @@ screens/
     3.3/          10 pagine
     3.4/          13 pagine
     3.5/          10 pagine
+  ch04/           13 pagine    solo le domande 50-102
 ```
 
 Il nome di ogni file segue questo schema:
@@ -29,6 +30,12 @@ NNN_sezioni_descrizione.ext
 
 Esempio: `049_3.3.5-3.3.6_Tabelle-percentuali_Problemi-di-lavoro.jpeg` è la 49ª pagina, e
 copre la fine di 3.3.5 e l'inizio di 3.3.6.
+
+**Il capitolo 4 fa eccezione.** Le sue pagine sono arrivate in momenti diversi e le prime non
+sono mai state archiviate, quindi la loro posizione nella sequenza globale non è stabilibile.
+Lì il prefisso è `qNNN` e indica la **prima domanda della pagina**: `q074_4.2_Q74-76_...`
+comincia dalla domanda 74. Fa lo stesso lavoro — un buco si vede come un salto nei numeri di
+domanda — senza fingere una posizione nel libro che non conosciamo.
 
 **Il numero progressivo è la cosa che conta di più:** è continuo su tutto il libro,
 attraverso i capitoli, quindi una pagina mancante si vede subito come un buco nella
@@ -50,13 +57,14 @@ due pagine. Non dare per scontato che le sezioni non citate manchino.
 | 3 — 3.3 | 042–051 | completa | `book/ch03.md` | ✅ |
 | 3 — 3.4 | 052–064 | completa | `book/ch03.md` | ⬜ |
 | 3 — 3.5 | 065–074 | completa | `book/ch03.md` | ✅ |
-| 4 | — | **assente** | `book/ch04.md` | ⬜ |
+| 4 | q050–q098 | **parziale**: solo le domande 50–102 | `book/ch04.md` | 🔄 in corso |
 
 Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §8.
 
-**Il capitolo 4 non ha scansioni qui.** Gli archivi ricevuti coprono i capitoli 1, 2 e 3.
-La trascrizione di `book/ch04.md` è stata fatta da immagini incollate in chat, che non
-arrivano al filesystem, quindi al momento non è verificabile contro una fonte su disco.
+**Del capitolo 4 mancano le prime pagine.** Ci sono le 13 pagine che coprono le domande
+50–102, ma non quelle di 4.0, 4.1, delle istruzioni di 4.2 e delle domande 1–49: quelle sono
+arrivate come immagini incollate in chat, che non raggiungono il filesystem. Quella parte di
+`book/ch04.md` resta quindi non verificabile contro una fonte su disco.
 
 ## Aggiungere pagine nuove
 
