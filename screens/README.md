@@ -16,7 +16,7 @@ screens/
     3.3/          10 pagine
     3.4/          13 pagine
     3.5/          10 pagine
-  ch04/           29 pagine    solo le domande 50-165
+  ch04/           45 pagine    domande 50-165 e 170-235
 ```
 
 Il nome di ogni file segue questo schema:
@@ -57,7 +57,7 @@ due pagine. Non dare per scontato che le sezioni non citate manchino.
 | 3 — 3.3 | 042–051 | completa | `book/ch03.md` | ✅ |
 | 3 — 3.4 | 052–064 | completa | `book/ch03.md` | ⬜ |
 | 3 — 3.5 | 065–074 | completa | `book/ch03.md` | ✅ |
-| 4 | q050–q162 | **parziale**: dalla domanda 50 in poi | `book/ch04.md` | 🔄 in corso |
+| 4 | q050–q231 | **parziale**: 50–165 e 170–235 | `book/ch04.md` | 🔄 in corso |
 
 Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §8.
 
@@ -68,8 +68,12 @@ arrivate come immagini incollate in chat, che non raggiungono il filesystem. Que
 
 **La domanda 165 è tagliata.** L'ultima pagina ricevuta ne mostra l'enunciato e la sola
 opzione A: le altre quattro sono fuori inquadratura. Non è stata trascritta — una domanda con
-una risposta su cinque inganna più di una domanda assente. Serve la pagina successiva, che
-conterrebbe anche le domande dalla 166 alla 176.
+una risposta su cinque inganna più di una domanda assente. **Fra la 165 e la 170 mancano cinque domande.** Le pagine ricevute si fermano a metà della
+165 e riprendono dalla 170: le domande **166, 167, 168 e 169** non sono mai state viste, e
+della 165 si conosce solo l'enunciato. Serve la pagina che copre quel tratto.
+
+**La domanda 235 è tagliata**, come la 165: si vede l'enunciato e nessuna opzione. Non è
+stata trascritta.
 
 ## Aggiungere pagine nuove
 
