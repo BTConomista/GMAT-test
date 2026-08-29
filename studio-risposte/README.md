@@ -52,11 +52,28 @@ Ed è proprio questo che permette una **taratura**: del capitolo 4 conosciamo le
 ufficiali delle prime 29 domande. Confrontando le nostre con quelle, si vede quanto il metodo
 azzecca — e quel numero dice quanto prendere sul serio le altre 238.
 
-## File
+## I due file, e perché sono due
 
-| File | Contenuto |
+| File | Cos'è |
 |:---|:---|
-| `risposte-ragionate.md` | le 267 domande risolte, con ragionamento e confidenza |
+| `risposte-ragionate.md` | **la prova alla cieca.** Le 267 domande risolte senza sapere nulla delle risposte ufficiali |
+| `risposte-tarate.md` | **la revisione.** Le stesse risposte dopo aver confrontato le prime 29 con la chiave del libro |
 
-Le domande **165–169** non ci sono: mancano anche da `book/ch04.md`, perché le pagine che le
-contengono non sono mai arrivate.
+L'ordine non è un dettaglio, è tutto il senso dell'esercizio.
+
+`risposte-ragionate.md` viene scritto e **congelato prima** che chiunque apra la sezione 4.3.
+Una volta chiuso non si tocca più, nemmeno per correggere un errore che salta all'occhio: è
+la fotografia di quanto un ragionamento autonomo azzecca, e ritoccarla a posteriori la
+renderebbe una misura di niente.
+
+Solo dopo si guarda la chiave delle 29 risposte note. Il confronto dice due cose: **quante ne
+prendiamo** — un numero che si estende per stima alle altre 238 — e soprattutto **che tipo di
+errori facciamo**. Il secondo è più prezioso del primo: se il metodo sbaglia sistematicamente,
+per dire, le domande di probabilità condizionata, allora si sa dove andare a guardare fra le
+238 di cui non conosciamo la risposta.
+
+`risposte-tarate.md` raccoglie quel lavoro. Resta comunque materiale di studio, non una fonte:
+vale l'avvertenza in cima a questa pagina.
+
+Le domande **165–169** non ci sono in nessuno dei due: mancano anche da `book/ch04.md`, perché
+le pagine che le contengono non sono mai arrivate.
