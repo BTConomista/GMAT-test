@@ -13,7 +13,7 @@ come è fatto il testo, cosa si trascrive e cosa no, e come si prosegue.
 | 1 | What Is the GMAT™ Exam? | ✅ completo |
 | 2 | How to Prepare | ✅ completo |
 | 3 | Math Review | ✅ completo, 3.0–3.5 |
-| 4 | Quantitative Reasoning | 🟨 4.0–4.2, domande 1–234 su 272 (mancano 165–169) |
+| 4 | Quantitative Reasoning | 🟨 4.0–4.3, domande 1–272 (mancano 165–169), chiave 1–29 |
 | 5 | Data Insights Review | ⬜ da fare |
 | 6 | Data Insights | ⬜ da fare |
 | 7 | Verbal Review | ⬜ da fare |
@@ -96,8 +96,8 @@ quelle in grigio non esistono ancora.
 ### [4.0 Quantitative Reasoning](book/ch04.md)
 
 - [4.1 Tips for Answering Quantitative Reasoning Questions](book/ch04.md#41-tips-for-answering-quantitative-reasoning-questions)
-- [4.2 Practice Questions](book/ch04.md#42-practice-questions) — domande 1–234, meno le 165–169: *Easy* completa, *Medium* quasi, *Hard* fino alla 234 su 272
-- 4.3 Answer Key.
+- [4.2 Practice Questions](book/ch04.md#42-practice-questions) — domande 1–272, meno le 165–169: tutte e tre le fasce complete
+- [4.3 Answer Key.](book/ch04.md#43-answer-key) — risposte 1–29 su 272
 - 4.4 Answer Explanations
 
 ### 5.0 Data Insights Review

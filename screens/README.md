@@ -16,7 +16,7 @@ screens/
     3.3/          10 pagine
     3.4/          13 pagine
     3.5/          10 pagine
-  ch04/           45 pagine    domande 50-165 e 170-235
+  ch04/           55 pagine    domande 50-165, 170-272 e inizio 4.3
 ```
 
 Il nome di ogni file segue questo schema:
@@ -57,7 +57,7 @@ due pagine. Non dare per scontato che le sezioni non citate manchino.
 | 3 — 3.3 | 042–051 | completa | `book/ch03.md` | ✅ |
 | 3 — 3.4 | 052–064 | completa | `book/ch03.md` | ⬜ |
 | 3 — 3.5 | 065–074 | completa | `book/ch03.md` | ✅ |
-| 4 | q050–q231 | **parziale**: 50–165 e 170–235 | `book/ch04.md` | ✅ 50–164 · 🔄 170–234 |
+| 4 | q050–q272 | **parziale**: 50–165 e 170–272 | `book/ch04.md` | ✅ 50–164 · 🔄 170–272 |
 
 Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §8.
 
@@ -72,8 +72,8 @@ una risposta su cinque inganna più di una domanda assente. **Fra la 165 e la 17
 165 e riprendono dalla 170: le domande **166, 167, 168 e 169** non sono mai state viste, e
 della 165 si conosce solo l'enunciato. Serve la pagina che copre quel tratto.
 
-**La domanda 235 è tagliata**, come la 165: si vede l'enunciato e nessuna opzione. Non è
-stata trascritta.
+La domanda 235, tagliata nel primo invio, è stata completata: le sue opzioni stanno sulla
+prima pagina della serie successiva.
 
 ## Aggiungere pagine nuove
 
