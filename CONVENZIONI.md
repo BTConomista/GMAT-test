@@ -224,6 +224,7 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 | Capitolo 4, domande 50–102 | le 13 pagine in `screens/ch04/` | ✅ nessuno scostamento |
 | Capitolo 4, domande 103–164 | le 16 pagine in `screens/ch04/` | ✅ nessuno scostamento |
 | Capitolo 4, domande 170–234 | le 16 pagine in `screens/ch04/` | 🔧 1 scostamento trovato e corretto |
+| Capitolo 4, domande 235–272 e chiave 1–29 | le 10 pagine in `screens/ch04/` | ✅ nessuno scostamento |
 | 3.4 (per intero, §1–§6) | scansioni delle pagine 3.4 | 🔧 5 scostamenti trovati e corretti |
 | 3.5 (per intero, 7 fogli) | scansioni a pagina intera delle pagine 3.5 | ✅ nessuno scostamento |
 
@@ -246,6 +247,13 @@ questo:
   parlando di 121, nello stesso elenco. L'incoerenza è sua, non nostra.
 - `3.2` §3 G — nella catena di passaggi il libro scrive `3x − 5 = 0 or x + 5 = 0`, dove il
   senso vorrebbe `3x + 5 = 0`. Refuso suo: il repo lo riproduce.
+- `4.2` domanda 253 — le opzioni **C ed E sono identiche**, entrambe $(1/2)^{-6}$. Non è un
+  nostro errore di copiatura: verificato ingrandendo la scansione fino a distinguere il `2`
+  dall'`8` nel denominatore. Il repo le riproduce uguali.
+- `4.2` domanda 156 — l'enunciato comincia con le parole fuori ordine `when What is the
+  remainder 3^19 is divided by 10?`.
+- `4.2` domande 181, 200, 210 — spazi mancanti dopo un punto o una virgola (`$8.The gross
+  profit`, `mean m.If 68 percent`, `other tables,and sometimes`).
 - `3.4` §4 E — nella frazione `{6}/|{2, 4, 6}|` il libro omette le barre di cardinalità al
   numeratore, pur mettendole nella frazione gemella subito sopra. Asimmetria sua.
 - `3.4` §4 G — «Since $A \cap B$ is a subset of $A$», dove il ragionamento richiede
