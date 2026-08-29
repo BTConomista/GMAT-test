@@ -57,7 +57,8 @@ azzecca — e quel numero dice quanto prendere sul serio le altre 238.
 | File | Cos'è |
 |:---|:---|
 | `risposte-ragionate.md` | **la prova alla cieca.** Le 267 domande risolte senza sapere nulla delle risposte ufficiali |
-| `risposte-tarate.md` | **la revisione.** Le stesse risposte dopo aver confrontato le prime 29 con la chiave del libro |
+| `risposte-tarate.md` | **la prova tarata.** Le stesse domande risolte di nuovo, dopo essersi misurati sulle 29 risposte note |
+| `divergenze.md` | **quanto e perché i due si discostano** — e cosa quel dato dimostra davvero |
 
 L'ordine non è un dettaglio, è tutto il senso dell'esercizio.
 
