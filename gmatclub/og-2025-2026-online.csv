@@ -1,0 +1,138 @@
+question,section,type,oa,gmatclub_id,gmatclub_difficulty,gmatclub_percentile,gmatclub_category
+803,G&T,Graph,Dropdown 1: 21.0; Dropdown 2: Paper Check,100351,Very Hard,0.75,Graphs; Non-Math Related
+804,G&T,Graph,Dropdown 1: 3; Dropdown 2: G,101123,Very Hard,0.75,Graphs; Math Related
+805,G&T,Graph,Dropdown 1: 55; Dropdown 2: Z,100363,Very Hard,0.85,Graphs
+806,G&T,Graph,Dropdown 1: 3; Dropdown 2: G,100443,Easy,0.15,Graphs
+807,G&T,Graph,Dropdown 1: 830; Dropdown 2: less than 0.10,100326,Medium,0.45,Graphs
+808,G&T,Graph,Dropdown 1: greater than; Dropdown 2: 2011,101119,Medium,0.45,Graphs; Non-Math Related
+809,G&T,Graph,Dropdown 1: 55; Dropdown 2: 8,102409,Very Hard,0.85,Graphs
+810,G&T,Graph,Dropdown 1: t = 60 than at t = 80; Dropdown 2: t = 180 to t = 200,100353,Medium,0.35,Graphs; Non-Math Related
+811,G&T,Graph,Dropdown 1: London; Dropdown 2: 20%,100356,Medium,0.45,Graphs
+812,G&T,Graph,Dropdown 1: Delta; Dropdown 2: Zeta,100375,Very Hard,0.85,Graphs
+813,G&T,Graph,Dropdown 1: 350 and 370; Dropdown 2: Strong Negative,100408,Very Hard,0.75,Graphs
+814,G&T,Graph,Dropdown 1: 2; Dropdown 2: end user group,102408,Medium,0.25,Graphs
+815,G&T,Graph,Dropdown 1: France; Dropdown 2: Russia,100381,Hard,0.55,Graphs
+816,G&T,Graph,Dropdown 1: 3.12; Dropdown 2: 10 and 14,100406,Very Hard,0.95,Graphs; Math Related
+817,G&T,Graph,Dropdown 1: main sequence; Dropdown 2: white dwarfs,100309,Hard,0.55,Graphs; Non-Math Related
+818,G&T,Graph,Dropdown 1: 800; Dropdown 2: 200,100323,Hard,0.65,Graphs
+819,G&T,Graph,Dropdown 1: D; Dropdown 2: A,100438,Very Hard,0.85,Graphs
+820,G&T,Graph,Dropdown 1: Between 1 and 10; Dropdown 2: 78,100405,Very Hard,0.95,Graphs
+821,G&T,Graph,Dropdown 1: 1993; Dropdown 2: 0.6,102411,Easy,0.15,Graphs
+822,G&T,Graph,Dropdown 1: 24; Dropdown 2: 6,100321,Medium,0.45,Graphs
+823,G&T,Graph,"Dropdown 1: 2008; Dropdown 2: 1,900",1240,Easy,0.15,Graphs
+824,G&T,Graph,Dropdown 1: range of scores; Dropdown 2: Day 2 and Day 5,100459,Hard,0.65,Graphs; Math Related
+825,G&T,Graph,Dropdown 1: Tofu; Dropdown 2: Pork,102407,Easy,0.15,Graphs
+826,G&T,Graph,Dropdown 1: End; Dropdown 2: a steep decrease,100316,Very Hard,0.95,Graphs; Non-Math Related
+827,G&T,Graph,Dropdown 1: DK; Dropdown 2: NL,100380,Hard,0.65,Graphs; Non-Math Related
+828,G&T,Graph,"Dropdown 1: 600,000; Dropdown 2: 1,200,000",101120,Very Hard,0.85,Graphs; Non-Math Related
+829,G&T,Graph,Dropdown 1: 0.01; Dropdown 2: Decreasing,100350,Very Hard,0.95,Graphs
+830,G&T,Graph,Dropdown 1: neither directly affirms nor directly contradicts; Dropdown 2: 1995-2005,100317,Very Hard,0.85,Graphs
+831,G&T,Graph,Dropdown 1: 3; Dropdown 2: C,100347,Medium,0.25,Graphs; Math Related
+832,G&T,Graph,Dropdown 1: Y; Dropdown 2: Z,100382,Easy,0.15,Graphs; Non-Math Related
+833,G&T,Graph,Dropdown 1: 31; Dropdown 2: 30,101127,Easy,0.15,Graphs; Non-Math Related
+834,G&T,Graph,Dropdown 1: 1.5; Dropdown 2: advanced opportunities,101122,Easy,0.15,Graphs; Non-Math Related
+835,G&T,Graph,Dropdown 1: 3; Dropdown 2: 7,100440,Medium,0.45,Graphs
+836,G&T,Graph,"Dropdown 1: July; Dropdown 2: 200,000",100346,Hard,0.55,Graphs
+837,G&T,Graph,"Dropdown 1: 5th; Dropdown 2: 10,000",100427,Very Hard,0.75,Graphs
+838,G&T,Graph,Dropdown 1: High; Dropdown 2: on or near election day,102410,Medium,0.25,Graphs
+839,G&T,Graph,Dropdown 1: 26; Dropdown 2: remains the same,100439,Medium,0.45,Graphs; Non-Math Related
+840,G&T,Graph,Dropdown 1: strongly positive; Dropdown 2: 0.40,100409,Medium,0.35,Graphs; Math Related
+841,G&T,Graph,Dropdown 1: only F and L; Dropdown 2: a negative,100311,Hard,0.55,Graphs; Non-Math Related
+842,G&T,Graph,Dropdown 1: exercise; Dropdown 2: caffeine,100313,Easy,0.05,Graphs; Non-Math Related
+843,G&T,Graph,"Dropdown 1: 2.65; Dropdown 2: 1,500",100407,Medium,0.25,Graphs; Non-Math Related
+844,G&T,Graph,Dropdown 1: E1; Dropdown 2: E4,101121,Very Hard,0.95,Graphs; Non-Math Related
+845,G&T,Graph,Dropdown 1: Managers; Dropdown 2: Managers,100310,Easy,0.05,Graphs; Non-Math Related
+846,G&T,Graph,Dropdown 1: is a decrease of about 60%; Dropdown 2: 16,100352,Hard,0.55,Graphs
+847,G&T,Graph,Dropdown 1: both female and male children; Dropdown 2: 13 but less than 14,100478,Medium,0.45,Graphs; Math Related
+848,G&T,Table,The median amount of protein for all uncooked vegetables listed is 1/3 the median amount of protein for all cooked vegetables listed.: Yes; The amount of carbohydrate per serving of cooked corn is exactly 3 times the median amount of carbohydrate per serving for the other 14 vegetable options listed.: No; Each serving listed for which total fiber is less than 3.0 g also has at most 10 g of carbohydrate.: Yes,100397,Medium,0.35,Tables
+849,G&T,Table,"Of the 3 universities, University Y had the smallest total fall enrollment in each of the years 2000 through 2008.: F; In 2008, fewer women were enrolled in college in Province A than in 2000.: F; Each of the 3 universities experienced at least one decline from one fall to the next in the number of women enrolled as a percent of the total enrollment.: T",100384,Very Hard,0.75,Tables
+850,G&T,Table,"The mean maximum temperature for the cities in South America was greater than that for the cities in Oceania.: Yes; At least one city reporting fine weather had a maximum temperature less than 0°C.: No; For the Asian cities, the median minimum temperature was 12°C.: Yes",100393,Hard,0.55,Tables
+851,G&T,Table,A majority of the respondents believe adding a website could benefit their businesses.: Supported; Fewer than 25% of the respondents who believe a website could help expand their customer base also believe a website could help them maintain their current market share.: Supported; Only a small proportion of the respondents are concerned that they are losing market share.: Not supported,100425,Very Hard,0.95,Tables
+852,G&T,Table,Each of the stores with an above-average customer age has a restaurant.: False; Store E is the only listed store that has fuel service and pharmacy service but does not have a restaurant.: True; Each of the stores that has fewer self-check unlimited lanes than the chain-wide average has an average customer age that is higher than the chain-wide average.: True,100335,Easy,0.15,Tables
+853,G&T,Table,"If the 5 with the highest ratings are selected, then one builder and one city section will not be featured in the program.: No; Selecting the top 2 and bottom 2 by price leaves out exactly half of the city sections and half of the builders.: Yes; Selecting the top 3 and bottom 3 by square footage leaves out exactly one of the builders entirely.: Yes",100337,Medium,0.45,Tables
+854,G&T,Table,Device X1: No; Device XS: Yes; Device XZ: No,102415,Hard,0.65,Tables
+855,G&T,Table,"In each store whose average customer age falls between 34 and 36, the number of self-check express lanes is above average.: True; There is a negative correlation between the number of self-check unlimited lanes and the average customer age.: True; Stores in this table that have fewer self-check express lanes than the chain-wide average are less likely to have restaurants than stores that have more self-check express lanes than the chain-wide average.: False",100336,Very Hard,0.85,Tables
+856,G&T,Table,The player with the highest average time on the ice per game also had the highest penalties in minutes per game.: Consistent; The player who played in the fewest games also had the most assists per game.: Inconsistent; Two of the listed players who played the median number of games in the season had greater than the median amount of time on the ice per game.: Inconsistent,100349,Medium,0.35,Tables
+857,G&T,Table,The airport experiencing the greatest percent decrease in total passengers from 2007 to 2008 also experienced the greatest decrease in the percent of movements.: False; The airport with the median rank based on total number of passengers is the same as the airport with the median rank based on total number of movements.: False; Exactly 50% of the airports that experienced an increase in both total number of passengers and in total number of movements are located in the United States (USA).: True,100388,Hard,0.65,Tables
+858,G&T,Table,Each student who did not receive an A on the final project did not receive an A on either quiz.: No; Each student who did not receive an A on either quiz did not receive an A on the final project.: No; Each student who got an A on Paper 1 got an A in the course.: No,100306,Very Hard,0.75,Tables
+859,G&T,Table,"Three-quarters of the works were created in the 20th century.: Yes; For works by male artists, the median year created is 1974.: Yes; One-quarter of the works were created by Hispanic or Native American artists.: Yes",100436,Medium,0.25,Tables
+860,G&T,Table,"Trunk circumference is directly proportional to height.: No; The mode height is 102 feet.: Yes; If a tree is chosen at random from the 20 trees in the table, the likelihood that it will have a circumference less than 10 feet is 0.20.: Yes",100383,Easy,0.15,Tables
+861,G&T,Table,The changes in seasonally adjusted prices for used cars and trucks between March 2010 and September 2010 were in most cases less in magnitude than the changes in seasonally adjusted prices of new vehicles for the same period.: No; The seasonally adjusted CPI-U for all items was higher in March 2010 than in the previous month.: Yes; The seasonally unadjusted change in the price of new vehicles in August 2010 over the previous month was about the same as the seasonally unadjusted change in the price of food away from home over the same period.: No,100362,Very Hard,0.95,Tables
+862,G&T,Table,"Country T had the fewest refugees/asylum seekers in each of the three years listed.: No; For the twenty countries listed, the median number of refugees/asylum seekers in 2005 was 245,986.: No; The data support the claim that the countries neighboring Country M were politically and socially stable between 2000 and 2005.: No",100358,Medium,0.25,Tables
+863,G&T,Table,"For each of the United States universities listed, the employer score is less than the total score.: No; For only one university listed, the employer score and the citations score are both greater than 50.: Yes; University of Tokyo is the university for which the magnitude of the difference between the academic score and the total score is greatest.: Yes",100396,Medium,0.35,Tables
+864,G&T,Table,The most recent hard bop album listed is a John Coltrane album.: Yes; Most of the Blue Note albums listed were released later than most of the Columbia albums listed.: No; At least half of the albums listed as being released in the 1950s were in the hard bop style.: No,100325,Medium,0.45,Non-Math Related; Tables
+865,G&T,Table,"Composers born in the 1700s accounted for less than a third of the total performances.: Yes; Music by composers ranked first, second, and third, in terms of number of performances, together accounted for more than half of the total number of performances.: No; The mean number of performances per composer exceeded the median by more than 300 performances.: Yes",100312,Medium,0.45,Tables
+866,G&T,Table,"For all options having the same base price, the applicable taxes and fees are equal.: No; The median total trip time for the listed options is 7.28 hours.: Yes; Assuming mean speeds of the planes are roughly equal and only one of the airlines listed offers a nonstop flight, Air Tran is that flight’s originating airline.: Yes",100394,Medium,0.45,Tables
+867,G&T,Table,"From March 2010 to September 2010, there was greater month-to-month variability in the All items category than in the All items less food and energy category.: Yes; The CPI-U for electricity increased 0.5% from July to August 2010.: No; There was no change in the CPI-U for all items less food and energy from May 2010 to September 2010.: No",100361,Medium,0.45,Tables
+868,G&T,Table,The range of smoke points for the refined oils is greater than that for the unrefined oils.: No; The median price per package for the high-heat oils is less than that for the medium-heat oils.: Yes; The median package size for refined oils is greater than that for unrefined oils.: Yes,100483,Hard,0.65,Tables
+869,G&T,Table,The patient never experienced severe allergy symptoms when he took Allergy Pill X.: No; The patient experienced mild allergy symptoms whenever he slept with the window open.: Yes; The patient experienced only mild symptoms whenever he drank hot tea and used a nasal irrigation device.: No,102416,Easy,0.05,Tables
+870,G&T,Table,"The score on the final exam had equal weight with the score on Exam 2 in computing the final score.: No; The median final score for all 25 students was 81.50.: Yes; For Exam 1 scores for students in year 3 of the program, the range was 40.: Yes",100395,Very Hard,0.75,Tables
+871,G&T,Table,Treating water supplies with chlorine for 30 minutes should be effective (99% inactivation) against the majority of the bacteria listed.: Yes; Water that is sealed away from sources of pathogens for more than 1 month will likely be free of each of these pathogens except viruses.: No; The pathogen that has the lowest health significance has the highest chlorine-resistance rating.: Yes,100376,Very Hard,0.95,Tables
+872,G&T,Table,O'Neill: Yes; Patel: No; Schickler: No,100458,Medium,0.45,Tables
+873,G&T,Table,Lauren can purchase a greater number of distinct titles if she only buys used books than if she only buys paperback books.: No; Lauren could purchase a set of books with 4 different titles for less than $18 plus taxes.: No; Lauren could purchase 1 copy of each distinct title in the cooking and literature categories.: Yes,102413,Very Hard,0.95,Tables; Non-Math Related
+874,G&T,Table,"There are no models that have more than 500 horsepower.: No; All of the models that weigh more than 4,000 lb (pounds) have more than 400 horsepower.: No; The least expensive model produces the least horsepower per liter of engine size.: Yes",100348,Hard,0.65,Tables
+875,G&T,Table,"The disqualification of Sauer would decrease the standard deviation more than any other single disqualification.: True; The disqualification of Lasek would decrease the standard deviation more than any other single disqualification.: False; If Fournier and Sauer were both disqualified and no other changes were made, the standard deviation would decrease.: True",102414,Medium,0.25,Tables
+876,G&T,Table,"Computer technology, number of applications: Greater than or equal to median; Digital communication, number of applicants: Less than median; Organic chemistry and pharmaceuticals, average number of applications per applicant: Less than median",100485,Medium,0.35,Tables
+877,G&T,Table,Price and energy efficiency: No; Energy efficiency and ease of use: No; Heating evenness and ease of use: Yes,100366,Medium,0.25,Tables
+878,G&T,Table,Client B then Client C: Yes; Client C then Client D: Yes; Client D then Client A: No,100471,Hard,0.55,Tables
+879,G&T,Table,"The ranking of the months based on normal precipitation values is the same as the ranking based on maximum precipitation values.: No; Of the months with an extreme low of 0°C, only one has a normal daily low of less than 8°C.: Yes; March does not rank highest or lowest in any category.: Yes",100334,Easy,0.15,Tables
+880,G&T,Table,"More than 50% of the CG listed in the table have been used over a time period that is greater than 100 years.: True; The CG listed in the table that have been used for fewer than 100 First-class games are all located in Tasmania.: False; Among the CG listed in the table that were first used before the year1900, exactly one has been used for fewer than 100 First-class games.: True",100372,Easy,0.15,Tables
+881,MSR,,£5.00,101126,Hard,0.55,Math Related
+882,MSR,,Order C weighing exactly 34 kg: Yes; Order I weighing exactly 29 kg: No; Order G weighing exactly 24 kg: Yes,101126,Very Hard,0.75,Math Related
+883,MSR,,Order D: No; Order H: No; Order J: No,101126,Easy,0.05,Math Related
+884,MSR,,"Migration from proprietary software to open-source software would be significantly more expensive for the government than would migration from proprietary software to other proprietary software.: Undermines; The measures included in the bill will, if complied with, ensure compatibility among software systems used by all the various relevant stakeholders.: Undermines; As a software package is used for a longer period of time, it becomes less expensive to migrate from that package to another.: Undermines",100433,Very Hard,0.85,Non-Math Related
+885,MSR,,There is proprietary software that can be affordably implemented by the government and that would fully guarantee free access to information by citizens.,100433,Medium,0.25,Non-Math Related
+886,MSR,,Open-source software is not always free from purchase costs.: No; Government decisions concerning choice of a software system should be based primarily on economizing and cost.: No; It is not the primary aim of the bill to protect citizens’ free access to information.: No,100433,Very Hard,0.95,Non-Math Related
+887,MSR,,Ahmad: Incompatible; Farida: Incompatible; Yousef: Compatible,102404,Medium,0.35,Math Related
+888,MSR,,"Total number of medals received in 2004.: No; Total weighted medals in 2008, calculated as per Yousef’s recommendation.: Yes; Total weighted medals in 2012, calculated as per Yousef’s recommendation.: Yes",102404,Very Hard,0.95,Math Related
+889,MSR,,Ahmed would agree that Country C had the greatest achievement.,102404,Hard,0.55,Math Related
+890,MSR,,"What percentage of their revenue did freight railroad companies spend to maintain tracks and machinery from 1980 to 2009?: Cannot be determined; On average, do freight railroad companies buy more fuel per year than freight trucking companies do?: Cannot be determined; Approximately how much revenue did freight railroad companies take in from 1980 to 2009?: Can be determined",100422,Very Hard,0.95,Math Related
+891,MSR,,100 billion liters,100422,Medium,0.25,Math Related
+892,MSR,,Fuel efficiency: Yes; Total machinery maintenance costs: No; Transportation cost per unit of freight: Yes,100422,Medium,0.25,Math Related
+893,MSR,,Meat from Agna from the AD 500s to the AD 600s: No; Meat from Agna from the AD 800s to the AD 900s: Yes; Grain from Cussaia from the AD 600s to the AD 700s: Yes,101116,Medium,0.45,Math Related; Non-Math Related
+894,MSR,,Barras's population increased from the AD 600s to 1200s: No; Agna grew no grain.: No; Cussaia traded directly only with Barras.: No,101116,Very Hard,0.95,Math Related; Non-Math Related
+895,MSR,,16000.0,101116,Easy,0.05,Math Related; Non-Math Related
+896,MSR,,"For at least one trainee, the posttraining score was greater than 3 times the pretraining score.: Yes; The data for Session 1 exhibit a positive correlation between pretraining and posttraining scores.: Yes; For the three sessions, the range of pretraining scores is least for Session 2.: Yes",102401,Hard,0.55,Non-Math Related
+897,MSR,,Session 1: Successful; Session 2: Successful; Session 3: Successful,102401,Medium,0.45,Non-Math Related
+898,MSR,,"On the job, the trainees are usually assigned only a small subset of the tasks included in the training battery.",102401,Very Hard,0.75,Non-Math Related
+899,MSR,,introduce one of the variables whose relationship to IPO pricing surprised the researchers,100414,Medium,0.25,Non-Math Related
+900,MSR,,IPOs of firms with prestigious boards were mor likely to be underpriced than those of other firms.: No; Firestone East Africa set its IPO price slightly lower than it should have.: No; At least one of the firms examined by the researchers did not have an underpriced IPO.: Yes,100414,Very Hard,0.85,Non-Math Related
+901,MSR,,"The board of Safaricom was likely considered more prestigious than that of Co-Operative Bank at the time of their IPOs.: Supported; Kenya Re and Eveready were approximately the same size firms at the time of their IPOs.: Not Supported; When their IPO prices were set, investor sentiment was likely more favorable toward Kengen than toward Scangroup or Eveready.: Not Supported",100414,Very Hard,0.95,Non-Math Related
+902,MSR,,Decreased iron absorption by phytoplankton will contribute to increased extinctions of sea life.: Projected; Increased iron absorption by phytoplankton will contribute to decreased oceanic CO2 concentrations.: Not Projected; Increased atmospheric CO2 concentrations will contribute to decreased ocean water pH: Projected,100299,Easy,0.15,Math Related
+903,MSR,,The pH of the deep ocean will be greater than 7.9.,100299,Very Hard,0.95,Math Related
+904,MSR,,Conveyor-belt speed increase accounted for the greatest increase in annual output of assembled units from Y10 to Y11.,100296,Medium,0.25,Non-Math Related
+905,MSR,,"\frac{Q}{N} was less than 10,000 for Y10.: No; \frac{Q}{N} was unchanged from Y10 to Y11.: No; \frac{Q}{N} remained below 30,000 in Yi0 and Y11.: Yes",100296,Easy,0.15,Non-Math Related
+906,MSR,,"The assembly line generated a profit of $16,500,000.: Yes; Total output from the assembly line increased by 25,000 units over the total output for Y10.: No; Administrative unit restructuring accounted for 1% of the total profit.: No",100296,Hard,0.65,Non-Math Related
+907,MSR,,2.0,100430,Hard,0.55,Non-Math Related
+908,MSR,,"Mei, Pablo, and Selena need offices because the projects they work on require the highest levels of security.: Yes; Two additional employees are hired and will be supervised by Jamal.: Yes; Richard resigns his position at Metro Research.: No",100430,Very Hard,0.85,Non-Math Related
+909,MSR,,Kim and Richard: Yes; Jamal and Atticus: No; Mei and Ciaran: No,100430,Easy,0.05,Non-Math Related
+910,MSR,,CC: No; FFNA: Yes; HMHPA: Yes,100417,Very Hard,0.95,Math Related; Non-Math Related
+911,MSR,,CC: No; FFNA: Yes; PPOA: No,100417,Medium,0.45,Math Related; Non-Math Related
+912,MSR,,Asiawest Center: No; Bard Inn: No; Hilton: Yes,100417,Very Hard,0.95,Math Related; Non-Math Related
+913,MSR,,Speaker hired by a conference on education to speak about school reform.: No Loss; Room service waiter at the conference hotel whose earnings are primarily from gratuities.: Loss; Salaried front desk manager at the conference hotel.: No Loss,100417,Easy,0.05,Math Related; Non-Math Related
+914,MSR,,X-Y,100417,Very Hard,0.75,Math Related; Non-Math Related
+915,MSR,,AMG,100417,Medium,0.25,Math Related; Non-Math Related
+916,MSR,,Black shingles: Consistent; White shingles: Not consistent; Silver tin: Not consistent,100486,Easy,0.15,Non-Math Related
+917,MSR,,The temperature measurements taken above the structures were all higher than the outside air temperature.: No; The temperature measurements taken inside the structures were all higher than the outside air temperature.: No; The temperature measurements taken on the surface of the structures were all higher than the outside air temperature.: No,100486,Easy,0.05,Non-Math Related
+918,MSR,,The structures were not constructed with any windows or doors.: No; The structures were not constructed in close proximity to one another.: No; The roofs of each of the structures had the same surface area.: Yes,100486,Medium,0.25,Non-Math Related
+919,MSR,,The range of the temperatures taken above the structures,100486,Easy,0.05,Non-Math Related
+920,MSR,,"Coffee production and per capita coffee consumption in Brazil are significantly higher than in most of the major coffee producing countries.: Yes; The coffee consumed in the major coffee producing countries comes entirely from domestic production.: No; As a means of boosting world coffee demand, increasing consumption of domestically produced coffee has greater potential in India than in China.: Yes",100385,Hard,0.65,Non-Math Related
+921,MSR,,1988 to 1989,100385,Very Hard,0.75,Non-Math Related
+922,MSR,,"Brazil’s 10-year program to promote domestic coffee consumption through institutional investment began in 1993.: Yes; Worldwide demand for coffee began to fall in 1999, resulting in economic recessions in most coffee producing countries.: Yes; The trend in per capita consumption of coffee in Brazil between 1986 and 2003 is indicative of the trend in the global per capita rate of production.: No",100385,Very Hard,0.95,Non-Math Related
+923,MSR,,Stage H typically lasts 1 day.,100490,Easy,0.05,Non-Math Related
+924,MSR,,74154: Delayed; 74854: Delayed; 75745: Not necessarily delayed,100490,Medium,0.25,Non-Math Related
+925,MSR,,Initial cluster: Yes; Intermediate cluster: Yes; Final cluster: No,100490,Medium,0.35,Non-Math Related
+926,MSR,,"If his age is greater than 3 years 3 months, the probability that his height is at least 98.0 cm is greater than 50%.: Yes; If he is at least 105 cm tall, the probability that his weight is 14.0 kg is no greater than 3%: Yes; If he is 114 cm tall, he is taller than at least 85% of boys his age.: No",100411,Very Hard,0.95,Math Related
+927,MSR,,His weight is approximately 166% of his weight at age 2 years 0 months.,100411,Very Hard,0.75,Math Related
+928,MSR,,Approximately 50% of boys at the same weight are shorter than B.: No; No more than 15% of boys at this age are taller than B.: Yes; B's height is greater than or equal to that of 50% of boys aged 5 years 0 months.: Yes,100411,Very Hard,0.75,Math Related
+929,MSR,,At least 15% of boys at the same height have a weight that is less than or equal to that of B: Yes; At least 80% of boys at this age have heights within 10% of B's height.: Yes; B's height is less than that of at most 3% of boys at age 4 years 0 months.: No,100411,Very Hard,0.95,Math Related
+930,MSR,,"If his age is exactly 4 years 0 months, the probability that his height is at exactly 99.0 cm is 15%: No; If he is 81 cm tall, he is shorter than at least 95% of boys his age.: Yes; If he is 120 cm tall, he weighs more than 97% of boys age 2 years 6 months.: No",100411,Very Hard,0.95,Math Related
+931,MSR,,His weight is approximately 150% of his weight at age 2 years 0 months.,100411,Easy,0.15,Math Related
+932,MSR,,Cumulative arrivals were greater than accumulation.: Before 1:00 p.m.; Cumulative arrivals were greater than 2 times cumulative departures.: Before 1:00 p.m.; Cumulative departures were greater than accumulation.: 1:00 p.m. or later,100441,Medium,0.35,Math Related
+933,MSR,,3:00 p.m.,100441,Easy,0.05,Math Related
+934,MSR,,Twos: Same/few staff; Threes: Same/few staff; FourFives: More staff,100475,Medium,0.45,Math Related
+935,MSR,,Thursday,100475,Very Hard,0.95,Math Related
+936,MSR,,"Infant, Ones: Decrease; Ones, Twos: Increase/no change; Threes, FourFives: Decrease",100475,Very Hard,0.95,Math Related
+937,MSR,,Giving up a fixed duration of repayment in exchange for security: No; Giving up interest payments in exchange for security: No; Giving up interest payments in exchange for access to other resources: Yes,100318,Hard,0.55,
+938,MSR,,"The village’s mean annual interest rate in 1935 was greater than 45%.: Yes; The lender anticipated that the borrower would be unable to supply land, labor, or draft animal services in the future.: No; The village’s mean annual interest rate in 1935 was less than 20%.: No",100318,Medium,0.45,
+939,MSR,,A greater number of zero–interest rate loans than positive–interest rate loans were negotiated.,100318,Hard,0.55,

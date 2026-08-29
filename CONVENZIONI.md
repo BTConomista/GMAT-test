@@ -19,6 +19,9 @@ README.md         indice del libro, rispecchia la Table of Contents
 CONVENZIONI.md    questo file
 book/             un file per capitolo: ch01.md, ch03.md, …
 screens/          scansioni del libro, una sottocartella per capitolo
+gmatclub/         l'indice delle 802 domande, ricavato da GMAT Club
+gmatclub/materiali/  allegati del forum: esercizi, guide, flashcard, error log
+preparazione/     come si prepara l'esame: guide, strumenti, costi
 ```
 
 ---
