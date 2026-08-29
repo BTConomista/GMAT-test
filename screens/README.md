@@ -57,7 +57,7 @@ due pagine. Non dare per scontato che le sezioni non citate manchino.
 | 3 — 3.3 | 042–051 | completa | `book/ch03.md` | ✅ |
 | 3 — 3.4 | 052–064 | completa | `book/ch03.md` | ⬜ |
 | 3 — 3.5 | 065–074 | completa | `book/ch03.md` | ✅ |
-| 4 | q050–q231 | **parziale**: 50–165 e 170–235 | `book/ch04.md` | 🔄 in corso |
+| 4 | q050–q231 | **parziale**: 50–165 e 170–235 | `book/ch04.md` | ✅ 50–164 · 🔄 170–234 |
 
 Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §8.
 

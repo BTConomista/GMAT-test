@@ -220,13 +220,22 @@ stesso lavoro. Chi verifica una sezione la aggiunge qui.
 | 3.1 (tutte e cinque le sottosezioni) | scansioni delle pagine 3.1 | ✅ nessuno scostamento di contenuto |
 | 3.2 (tutte e sette le sottosezioni) | scansioni delle pagine 3.2 | 🔧 2 scostamenti trovati e corretti |
 | 3.3 (per intero, §1–§6) | scansioni delle pagine 3.3 | 🔧 5 scostamenti trovati e corretti |
+| 3.5 (tutti e sette i fogli) | scansioni a pagina intera | ✅ nessuno scostamento di contenuto |
+| Capitolo 4, domande 50–102 | le 13 pagine in `screens/ch04/` | ✅ nessuno scostamento |
+| Capitolo 4, domande 103–164 | le 16 pagine in `screens/ch04/` | ✅ nessuno scostamento |
 | 3.4 (per intero, §1–§6) | scansioni delle pagine 3.4 | 🔧 5 scostamenti trovati e corretti |
 | 3.5 (per intero, 7 fogli) | scansioni a pagina intera delle pagine 3.5 | ✅ nessuno scostamento |
 
-Sul metodo: il confronto è stato fatto paragrafo per paragrafo (A, B, C, …) più un diff
-parola per parola su testo normalizzato — sciogliendo il LaTeX in notazione piana, così le
-differenze di sola resa non producono falsi positivi. Verificati uno a uno anche i valori
-numerici, i termini marcati come definiti e l'ordine degli esempi.
+Sul metodo, due generazioni di controllo. Per il capitolo 3 il confronto passava da una
+**trascrizione intermedia** della fonte: gli agenti leggevano un file di testo, non il libro,
+quindi un errore di trascrizione sarebbe passato indisturbato. Dal capitolo 4 le scansioni
+sono file su disco, e gli agenti **aprono direttamente l'immagine della pagina** — la fonte
+vera. È il controllo che conta, e va preferito quando le pagine sono disponibili come file.
+
+In entrambi i casi la struttura è la stessa: un agente per unità (paragrafo o pagina), poi un
+**verificatore avversariale** con il mandato di confutare, che riapre la fonte per conto suo
+invece di fidarsi di quanto il primo dichiara di averci letto. In dubbio, lo scostamento cade.
+Solo ciò che sopravvive a entrambi viene applicato.
 
 Due cose emerse, entrambe **corrette così come stanno**, perché il libro dice esattamente
 questo:
