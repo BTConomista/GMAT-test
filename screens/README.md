@@ -16,7 +16,7 @@ screens/
     3.3/          10 pagine
     3.4/          13 pagine
     3.5/          10 pagine
-  ch04/           13 pagine    solo le domande 50-102
+  ch04/           29 pagine    solo le domande 50-165
 ```
 
 Il nome di ogni file segue questo schema:
@@ -57,7 +57,7 @@ due pagine. Non dare per scontato che le sezioni non citate manchino.
 | 3 — 3.3 | 042–051 | completa | `book/ch03.md` | ✅ |
 | 3 — 3.4 | 052–064 | completa | `book/ch03.md` | ⬜ |
 | 3 — 3.5 | 065–074 | completa | `book/ch03.md` | ✅ |
-| 4 | q050–q098 | **parziale**: solo le domande 50–102 | `book/ch04.md` | 🔄 in corso |
+| 4 | q050–q162 | **parziale**: dalla domanda 50 in poi | `book/ch04.md` | 🔄 in corso |
 
 Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §8.
 
@@ -65,6 +65,11 @@ Le verifiche già fatte sono descritte in [CONVENZIONI.md](../CONVENZIONI.md) §
 50–102, ma non quelle di 4.0, 4.1, delle istruzioni di 4.2 e delle domande 1–49: quelle sono
 arrivate come immagini incollate in chat, che non raggiungono il filesystem. Quella parte di
 `book/ch04.md` resta quindi non verificabile contro una fonte su disco.
+
+**La domanda 165 è tagliata.** L'ultima pagina ricevuta ne mostra l'enunciato e la sola
+opzione A: le altre quattro sono fuori inquadratura. Non è stata trascritta — una domanda con
+una risposta su cinque inganna più di una domanda assente. Serve la pagina successiva, che
+conterrebbe anche le domande dalla 166 alla 176.
 
 ## Aggiungere pagine nuove
 
